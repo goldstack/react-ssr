@@ -1,0 +1,22 @@
+[
+  {
+    "name": "prod",
+    "terraform": {
+      "gateway_url": {
+        "sensitive": false,
+        "type": "string",
+        "value": "https://rs93i3tyb2.execute-api.us-west-2.amazonaws.com"
+      },
+      "public_files_bucket": {
+        "sensitive": false,
+        "type": "string",
+        "value": "server-side-rendering-1665262198346.te-public-files-141f5468"
+      },
+      "static_files_bucket": {
+        "sensitive": false,
+        "type": "string",
+        "value": "server-side-rendering-1665262198346.te-static-files-141f5468"
+      }
+    }
+  }
+]
