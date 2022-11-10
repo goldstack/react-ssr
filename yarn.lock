@@ -726,9 +726,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/template-ssr-cli@npm:0.3.13":
-  version: 0.3.13
-  resolution: "@goldstack/template-ssr-cli@npm:0.3.13"
+"@goldstack/template-ssr-cli@npm:0.3.14":
+  version: 0.3.14
+  resolution: "@goldstack/template-ssr-cli@npm:0.3.14"
   dependencies:
     "@goldstack/infra": 0.4.4
     "@goldstack/infra-aws": 0.4.7
@@ -741,7 +741,7 @@ __metadata:
     "@goldstack/utils-log": 0.3.4
     "@goldstack/utils-package": 0.4.4
     "@goldstack/utils-package-config": 0.4.4
-    "@goldstack/utils-s3-deployment": 0.5.7
+    "@goldstack/utils-s3-deployment": 0.5.8
     "@goldstack/utils-sh": 0.5.4
     "@goldstack/utils-template": 0.4.4
     "@goldstack/utils-terraform": 0.4.7
@@ -749,7 +749,7 @@ __metadata:
     minimatch: ^5.1.0
     source-map-support: ^0.5.21
     yargs: ^17.5.1
-  checksum: 4a44c0c48e0b85b34791944f73666df5a26ebff130fa6ab02e1f2fcda202619590a2c3dfd66c52a65d688059730f7637d6474d82fb40470bac8f09b2adaa2d9e
+  checksum: bb85cdfc311ea2039d0e33aeb01dc6246ea67facb8a396b381275afbe2ebfffd56d6d6541c5bb20d1b8d6f87508a8aadb0920a7ade0f6ef8558b9be447e3bd0d
   languageName: node
   linkType: hard
 
@@ -939,15 +939,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/utils-s3-deployment@npm:0.5.7":
-  version: 0.5.7
-  resolution: "@goldstack/utils-s3-deployment@npm:0.5.7"
+"@goldstack/utils-s3-deployment@npm:0.5.8":
+  version: 0.5.8
+  resolution: "@goldstack/utils-s3-deployment@npm:0.5.8"
   dependencies:
     "@goldstack/infra-aws": 0.4.7
     "@goldstack/utils-aws-cli": 0.4.7
     "@goldstack/utils-docker": 0.4.4
     "@goldstack/utils-sh": 0.5.4
-  checksum: 87c88bc6adf801c98708e9374eb4ec7283bf0eb4dc9969f5200105b2ce087f6e9cc009ceb87ebc643e89439f92b6ffc73877ca4398649cbb468fbc3596a8a7ed
+  checksum: 05e849da77914f76b70eb508462d209fc657cf2d9d8a333f48bc6f22cb339c45f01fb26ed66822e360332931fee512d9cd43e3e50b9b878933ad331196181eb2
   languageName: node
   linkType: hard
 
@@ -9860,7 +9860,7 @@ resolve@^1.20.0:
   resolution: "server-side-rendering-1@workspace:packages/server-side-rendering-1"
   dependencies:
     "@goldstack/template-ssr": 0.3.12
-    "@goldstack/template-ssr-cli": 0.3.13
+    "@goldstack/template-ssr-cli": 0.3.14
     "@goldstack/utils-aws-http-api-local": 0.3.11
     "@goldstack/utils-esbuild": 0.5.4
     "@jest-mock/express": ^1.4.5

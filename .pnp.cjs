@@ -1163,10 +1163,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@goldstack/template-ssr-cli", [\
-        ["npm:0.3.13", {\
-          "packageLocation": "./.yarn/cache/@goldstack-template-ssr-cli-npm-0.3.13-945fc5613b-4a44c0c48e.zip/node_modules/@goldstack/template-ssr-cli/",\
+        ["npm:0.3.14", {\
+          "packageLocation": "./.yarn/cache/@goldstack-template-ssr-cli-npm-0.3.14-5387c8cedc-bb85cdfc31.zip/node_modules/@goldstack/template-ssr-cli/",\
           "packageDependencies": [\
-            ["@goldstack/template-ssr-cli", "npm:0.3.13"],\
+            ["@goldstack/template-ssr-cli", "npm:0.3.14"],\
             ["@goldstack/infra", "npm:0.4.4"],\
             ["@goldstack/infra-aws", "npm:0.4.7"],\
             ["@goldstack/template-ssr", "npm:0.3.12"],\
@@ -1178,7 +1178,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@goldstack/utils-log", "npm:0.3.4"],\
             ["@goldstack/utils-package", "npm:0.4.4"],\
             ["@goldstack/utils-package-config", "npm:0.4.4"],\
-            ["@goldstack/utils-s3-deployment", "npm:0.5.7"],\
+            ["@goldstack/utils-s3-deployment", "npm:0.5.8"],\
             ["@goldstack/utils-sh", "npm:0.5.4"],\
             ["@goldstack/utils-template", "npm:0.4.4"],\
             ["@goldstack/utils-terraform", "npm:0.4.7"],\
@@ -1373,10 +1373,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@goldstack/utils-s3-deployment", [\
-        ["npm:0.5.7", {\
-          "packageLocation": "./.yarn/cache/@goldstack-utils-s3-deployment-npm-0.5.7-22c93225d5-87c88bc6ad.zip/node_modules/@goldstack/utils-s3-deployment/",\
+        ["npm:0.5.8", {\
+          "packageLocation": "./.yarn/cache/@goldstack-utils-s3-deployment-npm-0.5.8-237c53afee-05e849da77.zip/node_modules/@goldstack/utils-s3-deployment/",\
           "packageDependencies": [\
-            ["@goldstack/utils-s3-deployment", "npm:0.5.7"],\
+            ["@goldstack/utils-s3-deployment", "npm:0.5.8"],\
             ["@goldstack/infra-aws", "npm:0.4.7"],\
             ["@goldstack/utils-aws-cli", "npm:0.4.7"],\
             ["@goldstack/utils-docker", "npm:0.4.4"],\
@@ -11466,7 +11466,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["server-side-rendering-1", "workspace:packages/server-side-rendering-1"],\
             ["@goldstack/template-ssr", "npm:0.3.12"],\
-            ["@goldstack/template-ssr-cli", "npm:0.3.13"],\
+            ["@goldstack/template-ssr-cli", "npm:0.3.14"],\
             ["@goldstack/utils-aws-http-api-local", "npm:0.3.11"],\
             ["@goldstack/utils-esbuild", "npm:0.5.4"],\
             ["@jest-mock/express", "npm:1.4.5"],\
