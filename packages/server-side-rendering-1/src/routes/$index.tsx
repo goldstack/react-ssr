@@ -13,7 +13,7 @@ const Index = (props: { message: string }): JSX.Element => {
         onClick={() => {
           alert('hi');
           setClicked(true);
-          // throw new Error('Havent seen this');
+          throw new Error('Havent seen this');
         }}
         className={`${styles.message}`}
       >
