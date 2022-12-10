@@ -1,26 +1,26 @@
 [
   {
     "names": [
-      "goldstack-ci-test-server-side-rendering-1670536096390--__index.map"
+      "goldstack-ci-test-server-side-rendering-1670700784729--__index.map"
     ],
     "generatedName": "-__index.2f5782b5698c62ee342ee33c79724776.map.json"
   },
   {
     "names": [
-      "goldstack-ci-test-server-side-rendering-1670536096390--__index-bundle.js"
+      "goldstack-ci-test-server-side-rendering-1670700784729--__index-bundle.js"
     ],
-    "generatedName": "-__index-bundle.9b7f3d0e41ebd914581bec87cda5ad53.js"
+    "generatedName": "-__index-bundle.4a3f69d9d269c6263e866971813bb511.js"
   },
   {
     "names": [
-      "goldstack-ci-test-server-side-rendering-1670536096390-posts.map"
+      "goldstack-ci-test-server-side-rendering-1670700784729-posts.map"
     ],
     "generatedName": "posts.dfd1f84321249ce3886304e8d6a4971b.map.json"
   },
   {
     "names": [
-      "goldstack-ci-test-server-side-rendering-1670536096390-posts-bundle.js"
+      "goldstack-ci-test-server-side-rendering-1670700784729-posts-bundle.js"
     ],
-    "generatedName": "posts-bundle.4077cfb6a6d8fc487a2d575a772885c3.js"
+    "generatedName": "posts-bundle.f054211174786129d91b8e9a8dbd3e7c.js"
   }
 ]
