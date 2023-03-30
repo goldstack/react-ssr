@@ -735,15 +735,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/template-ssr-cli@npm:0.3.20":
-  version: 0.3.20
-  resolution: "@goldstack/template-ssr-cli@npm:0.3.20"
+"@goldstack/template-ssr-cli@npm:0.3.21":
+  version: 0.3.21
+  resolution: "@goldstack/template-ssr-cli@npm:0.3.21"
   dependencies:
     "@goldstack/infra": 0.4.6
     "@goldstack/infra-aws": 0.4.9
-    "@goldstack/template-ssr": 0.3.18
-    "@goldstack/template-ssr-server": 0.3.18
-    "@goldstack/template-ssr-server-compile-bundle": 0.3.15
+    "@goldstack/template-ssr": 0.3.19
+    "@goldstack/template-ssr-server": 0.3.19
+    "@goldstack/template-ssr-server-compile-bundle": 0.3.16
     "@goldstack/utils-aws-lambda": 0.3.12
     "@goldstack/utils-cli": 0.3.6
     "@goldstack/utils-docker": 0.4.6
@@ -758,13 +758,13 @@ __metadata:
     minimatch: ^5.1.0
     source-map-support: ^0.5.21
     yargs: ^17.5.1
-  checksum: cdd0c6b7a29708627a4d82796a795bcec7506408eaefbfb46da49719d36f540149424c48137606c435f7ec37bbd866549b01f4563c0f9d94858a073cc2e2b087
+  checksum: 069a7c4eefee304965f7301366d8a0b178a0e1c5e17ce6beaba87e5a76d1a16fef8fee773ea486628c3c6d37a5f2bf890e661588fd17e27765f1c4a5efdbe3c3
   languageName: node
   linkType: hard
 
-"@goldstack/template-ssr-server-compile-bundle@npm:0.3.15":
-  version: 0.3.15
-  resolution: "@goldstack/template-ssr-server-compile-bundle@npm:0.3.15"
+"@goldstack/template-ssr-server-compile-bundle@npm:0.3.16":
+  version: 0.3.16
+  resolution: "@goldstack/template-ssr-server-compile-bundle@npm:0.3.16"
   dependencies:
     "@goldstack/infra": 0.4.6
     "@goldstack/infra-aws": 0.4.9
@@ -781,18 +781,18 @@ __metadata:
     react: 18.2.0
     react-dom: 18.2.0
     source-map-support: ^0.5.21
-    static-file-mapper-build: 0.3.7
-  checksum: 7a0c18f37cb4b2dbe4ea771ee5c4a9ff8e8de8a200a1336411b0b501bdaee16bc19144b563c67bfb56e5345bdf7a5a886766a9ebb368392deca6c35b8ad7d386
+    static-file-mapper-build: 0.3.8
+  checksum: efd58c76cd2a1ceab338e2fb40ae97f9f984f36617426260d202ecc3d0c650c4169e6c256a31c3a9b5946c50faab75080d80e5dfe08ba697082fa2396a88a0f8
   languageName: node
   linkType: hard
 
-"@goldstack/template-ssr-server@npm:0.3.18":
-  version: 0.3.18
-  resolution: "@goldstack/template-ssr-server@npm:0.3.18"
+"@goldstack/template-ssr-server@npm:0.3.19":
+  version: 0.3.19
+  resolution: "@goldstack/template-ssr-server@npm:0.3.19"
   dependencies:
     "@goldstack/infra": 0.4.6
     "@goldstack/infra-aws": 0.4.9
-    "@goldstack/template-ssr-server-compile-bundle": 0.3.15
+    "@goldstack/template-ssr-server-compile-bundle": 0.3.16
     "@goldstack/utils-aws-lambda": 0.3.12
     "@goldstack/utils-esbuild": 0.5.6
     "@goldstack/utils-package": 0.4.6
@@ -805,18 +805,18 @@ __metadata:
     react: 18.2.0
     react-dom: 18.2.0
     source-map-support: ^0.5.21
-    static-file-mapper: 0.3.7
-  checksum: 993201a8d2209d45aec8547c990002413c3f8964b71ad6e4bf572632162abb6f6383bb65ccc909dbe83e17c68c0dc00eef418af36ca9d97f2915b85ea597275e
+    static-file-mapper: 0.3.8
+  checksum: 9c2de37e469774fda8e6732a376b9ffba5ba22f1e6b4a9b34784a62d27eb448ba06ea7f3d8ced03c06407bd082b1bdad81f02b927e17e2165ba60bc795bcc7c3
   languageName: node
   linkType: hard
 
-"@goldstack/template-ssr@npm:0.3.18":
-  version: 0.3.18
-  resolution: "@goldstack/template-ssr@npm:0.3.18"
+"@goldstack/template-ssr@npm:0.3.19":
+  version: 0.3.19
+  resolution: "@goldstack/template-ssr@npm:0.3.19"
   dependencies:
     "@goldstack/infra": 0.4.6
     "@goldstack/infra-aws": 0.4.9
-    "@goldstack/template-ssr-server": 0.3.18
+    "@goldstack/template-ssr-server": 0.3.19
     "@goldstack/utils-aws-lambda": 0.3.12
     "@goldstack/utils-esbuild": 0.5.6
     "@goldstack/utils-package": 0.4.6
@@ -827,7 +827,7 @@ __metadata:
     react: 18.2.0
     react-dom: 18.2.0
     source-map-support: ^0.5.21
-  checksum: 291e903bdb276c130a60d3029cccd167828b4ed0f6b1ffbc9d3967152839eca1f2fe56b5c4cc1c78847d7e8eb455781b477a3388a69659ef6c706387753e223a
+  checksum: fb2d1afd19de55098e3ae4845a80c99bbfe377918d5a7d2ed81cdff2e0444802f4c942761a95e3e3544c02e24cc6ad747999d71ac324519f9f0974bef2f4a07f
   languageName: node
   linkType: hard
 
@@ -9421,8 +9421,8 @@ resolve@^1.20.0:
   version: 0.0.0-use.local
   resolution: "server-side-rendering-1@workspace:packages/server-side-rendering-1"
   dependencies:
-    "@goldstack/template-ssr": 0.3.18
-    "@goldstack/template-ssr-cli": 0.3.20
+    "@goldstack/template-ssr": 0.3.19
+    "@goldstack/template-ssr-cli": 0.3.21
     "@goldstack/utils-aws-http-api-local": 0.3.18
     "@goldstack/utils-esbuild": 0.5.6
     "@jest-mock/express": ^1.4.5
@@ -9455,7 +9455,7 @@ resolve@^1.20.0:
     react-dom: 18.2.0
     rimraf: ^3.0.2
     source-map-support: ^0.5.21
-    static-file-mapper-build: 0.3.7
+    static-file-mapper-build: 0.3.8
     supertest: ^4.0.2
     ts-jest: ^29.0.3
     ts-node: ^10.9.1
@@ -9724,20 +9724,20 @@ resolve@^1.20.0:
   languageName: node
   linkType: hard
 
-"static-file-mapper-build@npm:0.3.7":
-  version: 0.3.7
-  resolution: "static-file-mapper-build@npm:0.3.7"
+"static-file-mapper-build@npm:0.3.8":
+  version: 0.3.8
+  resolution: "static-file-mapper-build@npm:0.3.8"
   dependencies:
     "@goldstack/utils-sh": 0.5.6
-    static-file-mapper: 0.3.7
-  checksum: c9d56dad4efead76500814ce86c590680180fd1bc0bbb4421de599f4d630a1edbd5ca48314a79cad605bf7bd121770cc11c476cdc8899dc1f4d9ba4ed39b2835
+    static-file-mapper: 0.3.8
+  checksum: b78b6343f55119b56ee5a2e89aa308c4f7adc49461bbdc81cb6e7f237dc4610d583717fb6146e17223901af52cf51bbd4f0b48df37b83bd9cc4e4a54c324524a
   languageName: node
   linkType: hard
 
-"static-file-mapper@npm:0.3.7":
-  version: 0.3.7
-  resolution: "static-file-mapper@npm:0.3.7"
-  checksum: 377000fdaa942aab3f4f6c86d016d81c8b7cff2f5bc036e8dcb6ea123115670fcd1ab37f0c1a3286c671adf137831d51c54c0c7126634521ff4f7c3ea9d17cbc
+"static-file-mapper@npm:0.3.8":
+  version: 0.3.8
+  resolution: "static-file-mapper@npm:0.3.8"
+  checksum: 871abc9e5c8aff3c8cf3bb36cb25e8c3d468bf55a984a2243dbcbf9eb098975cae495347f627e4d2403736e406fe5d07bc9948d9760ad628114b6bba64045464
   languageName: node
   linkType: hard
 
