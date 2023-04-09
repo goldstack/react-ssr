@@ -1287,10 +1287,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@goldstack/utils-aws-http-api-local", [\
-        ["npm:0.3.18", {\
-          "packageLocation": "./.yarn/cache/@goldstack-utils-aws-http-api-local-npm-0.3.18-4808fe8eaa-24e304dafc.zip/node_modules/@goldstack/utils-aws-http-api-local/",\
+        ["npm:0.3.19", {\
+          "packageLocation": "./.yarn/cache/@goldstack-utils-aws-http-api-local-npm-0.3.19-1b384afdc8-f9f8943a0a.zip/node_modules/@goldstack/utils-aws-http-api-local/",\
           "packageDependencies": [\
-            ["@goldstack/utils-aws-http-api-local", "npm:0.3.18"],\
+            ["@goldstack/utils-aws-http-api-local", "npm:0.3.19"],\
             ["@goldstack/utils-aws-lambda", "npm:0.3.12"],\
             ["@types/aws-lambda", "npm:8.10.88"],\
             ["cookie", "npm:0.4.1"],\
@@ -11027,7 +11027,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["server-side-rendering-1", "workspace:packages/server-side-rendering-1"],\
             ["@goldstack/template-ssr", "npm:0.3.19"],\
             ["@goldstack/template-ssr-cli", "npm:0.3.21"],\
-            ["@goldstack/utils-aws-http-api-local", "npm:0.3.18"],\
+            ["@goldstack/utils-aws-http-api-local", "npm:0.3.19"],\
             ["@goldstack/utils-esbuild", "npm:0.5.6"],\
             ["@jest-mock/express", "npm:1.4.5"],\
             ["@jest/transform", "npm:29.3.1"],\
