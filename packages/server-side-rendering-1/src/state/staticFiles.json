@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "names": [
+      "goldstack-ci-test-server-side-rendering-1682806320678-posts.map"
+    ],
+    "generatedName": "posts.8a982d4b4e0bfee72984cc969b8e41f8.map.json"
+  },
+  {
+    "names": [
+      "goldstack-ci-test-server-side-rendering-1682806320678-posts-bundle.js"
+    ],
+    "generatedName": "posts-bundle.92cfed28838565b7d0623671fb318fb2.js"
+  },
+  {
+    "names": [
+      "goldstack-ci-test-server-side-rendering-1682806320678--__index.map"
+    ],
+    "generatedName": "-__index.fae7d7eb23532625a0772aa6468f249a.map.json"
+  },
+  {
+    "names": [
+      "goldstack-ci-test-server-side-rendering-1682806320678--__index-bundle.js"
+    ],
+    "generatedName": "-__index-bundle.89d3242b8a12a0c8ac62586a488a2cbd.js"
+  }
+]
