@@ -7142,10 +7142,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["ejs", [\
-      ["npm:3.1.8", {\
-        "packageLocation": "./.yarn/cache/ejs-npm-3.1.8-30583753fc-879f84c8ee.zip/node_modules/ejs/",\
+      ["npm:3.1.10", {\
+        "packageLocation": "./.yarn/cache/ejs-npm-3.1.10-4e8cf4bdc1-a9cb7d7cd1.zip/node_modules/ejs/",\
         "packageDependencies": [\
-          ["ejs", "npm:3.1.8"],\
+          ["ejs", "npm:3.1.10"],\
           ["jake", "npm:10.8.5"]\
         ],\
         "linkType": "HARD"\
@@ -7927,7 +7927,7 @@ const RAW_RUNTIME_STATE =
           ["cookie-signature", "npm:1.0.6"],\
           ["debug", "virtual:44738662cf800ff2863ba9baeabb817b24a959a14f86e20a31680e5dc79a4a738f7ceb7dca32753d579fae475aa061dffad8228a3391f3a9546b122f077e29a5#npm:2.6.9"],\
           ["depd", "npm:2.0.0"],\
-          ["ejs", "npm:3.1.8"],\
+          ["ejs", "npm:3.1.10"],\
           ["encodeurl", "npm:1.0.2"],\
           ["escape-html", "npm:1.0.3"],\
           ["etag", "npm:1.8.1"],\
