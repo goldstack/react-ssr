@@ -1,26 +1,26 @@
 [
   {
     "names": [
-      "goldstack-ci-test-server-side-rendering-1727422926704--__index.map"
+      "goldstack-ci-test-server-side-rendering-1727591435487--__index.map"
     ],
-    "generatedName": "-__index.c7a4b26ab0a24a50367d8b8873a92c5a.map.json"
+    "generatedName": "-__index.2ecef895a9f0043ef52af6c6a5190038.map.json"
   },
   {
     "names": [
-      "goldstack-ci-test-server-side-rendering-1727422926704--__index-bundle.js"
+      "goldstack-ci-test-server-side-rendering-1727591435487--__index-bundle.js"
     ],
-    "generatedName": "-__index-bundle.29c5f4e42dec624bced378db8406eea7.js"
+    "generatedName": "-__index-bundle.6d69c6eae87935e7d9fc915808f113da.js"
   },
   {
     "names": [
-      "goldstack-ci-test-server-side-rendering-1727422926704-posts.map"
+      "goldstack-ci-test-server-side-rendering-1727591435487-posts.map"
     ],
-    "generatedName": "posts.1e3d1490a0a83ec1ebbab46a1e21aaaf.map.json"
+    "generatedName": "posts.da8b00604da44e11d535af2fce8cc555.map.json"
   },
   {
     "names": [
-      "goldstack-ci-test-server-side-rendering-1727422926704-posts-bundle.js"
+      "goldstack-ci-test-server-side-rendering-1727591435487-posts-bundle.js"
     ],
-    "generatedName": "posts-bundle.edc3db68a5ed81b145dd263b04fd62d9.js"
+    "generatedName": "posts-bundle.d678a367022cbbb5e0cb4ac51bfa7183.js"
   }
 ]
