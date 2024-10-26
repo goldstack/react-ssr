@@ -38,9 +38,9 @@ Thank you for using this boilerplate. For any questions or feedback, please be w
 
 A few dependencies need to be available in your development system. Please verify they are present or install them.
 
-- Node v18+
+- Node v20+
 - Yarn v1.22.5+
-- Docker v24+
+- Docker v20+
 
 Open a terminal and run the following commands:
 
