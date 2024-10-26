@@ -2124,16 +2124,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/template-ssr-cli@npm:0.3.39":
-  version: 0.3.39
-  resolution: "@goldstack/template-ssr-cli@npm:0.3.39"
+"@goldstack/template-ssr-cli@npm:0.3.40":
+  version: 0.3.40
+  resolution: "@goldstack/template-ssr-cli@npm:0.3.40"
   dependencies:
     "@goldstack/infra": "npm:0.4.12"
     "@goldstack/infra-aws": "npm:0.4.20"
-    "@goldstack/template-ssr": "npm:0.3.34"
-    "@goldstack/template-ssr-server": "npm:0.3.34"
-    "@goldstack/template-ssr-server-compile-bundle": "npm:0.3.31"
-    "@goldstack/utils-aws-lambda": "npm:0.3.25"
+    "@goldstack/template-ssr": "npm:0.3.35"
+    "@goldstack/template-ssr-server": "npm:0.3.35"
+    "@goldstack/template-ssr-server-compile-bundle": "npm:0.3.32"
+    "@goldstack/utils-aws-lambda": "npm:0.3.26"
     "@goldstack/utils-cli": "npm:0.3.10"
     "@goldstack/utils-docker": "npm:0.4.12"
     "@goldstack/utils-log": "npm:0.3.11"
@@ -2147,76 +2147,76 @@ __metadata:
     minimatch: "npm:^5.1.0"
     source-map-support: "npm:^0.5.21"
     yargs: "npm:^17.5.1"
-  checksum: 6fbac5679f291daa3548f32359cde109c8c79e588e027441f361c19e68fc2cc472fc13e2bced5323870f52ebca548e2a9e4fe260f8e1c0aed37315b7b713a93c
+  checksum: c6615a6a7fcf737c8db4154379abe44b2dc8afb8bde5c7bfa68b8680f8d520a231fedca8044219b884ddf9b78ed34de48d90f8976cf053ebda79f011d9380d88
   languageName: node
   linkType: hard
 
-"@goldstack/template-ssr-server-compile-bundle@npm:0.3.31":
-  version: 0.3.31
-  resolution: "@goldstack/template-ssr-server-compile-bundle@npm:0.3.31"
+"@goldstack/template-ssr-server-compile-bundle@npm:0.3.32":
+  version: 0.3.32
+  resolution: "@goldstack/template-ssr-server-compile-bundle@npm:0.3.32"
   dependencies:
     "@goldstack/infra": "npm:0.4.12"
     "@goldstack/infra-aws": "npm:0.4.20"
-    "@goldstack/utils-aws-lambda": "npm:0.3.25"
+    "@goldstack/utils-aws-lambda": "npm:0.3.26"
     "@goldstack/utils-esbuild": "npm:0.5.9"
     "@goldstack/utils-package": "npm:0.4.12"
     "@goldstack/utils-package-config-embedded": "npm:0.5.13"
     "@goldstack/utils-sh": "npm:0.5.11"
     "@goldstack/utils-template": "npm:0.4.12"
     "@goldstack/utils-terraform": "npm:0.4.23"
-    "@types/aws-lambda": "npm:^8.10.88"
+    "@types/aws-lambda": "npm:^8.10.145"
     esbuild: "npm:^0.17.18"
-    lambda-compression: "npm:0.2.10"
+    lambda-compression: "npm:0.2.11"
     react: "npm:18.2.0"
     react-dom: "npm:18.2.0"
     source-map-support: "npm:^0.5.21"
-    static-file-mapper-build: "npm:0.3.13"
-  checksum: 0a54183bb71a494fbadbaabbf11a7d441b71b5b3ba371c331e2b72b290bd360d631d63fdd4f4e214c615fa863ebaf3961942794a8913d99d1114b2ae4e863279
+    static-file-mapper-build: "npm:0.3.14"
+  checksum: b154b18ebcdd0dc383e60259c32e3cea98adc496786fb3b2a032b81d49a2ae78a7cc67ee604f8e8a8a6cd177b604bd6902241bb3d2922b89f45149f11d8c97a9
   languageName: node
   linkType: hard
 
-"@goldstack/template-ssr-server@npm:0.3.34":
-  version: 0.3.34
-  resolution: "@goldstack/template-ssr-server@npm:0.3.34"
+"@goldstack/template-ssr-server@npm:0.3.35":
+  version: 0.3.35
+  resolution: "@goldstack/template-ssr-server@npm:0.3.35"
   dependencies:
     "@goldstack/infra": "npm:0.4.12"
     "@goldstack/infra-aws": "npm:0.4.20"
-    "@goldstack/template-ssr-server-compile-bundle": "npm:0.3.31"
-    "@goldstack/utils-aws-lambda": "npm:0.3.25"
+    "@goldstack/template-ssr-server-compile-bundle": "npm:0.3.32"
+    "@goldstack/utils-aws-lambda": "npm:0.3.26"
     "@goldstack/utils-esbuild": "npm:0.5.9"
     "@goldstack/utils-package": "npm:0.4.12"
     "@goldstack/utils-package-config-embedded": "npm:0.5.13"
     "@goldstack/utils-sh": "npm:0.5.11"
     "@goldstack/utils-template": "npm:0.4.12"
     "@goldstack/utils-terraform": "npm:0.4.23"
-    "@types/aws-lambda": "npm:^8.10.88"
-    lambda-compression: "npm:0.2.10"
+    "@types/aws-lambda": "npm:^8.10.145"
+    lambda-compression: "npm:0.2.11"
     react: "npm:18.2.0"
     react-dom: "npm:18.2.0"
     source-map-support: "npm:^0.5.21"
-    static-file-mapper: "npm:0.3.11"
-  checksum: ce1de110b98495a170acff27dd142adfade430732aec10d42b5e566968a3af1cfd7610f81843155fc713ad3bbf712c53f3bb9d681c6a0f58d0947b82be0aa536
+    static-file-mapper: "npm:0.3.12"
+  checksum: 8500c683e6b05dbf6eadd48f32b143634750bb349fd275b08972b0234f5ee68a9ed91bc9b7630e250962ab95e11a438000cfad3509f10afedddae4e098b598bb
   languageName: node
   linkType: hard
 
-"@goldstack/template-ssr@npm:0.3.34":
-  version: 0.3.34
-  resolution: "@goldstack/template-ssr@npm:0.3.34"
+"@goldstack/template-ssr@npm:0.3.35":
+  version: 0.3.35
+  resolution: "@goldstack/template-ssr@npm:0.3.35"
   dependencies:
     "@goldstack/infra": "npm:0.4.12"
     "@goldstack/infra-aws": "npm:0.4.20"
-    "@goldstack/template-ssr-server": "npm:0.3.34"
-    "@goldstack/utils-aws-lambda": "npm:0.3.25"
+    "@goldstack/template-ssr-server": "npm:0.3.35"
+    "@goldstack/utils-aws-lambda": "npm:0.3.26"
     "@goldstack/utils-esbuild": "npm:0.5.9"
     "@goldstack/utils-package": "npm:0.4.12"
     "@goldstack/utils-package-config-embedded": "npm:0.5.13"
     "@goldstack/utils-template": "npm:0.4.12"
     "@goldstack/utils-terraform": "npm:0.4.23"
-    "@types/aws-lambda": "npm:^8.10.88"
+    "@types/aws-lambda": "npm:^8.10.145"
     react: "npm:18.2.0"
     react-dom: "npm:18.2.0"
     source-map-support: "npm:^0.5.21"
-  checksum: d1655b483eb64de221e4dc9178a78c17d8c44995e05bf56e9035ee6e8ef70402e531d608c6cfa41b8f9a7504aafed05193dfaa613b8e6080be91b97cda966c3d
+  checksum: c5b45d09fa09e036454b995369fe41301753f63cfbd9a5b15e70e6846a3c13aa8135ff492dd3237ad31b26bc51cab85ac41fba320d108ad06157b645724e6129
   languageName: node
   linkType: hard
 
@@ -2233,22 +2233,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/utils-aws-http-api-local@npm:0.3.33":
-  version: 0.3.33
-  resolution: "@goldstack/utils-aws-http-api-local@npm:0.3.33"
+"@goldstack/utils-aws-http-api-local@npm:0.3.34":
+  version: 0.3.34
+  resolution: "@goldstack/utils-aws-http-api-local@npm:0.3.34"
   dependencies:
-    "@goldstack/utils-aws-lambda": "npm:0.3.25"
-    "@types/aws-lambda": "npm:^8.10.88"
+    "@goldstack/utils-aws-lambda": "npm:0.3.26"
+    "@types/aws-lambda": "npm:^8.10.145"
     cookie: "npm:^0.4.1"
     cors: "npm:^2.8.5"
     express: "npm:4.19.2"
-  checksum: b99d0bb7c729e1daed15d774ffca371cff3250700bd4b5c896f637667a748cf6814d67bb4be131d01f90ac8a1d048a6079b42a97b714d9688c358bb48a0849fb
+  checksum: 6fc994ee33f2fe95b9761877f107f753f9918d990784dbbe23e7c350e210f87842ab70d0d6884db2a79b4ca62d68aa80bc69463eb2179150eb49f71806e826eb
   languageName: node
   linkType: hard
 
-"@goldstack/utils-aws-lambda@npm:0.3.25":
-  version: 0.3.25
-  resolution: "@goldstack/utils-aws-lambda@npm:0.3.25"
+"@goldstack/utils-aws-lambda@npm:0.3.26":
+  version: 0.3.26
+  resolution: "@goldstack/utils-aws-lambda@npm:0.3.26"
   dependencies:
     "@aws-sdk/types": "npm:^3.609.0"
     "@goldstack/infra-aws": "npm:0.4.20"
@@ -2259,7 +2259,7 @@ __metadata:
     archiver: "npm:^5.3.1"
     esbuild: "npm:^0.17.18"
     esbuild-ssr-css-modules-plugin: "npm:0.1.10"
-  checksum: 9df8ec683eda564dca2a3c9dfe8d5cfccdf54f0ea30e9ee547b0c0b2e2e6c749afa5ce6e869e9eaebf345fcb11f031fe1dcb343bc54376284f5bf58f66a53b16
+  checksum: 700aadd5e9b2eb44471772b0076db4662e4fa2d67300636fec81cf353395acfe329a8cffeece9db5871a0e7d3fc0350b00f89b0f3accf1697c754a2d4fb22684
   languageName: node
   linkType: hard
 
@@ -4077,10 +4077,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/aws-lambda@npm:^8.10.88":
-  version: 8.10.88
-  resolution: "@types/aws-lambda@npm:8.10.88"
-  checksum: 3c553e456410ed443e065b7ebb29654b364b44aa54fc8f042d6545a760d4323a4e05cc206f343627cb6c723776d8e30fe244c2518c38e4f8c84686474c805147
+"@types/aws-lambda@npm:^8.10.145":
+  version: 8.10.145
+  resolution: "@types/aws-lambda@npm:8.10.145"
+  checksum: e83bfa8901f5f2a8b838baa0b280c7ea6f4e4c9317cab508d45e51bc34999fb63adf95b382f388ad8f8163773ad1dd08130dea655aab7b4961ed6d048f0bc8f9
   languageName: node
   linkType: hard
 
@@ -9271,12 +9271,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lambda-compression@npm:0.2.10":
-  version: 0.2.10
-  resolution: "lambda-compression@npm:0.2.10"
+"lambda-compression@npm:0.2.11":
+  version: 0.2.11
+  resolution: "lambda-compression@npm:0.2.11"
   dependencies:
-    "@types/aws-lambda": "npm:^8.10.88"
-  checksum: 231834070527a5a7449a5ac3225dec940684049eadae09d1c03bd019e2ffb7cb58e6cfe2cbda407f6a4cfb0d4c1345c7835b2585ec55e08ea72db0f7878a5ccb
+    "@types/aws-lambda": "npm:^8.10.145"
+  checksum: 761b65bf8fc9352c477166d13d648da19d5cddeae4895452a309df63a469604f1fa74c78648a173e3cbdfedc57ed5aef5aee377514c884ea01d22014cd01e871
   languageName: node
   linkType: hard
 
@@ -11419,9 +11419,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "server-side-rendering-1@workspace:packages/server-side-rendering-1"
   dependencies:
-    "@goldstack/template-ssr": "npm:0.3.34"
-    "@goldstack/template-ssr-cli": "npm:0.3.39"
-    "@goldstack/utils-aws-http-api-local": "npm:0.3.33"
+    "@goldstack/template-ssr": "npm:0.3.35"
+    "@goldstack/template-ssr-cli": "npm:0.3.40"
+    "@goldstack/utils-aws-http-api-local": "npm:0.3.34"
     "@goldstack/utils-esbuild": "npm:0.5.9"
     "@jest-mock/express": "npm:^1.4.5"
     "@jest/transform": "npm:^29.3.1"
@@ -11429,7 +11429,7 @@ __metadata:
     "@swc/jest": "npm:^0.2.27"
     "@testing-library/jest-dom": "npm:^5.16.5"
     "@testing-library/react": "npm:^13.3.0"
-    "@types/aws-lambda": "npm:^8.10.88"
+    "@types/aws-lambda": "npm:^8.10.145"
     "@types/aws-serverless-express": "npm:^3.3.3"
     "@types/jest": "npm:^29.0.1"
     "@types/node": "npm:^18.7.13"
@@ -11453,7 +11453,7 @@ __metadata:
     react-dom: "npm:18.2.0"
     rimraf: "npm:^3.0.2"
     source-map-support: "npm:^0.5.21"
-    static-file-mapper-build: "npm:0.3.13"
+    static-file-mapper-build: "npm:0.3.14"
     supertest: "npm:^4.0.2"
     ts-node: "npm:^10.9.1"
     ts-node-dev: "npm:^2.0.0"
@@ -11727,20 +11727,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"static-file-mapper-build@npm:0.3.13":
-  version: 0.3.13
-  resolution: "static-file-mapper-build@npm:0.3.13"
+"static-file-mapper-build@npm:0.3.14":
+  version: 0.3.14
+  resolution: "static-file-mapper-build@npm:0.3.14"
   dependencies:
     "@goldstack/utils-sh": "npm:0.5.11"
-    static-file-mapper: "npm:0.3.11"
-  checksum: 6b48a3e06ec2a8bd573c4e1220a64654ebd56898efbdc6a0f54f60345a52b8791abc711521b784cc66d6e36727c0e1dba9278d822419c1d52bbe4708c58b8049
+    static-file-mapper: "npm:0.3.12"
+  checksum: a6c5eb87dc595a7b937d709d36b6a85ee27a3ac4d98befd966ec00507e0685762f483b99035c7b81a61b00f7c2e33eb4692cdde1e87b4994a6335ba6d7bf739a
   languageName: node
   linkType: hard
 
-"static-file-mapper@npm:0.3.11":
-  version: 0.3.11
-  resolution: "static-file-mapper@npm:0.3.11"
-  checksum: dc0aab78af2713273459c8214abec63c88a9bc27f0bf43c0a9f50698eae205b77be977ade309653abe5e0a75b515bd9ecee5399ce8bb38f57cb3ae895e30826e
+"static-file-mapper@npm:0.3.12":
+  version: 0.3.12
+  resolution: "static-file-mapper@npm:0.3.12"
+  checksum: 4b3ee2180b82f5e08e78504c3114343406b440c89a07c4cad330fde66e7efb446ea1fb0d7c07eefa9b0322130abb4b70640108bf42e2d451c0bc24e1a34416f6
   languageName: node
   linkType: hard
 
