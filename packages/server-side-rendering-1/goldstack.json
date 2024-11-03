@@ -10,23 +10,23 @@
       "awsUser": "goldstack-dev",
       "awsRegion": "us-west-2",
       "configuration": {
-        "lambdaNamePrefix": "goldstack-ci-test-server-side-rendering-1730361540915",
-        "domain": "server-side-rendering-1730361540915.tests.dev.goldstack.party",
+        "lambdaNamePrefix": "goldstack-ci-test-server-side-rendering-1730611375662",
+        "domain": "server-side-rendering-1730611375662.tests.dev.goldstack.party",
         "hostedZoneDomain": "dev.goldstack.party",
         "cors": "",
         "lambdas": {
           "ANY /posts": {
-            "function_name": "goldstack-ci-test-server-side-rendering-1730361540915-posts",
+            "function_name": "goldstack-ci-test-server-side-rendering-1730611375662-posts",
             "route": "ANY /posts"
           },
           "ANY /": {
-            "function_name": "goldstack-ci-test-server-side-rendering-1730361540915--__index",
+            "function_name": "goldstack-ci-test-server-side-rendering-1730611375662--__index",
             "route": "ANY /"
           }
         }
       },
       "tfVersion": "1.6",
-      "tfStateKey": "server-side-rendering-1-prod-08d6568b25b93ba6ed84.tfstate"
+      "tfStateKey": "server-side-rendering-1-prod-1daaa822bac13224c9aa.tfstate"
     }
   ]
 }
