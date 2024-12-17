@@ -53,6 +53,7 @@
   <ul>
     <li>Server-side rendering of React pages</li>
     <li>Styling using CSS modules supported</li>
+    <li>Styling using Tailwind supported</li>
     <li>Hydration supported for client-side logic</li>
     <li>
       Low latency, low cost and highly scalable by using the new
@@ -584,7 +585,7 @@
 <span class="token keyword">const</span> <span class="token maybe-class-name">Index</span> <span class="token operator">=</span> <span class="token punctuation">(</span>props<span class="token punctuation">:</span> <span class="token punctuation">{</span> message<span class="token punctuation">:</span> <span class="token builtin">string</span> <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">:</span> <span class="token constant">JSX</span><span class="token punctuation">.</span><span class="token parameter"><span class="token maybe-class-name">Element</span></span> <span class="token arrow operator">=></span> <span class="token punctuation">{</span>
   <span class="token keyword">return</span> <span class="token punctuation">(</span>
     <span class="token operator">&#x3C;</span><span class="token operator">></span>
-      <span class="token operator">&#x3C;</span>div<span class="token operator">></span><span class="token punctuation">{</span>props<span class="token punctuation">.</span><span class="token property-access">message</span><span class="token punctuation">}</span><span class="token operator">&#x3C;</span><span class="token operator">/</span>div<span class="token operator">></span>
+      <span class="token operator">&#x3C;</span>div className<span class="token operator">=</span><span class="token string">"m-12"</span><span class="token operator">></span><span class="token punctuation">{</span>props<span class="token punctuation">.</span><span class="token property-access">message</span><span class="token punctuation">}</span><span class="token operator">&#x3C;</span><span class="token operator">/</span>div<span class="token operator">></span>
     <span class="token operator">&#x3C;</span><span class="token operator">/</span><span class="token operator">></span>
   <span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span><span class="token punctuation">;</span>
