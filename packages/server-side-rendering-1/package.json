@@ -1,28 +1,5 @@
 {
-  "name": "server-side-rendering-1",
-  "version": "0.1.0",
-  "description": "Template for server-side rendering",
-  "license": "",
   "author": "",
-  "sideEffects": false,
-  "main": "src/module.ts",
-  "scripts": {
-    "build": "yarn clean && yarn compile",
-    "build-lambda": "yarn template build",
-    "clean": "rimraf ./dist && rimraf ./distLambda",
-    "compile": "tsc --build tsconfig.compile.json",
-    "coverage": "jest --collect-coverage --passWithNoTests --config=./jest.config.js --runInBand",
-    "deploy": "yarn build-lambda \"$@\" && yarn template deploy \"$@\"",
-    "infra": "yarn template infra \"$@\"",
-    "start": "PORT=5054 CORS=http://localhost:3000 GOLDSTACK_DEPLOYMENT=local ts-node scripts/start.ts",
-    "template": "yarn template-ts",
-    "template-ts": "ts-node --project tsconfig.local.json --swc src/template.ts",
-    "test": "GOLDSTACK_DEPLOYMENT=local yarn test-server && yarn test-ui",
-    "test-server": "TEST_SERVER_PORT=50331 CORS=http://localhost:3000 GOLDSTACK_DEPLOYMENT=local jest --passWithNoTests --verbose --config=jest.config.js --runInBand",
-    "test-ui": "GOLDSTACK_DEPLOYMENT=local jest --passWithNoTests --verbose --config=jest.config.ui.js --runInBand",
-    "test-watch": "concurrently \"yarn test-server --watch\" \"yarn test-ui --watch\"",
-    "watch": "PORT=5054 CORS=http://localhost:3000 GOLDSTACK_DEPLOYMENT=local ts-node-dev --respawn --transpile-only --project tsconfig.local.json -r ./scripts/register.js ./scripts/start.ts"
-  },
   "dependencies": {
     "@goldstack/template-ssr": "0.3.50",
     "@goldstack/utils-esbuild": "0.5.11",
@@ -37,6 +14,7 @@
     "static-file-mapper-build": "0.3.22",
     "tailwindcss": "^3.4.16"
   },
+  "description": "Template for server-side rendering",
   "devDependencies": {
     "@goldstack/template-ssr-cli": "0.3.55",
     "@goldstack/utils-aws-http-api-local": "0.3.43",
@@ -68,5 +46,27 @@
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.7.2",
     "typescript-plugin-css-modules": "^3.4.0"
-  }
+  },
+  "license": "",
+  "main": "src/module.ts",
+  "name": "server-side-rendering-1",
+  "scripts": {
+    "build": "yarn clean && yarn compile",
+    "build-lambda": "yarn template build",
+    "clean": "rimraf ./dist && rimraf ./distLambda",
+    "compile": "tsc --build tsconfig.compile.json",
+    "coverage": "jest --collect-coverage --passWithNoTests --config=./jest.config.js --runInBand",
+    "deploy": "yarn build-lambda \"$@\" && yarn template deploy \"$@\"",
+    "infra": "yarn template infra \"$@\"",
+    "start": "PORT=5054 CORS=http://localhost:3000 GOLDSTACK_DEPLOYMENT=local ts-node scripts/start.ts",
+    "template": "yarn template-ts",
+    "template-ts": "ts-node --project tsconfig.local.json --swc src/template.ts",
+    "test": "GOLDSTACK_DEPLOYMENT=local yarn test-server && yarn test-ui",
+    "test-server": "TEST_SERVER_PORT=50331 CORS=http://localhost:3000 GOLDSTACK_DEPLOYMENT=local jest --passWithNoTests --verbose --config=jest.config.js --runInBand",
+    "test-ui": "GOLDSTACK_DEPLOYMENT=local jest --passWithNoTests --verbose --config=jest.config.ui.js --runInBand",
+    "test-watch": "concurrently \"yarn test-server --watch\" \"yarn test-ui --watch\"",
+    "watch": "PORT=5054 CORS=http://localhost:3000 GOLDSTACK_DEPLOYMENT=local ts-node-dev --respawn --transpile-only --project tsconfig.local.json -r ./scripts/register.js ./scripts/start.ts"
+  },
+  "sideEffects": false,
+  "version": "0.1.0"
 }
