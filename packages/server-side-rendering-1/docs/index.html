@@ -610,6 +610,90 @@
     Note the file should have the <code class="inline">.tsx</code> extension.
   </p>
   <h4 class="heading">
+    <span id="defining-api-endpoints-1"></span
+    ><a href="#defining-api-endpoints-1"
+      ><span id="defining-api-endpoints"></span
+      ><a href="#defining-api-endpoints" class="relative"
+        >Defining API Endpoints</a
+      ><span class="permalink"
+        ><svg viewBox="0 0 16 16" width="16" height="16">
+          <g stroke-width="1" fill="#000000" stroke="#000000">
+            <path
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-miterlimit="10"
+              d="M8.995,7.005 L8.995,7.005c1.374,1.374,1.374,3.601,0,4.975l-1.99,1.99c-1.374,1.374-3.601,1.374-4.975,0l0,0c-1.374-1.374-1.374-3.601,0-4.975 l1.748-1.698"
+            ></path>
+            <path
+              fill="none"
+              stroke="#000000"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-miterlimit="10"
+              d="M7.005,8.995 L7.005,8.995c-1.374-1.374-1.374-3.601,0-4.975l1.99-1.99c1.374-1.374,3.601-1.374,4.975,0l0,0c1.374,1.374,1.374,3.601,0,4.975 l-1.748,1.698"
+            ></path>
+          </g></svg></span></a
+    ><span class="permalink"
+      ><svg viewBox="0 0 16 16" width="16" height="16">
+        <g stroke-width="1" fill="#000000" stroke="#000000">
+          <path
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-miterlimit="10"
+            d="M8.995,7.005 L8.995,7.005c1.374,1.374,1.374,3.601,0,4.975l-1.99,1.99c-1.374,1.374-3.601,1.374-4.975,0l0,0c-1.374-1.374-1.374-3.601,0-4.975 l1.748-1.698"
+          ></path>
+          <path
+            fill="none"
+            stroke="#000000"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-miterlimit="10"
+            d="M7.005,8.995 L7.005,8.995c-1.374-1.374-1.374-3.601,0-4.975l1.99-1.99c1.374-1.374,3.601-1.374,4.975,0l0,0c1.374,1.374,1.374,3.601,0,4.975 l-1.748,1.698"
+          ></path>
+        </g></svg
+    ></span>
+  </h4>
+  <p>It is also possible to define API endpoints that do not include SSR.</p>
+  <p>
+    See the following example that defines a file
+    <code class="inline">[id].ts</code>.
+  </p>
+  <p>
+    Note the <code class="inline">/* esbuild-ignore ui */</code> at the
+    beginning of the file. We should add this to any file that should not be
+    included in the client bundle.
+  </p>
+  <pre
+    class="language-typescript language-typescript"
+  ><code class="language-typescript"><span class="token comment">/* esbuild-ignore ui */</span>
+
+<span class="token keyword">import</span> <span class="token punctuation">{</span>
+  <span class="token maybe-class-name">Handler</span><span class="token punctuation">,</span>
+  <span class="token maybe-class-name">APIGatewayProxyEventV2</span><span class="token punctuation">,</span>
+  <span class="token maybe-class-name">APIGatewayProxyResultV2</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'aws-lambda'</span><span class="token punctuation">;</span>
+
+<span class="token keyword">type</span> <span class="token maybe-class-name">ProxyHandler</span> <span class="token operator">=</span> <span class="token maybe-class-name">Handler</span><span class="token operator">&#x3C;</span><span class="token maybe-class-name">APIGatewayProxyEventV2</span><span class="token punctuation">,</span> <span class="token maybe-class-name">APIGatewayProxyResultV2</span><span class="token operator">></span><span class="token punctuation">;</span>
+
+<span class="token comment">// eslint-disable-next-line @typescript-eslint/no-unused-vars</span>
+<span class="token keyword">export</span> <span class="token keyword">const</span> handler<span class="token punctuation">:</span> <span class="token function-variable function"><span class="token maybe-class-name">ProxyHandler</span></span> <span class="token operator">=</span> <span class="token keyword">async</span> <span class="token punctuation">(</span><span class="token parameter">event<span class="token punctuation">,</span> context</span><span class="token punctuation">)</span> <span class="token arrow operator">=></span> <span class="token punctuation">{</span>
+  <span class="token keyword">const</span> id <span class="token operator">=</span> event<span class="token punctuation">.</span><span class="token property-access">pathParameters</span><span class="token operator">?</span><span class="token punctuation">.</span><span class="token punctuation">[</span><span class="token string">'id'</span><span class="token punctuation">]</span> <span class="token operator">||</span> <span class="token string">'not specified'</span><span class="token punctuation">;</span>
+
+  <span class="token keyword">return</span> <span class="token punctuation">{</span>
+    statusCode<span class="token punctuation">:</span> <span class="token number">201</span><span class="token punctuation">,</span>
+    body<span class="token punctuation">:</span> <span class="token known-class-name class-name">JSON</span><span class="token punctuation">.</span><span class="token method function property-access">stringify</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+      message<span class="token punctuation">:</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">Accessing order [</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>id<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">]</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code></pre>
+  <p>
+    Note that endpoints that do not require SSR, can have the extension
+    <code class="inline">.ts</code>.
+  </p>
+  <h4 class="heading">
     <span id="defining-routes-1"></span
     ><a href="#defining-routes-1"
       ><span id="defining-routes"></span
