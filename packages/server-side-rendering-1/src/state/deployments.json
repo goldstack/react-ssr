@@ -5,17 +5,17 @@
       "gateway_url": {
         "sensitive": false,
         "type": "string",
-        "value": "https://f5o8nc5tnk.execute-api.us-west-2.amazonaws.com"
+        "value": "https://5tg62vl7p5.execute-api.us-west-2.amazonaws.com"
       },
       "public_files_bucket": {
         "sensitive": false,
         "type": "string",
-        "value": "server-side-rendering-1734986774948.te-public-files-b3004479"
+        "value": "server-side-rendering-1735091293987.te-public-files-2f8e9af6"
       },
       "static_files_bucket": {
         "sensitive": false,
         "type": "string",
-        "value": "server-side-rendering-1734986774948.te-static-files-b3004479"
+        "value": "server-side-rendering-1735091293987.te-static-files-2f8e9af6"
       }
     }
   }
