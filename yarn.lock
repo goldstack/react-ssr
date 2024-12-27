@@ -2707,13 +2707,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/template-ssr-cli@npm:0.3.60":
-  version: 0.3.60
-  resolution: "@goldstack/template-ssr-cli@npm:0.3.60"
+"@goldstack/template-ssr-cli@npm:0.3.61":
+  version: 0.3.61
+  resolution: "@goldstack/template-ssr-cli@npm:0.3.61"
   dependencies:
     "@goldstack/infra": "npm:0.4.21"
     "@goldstack/infra-aws": "npm:0.4.30"
-    "@goldstack/template-ssr": "npm:0.3.55"
+    "@goldstack/template-ssr": "npm:0.3.56"
     "@goldstack/template-ssr-server": "npm:0.3.54"
     "@goldstack/template-ssr-server-compile-bundle": "npm:0.3.51"
     "@goldstack/utils-aws-lambda": "npm:0.3.38"
@@ -2730,7 +2730,7 @@ __metadata:
     minimatch: "npm:^5.1.0"
     source-map-support: "npm:^0.5.21"
     yargs: "npm:^17.5.1"
-  checksum: 10/df7bee3b299d212f4c7bbce8c6010d14c6937a9f929200cf31956536edaf9e74c21191312de97530aeaa8c1cda95ced33cba6fe05b7f54e8222ea936713b638f
+  checksum: 10/2c03c4a705b07b81714a11126d2f71ea35c3011984f06bdada1a44cbde0ddadebdd772563f8452f15662b78304c6a3a3effa706215cb2d11aceb349e90e8c0a8
   languageName: node
   linkType: hard
 
@@ -2783,9 +2783,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/template-ssr@npm:0.3.55":
-  version: 0.3.55
-  resolution: "@goldstack/template-ssr@npm:0.3.55"
+"@goldstack/template-ssr@npm:0.3.56":
+  version: 0.3.56
+  resolution: "@goldstack/template-ssr@npm:0.3.56"
   dependencies:
     "@goldstack/infra": "npm:0.4.21"
     "@goldstack/infra-aws": "npm:0.4.30"
@@ -2800,7 +2800,7 @@ __metadata:
     react: "npm:18.2.0"
     react-dom: "npm:18.2.0"
     source-map-support: "npm:^0.5.21"
-  checksum: 10/bb236781faebb6180ed06f199d01d3f35be676e9f4c913d52f2afc030979f23b365722c2d5ff8edc66235aaa19d4fd08ee58fe4096ebaefb608a51e6fd966608
+  checksum: 10/9d979d2bff91f69f06b1fea561e52240d6d2c9d07cc40e0fb46087dcfbcd2e821c7a4ad816fccba5be812d7f9f20f164b1aa1e4f03196ab53c7c996c841a5b5b
   languageName: node
   linkType: hard
 
@@ -13060,8 +13060,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "server-side-rendering-1@workspace:packages/server-side-rendering-1"
   dependencies:
-    "@goldstack/template-ssr": "npm:0.3.55"
-    "@goldstack/template-ssr-cli": "npm:0.3.60"
+    "@goldstack/template-ssr": "npm:0.3.56"
+    "@goldstack/template-ssr-cli": "npm:0.3.61"
     "@goldstack/utils-aws-http-api-local": "npm:0.3.46"
     "@goldstack/utils-esbuild": "npm:0.5.12"
     "@jest-mock/express": "npm:^1.4.5"

@@ -3318,10 +3318,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/template-ssr", [\
-      ["npm:0.3.55", {\
-        "packageLocation": "./.yarn/cache/@goldstack-template-ssr-npm-0.3.55-8953adca02-bb236781fa.zip/node_modules/@goldstack/template-ssr/",\
+      ["npm:0.3.56", {\
+        "packageLocation": "./.yarn/cache/@goldstack-template-ssr-npm-0.3.56-1b03d213a9-9d979d2bff.zip/node_modules/@goldstack/template-ssr/",\
         "packageDependencies": [\
-          ["@goldstack/template-ssr", "npm:0.3.55"],\
+          ["@goldstack/template-ssr", "npm:0.3.56"],\
           ["@goldstack/infra", "npm:0.4.21"],\
           ["@goldstack/infra-aws", "npm:0.4.30"],\
           ["@goldstack/template-ssr-server", "npm:0.3.54"],\
@@ -3340,13 +3340,13 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/template-ssr-cli", [\
-      ["npm:0.3.60", {\
-        "packageLocation": "./.yarn/cache/@goldstack-template-ssr-cli-npm-0.3.60-338e9ada2f-df7bee3b29.zip/node_modules/@goldstack/template-ssr-cli/",\
+      ["npm:0.3.61", {\
+        "packageLocation": "./.yarn/cache/@goldstack-template-ssr-cli-npm-0.3.61-62551d9cdc-2c03c4a705.zip/node_modules/@goldstack/template-ssr-cli/",\
         "packageDependencies": [\
-          ["@goldstack/template-ssr-cli", "npm:0.3.60"],\
+          ["@goldstack/template-ssr-cli", "npm:0.3.61"],\
           ["@goldstack/infra", "npm:0.4.21"],\
           ["@goldstack/infra-aws", "npm:0.4.30"],\
-          ["@goldstack/template-ssr", "npm:0.3.55"],\
+          ["@goldstack/template-ssr", "npm:0.3.56"],\
           ["@goldstack/template-ssr-server", "npm:0.3.54"],\
           ["@goldstack/template-ssr-server-compile-bundle", "npm:0.3.51"],\
           ["@goldstack/utils-aws-lambda", "npm:0.3.38"],\
@@ -14982,8 +14982,8 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./packages/server-side-rendering-1/",\
         "packageDependencies": [\
           ["server-side-rendering-1", "workspace:packages/server-side-rendering-1"],\
-          ["@goldstack/template-ssr", "npm:0.3.55"],\
-          ["@goldstack/template-ssr-cli", "npm:0.3.60"],\
+          ["@goldstack/template-ssr", "npm:0.3.56"],\
+          ["@goldstack/template-ssr-cli", "npm:0.3.61"],\
           ["@goldstack/utils-aws-http-api-local", "npm:0.3.46"],\
           ["@goldstack/utils-esbuild", "npm:0.5.12"],\
           ["@jest-mock/express", "npm:1.4.5"],\
