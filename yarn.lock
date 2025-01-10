@@ -2486,156 +2486,177 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@esbuild/android-arm64@npm:0.17.18":
-  version: 0.17.18
-  resolution: "@esbuild/android-arm64@npm:0.17.18"
+"@esbuild/aix-ppc64@npm:0.24.2":
+  version: 0.24.2
+  resolution: "@esbuild/aix-ppc64@npm:0.24.2"
+  conditions: os=aix & cpu=ppc64
+  languageName: node
+  linkType: hard
+
+"@esbuild/android-arm64@npm:0.24.2":
+  version: 0.24.2
+  resolution: "@esbuild/android-arm64@npm:0.24.2"
   conditions: os=android & cpu=arm64
   languageName: node
   linkType: hard
 
-"@esbuild/android-arm@npm:0.17.18":
-  version: 0.17.18
-  resolution: "@esbuild/android-arm@npm:0.17.18"
+"@esbuild/android-arm@npm:0.24.2":
+  version: 0.24.2
+  resolution: "@esbuild/android-arm@npm:0.24.2"
   conditions: os=android & cpu=arm
   languageName: node
   linkType: hard
 
-"@esbuild/android-x64@npm:0.17.18":
-  version: 0.17.18
-  resolution: "@esbuild/android-x64@npm:0.17.18"
+"@esbuild/android-x64@npm:0.24.2":
+  version: 0.24.2
+  resolution: "@esbuild/android-x64@npm:0.24.2"
   conditions: os=android & cpu=x64
   languageName: node
   linkType: hard
 
-"@esbuild/darwin-arm64@npm:0.17.18":
-  version: 0.17.18
-  resolution: "@esbuild/darwin-arm64@npm:0.17.18"
+"@esbuild/darwin-arm64@npm:0.24.2":
+  version: 0.24.2
+  resolution: "@esbuild/darwin-arm64@npm:0.24.2"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"@esbuild/darwin-x64@npm:0.17.18":
-  version: 0.17.18
-  resolution: "@esbuild/darwin-x64@npm:0.17.18"
+"@esbuild/darwin-x64@npm:0.24.2":
+  version: 0.24.2
+  resolution: "@esbuild/darwin-x64@npm:0.24.2"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"@esbuild/freebsd-arm64@npm:0.17.18":
-  version: 0.17.18
-  resolution: "@esbuild/freebsd-arm64@npm:0.17.18"
+"@esbuild/freebsd-arm64@npm:0.24.2":
+  version: 0.24.2
+  resolution: "@esbuild/freebsd-arm64@npm:0.24.2"
   conditions: os=freebsd & cpu=arm64
   languageName: node
   linkType: hard
 
-"@esbuild/freebsd-x64@npm:0.17.18":
-  version: 0.17.18
-  resolution: "@esbuild/freebsd-x64@npm:0.17.18"
+"@esbuild/freebsd-x64@npm:0.24.2":
+  version: 0.24.2
+  resolution: "@esbuild/freebsd-x64@npm:0.24.2"
   conditions: os=freebsd & cpu=x64
   languageName: node
   linkType: hard
 
-"@esbuild/linux-arm64@npm:0.17.18":
-  version: 0.17.18
-  resolution: "@esbuild/linux-arm64@npm:0.17.18"
+"@esbuild/linux-arm64@npm:0.24.2":
+  version: 0.24.2
+  resolution: "@esbuild/linux-arm64@npm:0.24.2"
   conditions: os=linux & cpu=arm64
   languageName: node
   linkType: hard
 
-"@esbuild/linux-arm@npm:0.17.18":
-  version: 0.17.18
-  resolution: "@esbuild/linux-arm@npm:0.17.18"
+"@esbuild/linux-arm@npm:0.24.2":
+  version: 0.24.2
+  resolution: "@esbuild/linux-arm@npm:0.24.2"
   conditions: os=linux & cpu=arm
   languageName: node
   linkType: hard
 
-"@esbuild/linux-ia32@npm:0.17.18":
-  version: 0.17.18
-  resolution: "@esbuild/linux-ia32@npm:0.17.18"
+"@esbuild/linux-ia32@npm:0.24.2":
+  version: 0.24.2
+  resolution: "@esbuild/linux-ia32@npm:0.24.2"
   conditions: os=linux & cpu=ia32
   languageName: node
   linkType: hard
 
-"@esbuild/linux-loong64@npm:0.17.18":
-  version: 0.17.18
-  resolution: "@esbuild/linux-loong64@npm:0.17.18"
+"@esbuild/linux-loong64@npm:0.24.2":
+  version: 0.24.2
+  resolution: "@esbuild/linux-loong64@npm:0.24.2"
   conditions: os=linux & cpu=loong64
   languageName: node
   linkType: hard
 
-"@esbuild/linux-mips64el@npm:0.17.18":
-  version: 0.17.18
-  resolution: "@esbuild/linux-mips64el@npm:0.17.18"
+"@esbuild/linux-mips64el@npm:0.24.2":
+  version: 0.24.2
+  resolution: "@esbuild/linux-mips64el@npm:0.24.2"
   conditions: os=linux & cpu=mips64el
   languageName: node
   linkType: hard
 
-"@esbuild/linux-ppc64@npm:0.17.18":
-  version: 0.17.18
-  resolution: "@esbuild/linux-ppc64@npm:0.17.18"
+"@esbuild/linux-ppc64@npm:0.24.2":
+  version: 0.24.2
+  resolution: "@esbuild/linux-ppc64@npm:0.24.2"
   conditions: os=linux & cpu=ppc64
   languageName: node
   linkType: hard
 
-"@esbuild/linux-riscv64@npm:0.17.18":
-  version: 0.17.18
-  resolution: "@esbuild/linux-riscv64@npm:0.17.18"
+"@esbuild/linux-riscv64@npm:0.24.2":
+  version: 0.24.2
+  resolution: "@esbuild/linux-riscv64@npm:0.24.2"
   conditions: os=linux & cpu=riscv64
   languageName: node
   linkType: hard
 
-"@esbuild/linux-s390x@npm:0.17.18":
-  version: 0.17.18
-  resolution: "@esbuild/linux-s390x@npm:0.17.18"
+"@esbuild/linux-s390x@npm:0.24.2":
+  version: 0.24.2
+  resolution: "@esbuild/linux-s390x@npm:0.24.2"
   conditions: os=linux & cpu=s390x
   languageName: node
   linkType: hard
 
-"@esbuild/linux-x64@npm:0.17.18":
-  version: 0.17.18
-  resolution: "@esbuild/linux-x64@npm:0.17.18"
+"@esbuild/linux-x64@npm:0.24.2":
+  version: 0.24.2
+  resolution: "@esbuild/linux-x64@npm:0.24.2"
   conditions: os=linux & cpu=x64
   languageName: node
   linkType: hard
 
-"@esbuild/netbsd-x64@npm:0.17.18":
-  version: 0.17.18
-  resolution: "@esbuild/netbsd-x64@npm:0.17.18"
+"@esbuild/netbsd-arm64@npm:0.24.2":
+  version: 0.24.2
+  resolution: "@esbuild/netbsd-arm64@npm:0.24.2"
+  conditions: os=netbsd & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"@esbuild/netbsd-x64@npm:0.24.2":
+  version: 0.24.2
+  resolution: "@esbuild/netbsd-x64@npm:0.24.2"
   conditions: os=netbsd & cpu=x64
   languageName: node
   linkType: hard
 
-"@esbuild/openbsd-x64@npm:0.17.18":
-  version: 0.17.18
-  resolution: "@esbuild/openbsd-x64@npm:0.17.18"
+"@esbuild/openbsd-arm64@npm:0.24.2":
+  version: 0.24.2
+  resolution: "@esbuild/openbsd-arm64@npm:0.24.2"
+  conditions: os=openbsd & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"@esbuild/openbsd-x64@npm:0.24.2":
+  version: 0.24.2
+  resolution: "@esbuild/openbsd-x64@npm:0.24.2"
   conditions: os=openbsd & cpu=x64
   languageName: node
   linkType: hard
 
-"@esbuild/sunos-x64@npm:0.17.18":
-  version: 0.17.18
-  resolution: "@esbuild/sunos-x64@npm:0.17.18"
+"@esbuild/sunos-x64@npm:0.24.2":
+  version: 0.24.2
+  resolution: "@esbuild/sunos-x64@npm:0.24.2"
   conditions: os=sunos & cpu=x64
   languageName: node
   linkType: hard
 
-"@esbuild/win32-arm64@npm:0.17.18":
-  version: 0.17.18
-  resolution: "@esbuild/win32-arm64@npm:0.17.18"
+"@esbuild/win32-arm64@npm:0.24.2":
+  version: 0.24.2
+  resolution: "@esbuild/win32-arm64@npm:0.24.2"
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
 
-"@esbuild/win32-ia32@npm:0.17.18":
-  version: 0.17.18
-  resolution: "@esbuild/win32-ia32@npm:0.17.18"
+"@esbuild/win32-ia32@npm:0.24.2":
+  version: 0.24.2
+  resolution: "@esbuild/win32-ia32@npm:0.24.2"
   conditions: os=win32 & cpu=ia32
   languageName: node
   linkType: hard
 
-"@esbuild/win32-x64@npm:0.17.18":
-  version: 0.17.18
-  resolution: "@esbuild/win32-x64@npm:0.17.18"
+"@esbuild/win32-x64@npm:0.24.2":
+  version: 0.24.2
+  resolution: "@esbuild/win32-x64@npm:0.24.2"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
@@ -2707,16 +2728,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/template-ssr-cli@npm:0.3.64":
-  version: 0.3.64
-  resolution: "@goldstack/template-ssr-cli@npm:0.3.64"
+"@goldstack/template-ssr-cli@npm:0.3.65":
+  version: 0.3.65
+  resolution: "@goldstack/template-ssr-cli@npm:0.3.65"
   dependencies:
     "@goldstack/infra": "npm:0.4.22"
     "@goldstack/infra-aws": "npm:0.4.32"
-    "@goldstack/template-ssr": "npm:0.3.59"
-    "@goldstack/template-ssr-server": "npm:0.3.57"
-    "@goldstack/template-ssr-server-compile-bundle": "npm:0.3.54"
-    "@goldstack/utils-aws-lambda": "npm:0.3.41"
+    "@goldstack/template-ssr": "npm:0.3.60"
+    "@goldstack/template-ssr-server": "npm:0.3.58"
+    "@goldstack/template-ssr-server-compile-bundle": "npm:0.3.55"
+    "@goldstack/utils-aws-lambda": "npm:0.3.42"
     "@goldstack/utils-cli": "npm:0.3.16"
     "@goldstack/utils-docker": "npm:0.4.23"
     "@goldstack/utils-log": "npm:0.3.18"
@@ -2730,17 +2751,17 @@ __metadata:
     minimatch: "npm:^5.1.0"
     source-map-support: "npm:^0.5.21"
     yargs: "npm:^17.5.1"
-  checksum: 10/096e7ece7727fd12d8a187a81174b109e4a50fc6c8b48c74d5fc1013a9d126496ddda1d0d06f87493f0771dc8b641d9ffdf1a9a5ba00aa1cba9ced817ffb279b
+  checksum: 10/3b1ac73ad4186b3e69723454cb01aa3de6be6f9157a1a6f757cfc17c117f71dd790fef5e4b294952a2dc1ba95f14deb3a6b1b947ef907fd05d1338d583bae3b1
   languageName: node
   linkType: hard
 
-"@goldstack/template-ssr-server-compile-bundle@npm:0.3.54":
-  version: 0.3.54
-  resolution: "@goldstack/template-ssr-server-compile-bundle@npm:0.3.54"
+"@goldstack/template-ssr-server-compile-bundle@npm:0.3.55":
+  version: 0.3.55
+  resolution: "@goldstack/template-ssr-server-compile-bundle@npm:0.3.55"
   dependencies:
     "@goldstack/infra": "npm:0.4.22"
     "@goldstack/infra-aws": "npm:0.4.32"
-    "@goldstack/utils-aws-lambda": "npm:0.3.41"
+    "@goldstack/utils-aws-lambda": "npm:0.3.42"
     "@goldstack/utils-esbuild": "npm:0.5.12"
     "@goldstack/utils-log": "npm:0.3.18"
     "@goldstack/utils-package": "npm:0.4.22"
@@ -2748,59 +2769,59 @@ __metadata:
     "@goldstack/utils-sh": "npm:0.5.21"
     "@goldstack/utils-template": "npm:0.4.22"
     "@goldstack/utils-terraform": "npm:0.4.42"
-    "@types/aws-lambda": "npm:^8.10.146"
-    esbuild: "npm:^0.17.18"
-    lambda-compression: "npm:0.2.14"
+    "@types/aws-lambda": "npm:^8.10.147"
+    esbuild: "npm:^0.24.2"
+    lambda-compression: "npm:0.2.15"
     react: "npm:18.2.0"
     react-dom: "npm:18.2.0"
     source-map-support: "npm:^0.5.21"
-    static-file-mapper-build: "npm:0.3.25"
-  checksum: 10/1636ea8dbe435c9606d1a09fe95c696f7c7937d48281814804b8fe51235ddd17f33a45ee0e83f7a3495eca3910d991eda4b5dd9b6a510c391308b1d9a5a0c46d
+    static-file-mapper-build: "npm:0.3.26"
+  checksum: 10/57579058376439186ecab82a97b2e28fc2690b894fc369f22fe4370e2b91b55907525955337bd9242cda37d56b00dfff66c6aae50a675ec03d70457f143fef87
   languageName: node
   linkType: hard
 
-"@goldstack/template-ssr-server@npm:0.3.57":
-  version: 0.3.57
-  resolution: "@goldstack/template-ssr-server@npm:0.3.57"
+"@goldstack/template-ssr-server@npm:0.3.58":
+  version: 0.3.58
+  resolution: "@goldstack/template-ssr-server@npm:0.3.58"
   dependencies:
     "@goldstack/infra": "npm:0.4.22"
     "@goldstack/infra-aws": "npm:0.4.32"
-    "@goldstack/template-ssr-server-compile-bundle": "npm:0.3.54"
-    "@goldstack/utils-aws-lambda": "npm:0.3.41"
+    "@goldstack/template-ssr-server-compile-bundle": "npm:0.3.55"
+    "@goldstack/utils-aws-lambda": "npm:0.3.42"
     "@goldstack/utils-esbuild": "npm:0.5.12"
     "@goldstack/utils-package": "npm:0.4.22"
     "@goldstack/utils-package-config-embedded": "npm:0.5.23"
     "@goldstack/utils-sh": "npm:0.5.21"
     "@goldstack/utils-template": "npm:0.4.22"
     "@goldstack/utils-terraform": "npm:0.4.42"
-    "@types/aws-lambda": "npm:^8.10.146"
-    lambda-compression: "npm:0.2.14"
+    "@types/aws-lambda": "npm:^8.10.147"
+    lambda-compression: "npm:0.2.15"
     react: "npm:18.2.0"
     react-dom: "npm:18.2.0"
     source-map-support: "npm:^0.5.21"
-    static-file-mapper: "npm:0.3.16"
-  checksum: 10/8389caf160f1e28ce3fd6da58c31447c7026e3a0aba0804db52171a289352ba1c3545bb97bbf5d761ce26d015504286c9e31adce5971bb22d92f2512581cb715
+    static-file-mapper: "npm:0.3.17"
+  checksum: 10/05c1e9e6466e96ec22d870a8411a9726bfa8ba8f05a43eee631957cfcedd42e99890cd4841b64d50adcd1f0f22de291f77619be19f4c7fdf5dfdeb72ad1d1acb
   languageName: node
   linkType: hard
 
-"@goldstack/template-ssr@npm:0.3.59":
-  version: 0.3.59
-  resolution: "@goldstack/template-ssr@npm:0.3.59"
+"@goldstack/template-ssr@npm:0.3.60":
+  version: 0.3.60
+  resolution: "@goldstack/template-ssr@npm:0.3.60"
   dependencies:
     "@goldstack/infra": "npm:0.4.22"
     "@goldstack/infra-aws": "npm:0.4.32"
-    "@goldstack/template-ssr-server": "npm:0.3.57"
-    "@goldstack/utils-aws-lambda": "npm:0.3.41"
+    "@goldstack/template-ssr-server": "npm:0.3.58"
+    "@goldstack/utils-aws-lambda": "npm:0.3.42"
     "@goldstack/utils-esbuild": "npm:0.5.12"
     "@goldstack/utils-package": "npm:0.4.22"
     "@goldstack/utils-package-config-embedded": "npm:0.5.23"
     "@goldstack/utils-template": "npm:0.4.22"
     "@goldstack/utils-terraform": "npm:0.4.42"
-    "@types/aws-lambda": "npm:^8.10.146"
+    "@types/aws-lambda": "npm:^8.10.147"
     react: "npm:18.2.0"
     react-dom: "npm:18.2.0"
     source-map-support: "npm:^0.5.21"
-  checksum: 10/458b847714551c47bdd2025459e0483273b63937c0e16364e9fe55d425208431e550c63cd34bf39f97add81447c99aa1223b350b1533f4ef680cbf5f03403608
+  checksum: 10/fc44d5c6bf04e8cfda3be04be9d6c85424f39c36c6c6aa685ef0637e5bd19beb3ca44d3ee75a5d684fda1417569d7d9d3cda9efbda39fdd16ad5959ed0bd22f5
   languageName: node
   linkType: hard
 
@@ -2817,22 +2838,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/utils-aws-http-api-local@npm:0.3.49":
-  version: 0.3.49
-  resolution: "@goldstack/utils-aws-http-api-local@npm:0.3.49"
+"@goldstack/utils-aws-http-api-local@npm:0.3.50":
+  version: 0.3.50
+  resolution: "@goldstack/utils-aws-http-api-local@npm:0.3.50"
   dependencies:
-    "@goldstack/utils-aws-lambda": "npm:0.3.41"
-    "@types/aws-lambda": "npm:^8.10.146"
+    "@goldstack/utils-aws-lambda": "npm:0.3.42"
+    "@types/aws-lambda": "npm:^8.10.147"
     cookie: "npm:^0.4.1"
     cors: "npm:^2.8.5"
     express: "npm:4.19.2"
-  checksum: 10/20b078201d0a1fc57bdff20a884b1c98d9e778b73a08ba0adb720fe514b3475e96e1bf75bb1b3c0bc06427af91eb3986a150fe6dfcb2acc0a5750dd5a0e24944
+  checksum: 10/3679a3c34ba1ff1f92b6c32d0c7a80721e85c8bcfec97aa215e78d8db32c7884a03d234e2f03ecfb86d7d82cb2ca633ea2e06db47f0b67bd816325b0c72e211b
   languageName: node
   linkType: hard
 
-"@goldstack/utils-aws-lambda@npm:0.3.41":
-  version: 0.3.41
-  resolution: "@goldstack/utils-aws-lambda@npm:0.3.41"
+"@goldstack/utils-aws-lambda@npm:0.3.42":
+  version: 0.3.42
+  resolution: "@goldstack/utils-aws-lambda@npm:0.3.42"
   dependencies:
     "@aws-sdk/types": "npm:^3.609.0"
     "@goldstack/infra-aws": "npm:0.4.32"
@@ -2841,9 +2862,9 @@ __metadata:
     "@goldstack/utils-sh": "npm:0.5.21"
     "@yarnpkg/esbuild-plugin-pnp": "npm:^3.0.0-rc.15"
     archiver: "npm:^5.3.1"
-    esbuild: "npm:^0.17.18"
-    esbuild-ssr-css-modules-plugin: "npm:0.1.14"
-  checksum: 10/831c85af603691cba727d7517b547c53fe400ee4ffc05c0f7d7725b1fe91f3fd1e5c8d47bb8b307cb38cd4edadd5e38596fbf897aab86dec29bcb0f615cd3133
+    esbuild: "npm:^0.24.2"
+    esbuild-ssr-css-modules-plugin: "npm:0.1.15"
+  checksum: 10/07c48715670bbdb94a3ffe61816106478e00b8e218ccf82daa256c4764f58bfc18461e564d6f73d3ba8d74da57eeacc89defa569c30b609f5bf4c27ff058019a
   languageName: node
   linkType: hard
 
@@ -5218,10 +5239,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/aws-lambda@npm:^8.10.146":
-  version: 8.10.146
-  resolution: "@types/aws-lambda@npm:8.10.146"
-  checksum: 10/2b923ecc77ef9eb47d91627d351700b17d9d9fe22a7c9a9e99335a02cf2c6291d54fcd2c969dce48753335b5d0fd36b2cfcde3b201a2e6ad5500a9517383fbdb
+"@types/aws-lambda@npm:^8.10.147":
+  version: 8.10.147
+  resolution: "@types/aws-lambda@npm:8.10.147"
+  checksum: 10/c80df3be4ed42acf7f1a139afeaa96c69466d63ce3e6578a9411bd956806a10ae182fb45fa6dc9e9b31e5da08762af3758abeb84f989edac4c8011d8bf5f7b8f
   languageName: node
   linkType: hard
 
@@ -7749,68 +7770,73 @@ __metadata:
   languageName: node
   linkType: hard
 
-"esbuild-ignore-with-comments-plugin@npm:0.3.15":
-  version: 0.3.15
-  resolution: "esbuild-ignore-with-comments-plugin@npm:0.3.15"
+"esbuild-ignore-with-comments-plugin@npm:0.3.16":
+  version: 0.3.16
+  resolution: "esbuild-ignore-with-comments-plugin@npm:0.3.16"
   peerDependencies:
-    esbuild: ^0.17.18
-  checksum: 10/9373fe63d85c47a44dac3503c4c24f25e849856d1c313da17879b5e172b9e550253372a7557e314d8b2cc19199b4d6ed21100f745f1a98b496f8002126f37368
+    esbuild: ^0.24.2
+  checksum: 10/97b029eed2a62fa6f4990c3b324983d7b3df98af7c71f35fd7d39067402ee1c2201d3e093a7b447c37f16062f910cdb06a40c1cfc5b2bdf01da292e1a87b0bb7
   languageName: node
   linkType: hard
 
-"esbuild-ssr-css-modules-plugin@npm:0.1.14":
-  version: 0.1.14
-  resolution: "esbuild-ssr-css-modules-plugin@npm:0.1.14"
+"esbuild-ssr-css-modules-plugin@npm:0.1.15":
+  version: 0.1.15
+  resolution: "esbuild-ssr-css-modules-plugin@npm:0.1.15"
   dependencies:
     node-css-require: "npm:0.4.13"
     postcss-modules-sync: "npm:^1.0.0"
     sha256: "npm:^0.2.0"
   peerDependencies:
-    esbuild: ^0.17.18
-  checksum: 10/e473641e27f298d51d0184b5c2c1532a9636293a3f4bd8902c76d235cdb56344a0a795ee2e47795ee7d1aa942c7c3480ff0e466065dd793eb1e65deefb5d5d50
+    esbuild: ^0.24.2
+  checksum: 10/4a4f6ad3410d5588466a8fda4aec42dd44fcbdd79d800683929b25572e866cf50764edf993e30844d9f893ca82bccddd9428b3f3544b1291fce76c69671300a4
   languageName: node
   linkType: hard
 
-"esbuild-tailwind-ssr-plugin@npm:0.1.5":
-  version: 0.1.5
-  resolution: "esbuild-tailwind-ssr-plugin@npm:0.1.5"
+"esbuild-tailwind-ssr-plugin@npm:0.1.6":
+  version: 0.1.6
+  resolution: "esbuild-tailwind-ssr-plugin@npm:0.1.6"
   dependencies:
     autoprefixer: "npm:^10.4.20"
-    esbuild: "npm:^0.17.18"
+    esbuild: "npm:^0.24.2"
     postcss: "npm:^8.4.21"
-    static-file-mapper-build: "npm:0.3.25"
+    static-file-mapper-build: "npm:0.3.26"
     tailwindcss: "npm:^3.4.17"
-  checksum: 10/1c29aee19df021998efa5c1e855d95d7c10ff487b4448d5c69b4f9d519af0d03397bfb6fd09296159927a6073e953887a815ae6969605ffd9695787bd79f4924
+  checksum: 10/bcc3ac66066e090aed0e318d092207847e96b337b013abae069604f91cff5befad5055bdfa347a33e62579167d2e1c7bfce109eab06812bde10870b12ddf56cc
   languageName: node
   linkType: hard
 
-"esbuild@npm:^0.17.18":
-  version: 0.17.18
-  resolution: "esbuild@npm:0.17.18"
+"esbuild@npm:^0.24.2":
+  version: 0.24.2
+  resolution: "esbuild@npm:0.24.2"
   dependencies:
-    "@esbuild/android-arm": "npm:0.17.18"
-    "@esbuild/android-arm64": "npm:0.17.18"
-    "@esbuild/android-x64": "npm:0.17.18"
-    "@esbuild/darwin-arm64": "npm:0.17.18"
-    "@esbuild/darwin-x64": "npm:0.17.18"
-    "@esbuild/freebsd-arm64": "npm:0.17.18"
-    "@esbuild/freebsd-x64": "npm:0.17.18"
-    "@esbuild/linux-arm": "npm:0.17.18"
-    "@esbuild/linux-arm64": "npm:0.17.18"
-    "@esbuild/linux-ia32": "npm:0.17.18"
-    "@esbuild/linux-loong64": "npm:0.17.18"
-    "@esbuild/linux-mips64el": "npm:0.17.18"
-    "@esbuild/linux-ppc64": "npm:0.17.18"
-    "@esbuild/linux-riscv64": "npm:0.17.18"
-    "@esbuild/linux-s390x": "npm:0.17.18"
-    "@esbuild/linux-x64": "npm:0.17.18"
-    "@esbuild/netbsd-x64": "npm:0.17.18"
-    "@esbuild/openbsd-x64": "npm:0.17.18"
-    "@esbuild/sunos-x64": "npm:0.17.18"
-    "@esbuild/win32-arm64": "npm:0.17.18"
-    "@esbuild/win32-ia32": "npm:0.17.18"
-    "@esbuild/win32-x64": "npm:0.17.18"
+    "@esbuild/aix-ppc64": "npm:0.24.2"
+    "@esbuild/android-arm": "npm:0.24.2"
+    "@esbuild/android-arm64": "npm:0.24.2"
+    "@esbuild/android-x64": "npm:0.24.2"
+    "@esbuild/darwin-arm64": "npm:0.24.2"
+    "@esbuild/darwin-x64": "npm:0.24.2"
+    "@esbuild/freebsd-arm64": "npm:0.24.2"
+    "@esbuild/freebsd-x64": "npm:0.24.2"
+    "@esbuild/linux-arm": "npm:0.24.2"
+    "@esbuild/linux-arm64": "npm:0.24.2"
+    "@esbuild/linux-ia32": "npm:0.24.2"
+    "@esbuild/linux-loong64": "npm:0.24.2"
+    "@esbuild/linux-mips64el": "npm:0.24.2"
+    "@esbuild/linux-ppc64": "npm:0.24.2"
+    "@esbuild/linux-riscv64": "npm:0.24.2"
+    "@esbuild/linux-s390x": "npm:0.24.2"
+    "@esbuild/linux-x64": "npm:0.24.2"
+    "@esbuild/netbsd-arm64": "npm:0.24.2"
+    "@esbuild/netbsd-x64": "npm:0.24.2"
+    "@esbuild/openbsd-arm64": "npm:0.24.2"
+    "@esbuild/openbsd-x64": "npm:0.24.2"
+    "@esbuild/sunos-x64": "npm:0.24.2"
+    "@esbuild/win32-arm64": "npm:0.24.2"
+    "@esbuild/win32-ia32": "npm:0.24.2"
+    "@esbuild/win32-x64": "npm:0.24.2"
   dependenciesMeta:
+    "@esbuild/aix-ppc64":
+      optional: true
     "@esbuild/android-arm":
       optional: true
     "@esbuild/android-arm64":
@@ -7843,7 +7869,11 @@ __metadata:
       optional: true
     "@esbuild/linux-x64":
       optional: true
+    "@esbuild/netbsd-arm64":
+      optional: true
     "@esbuild/netbsd-x64":
+      optional: true
+    "@esbuild/openbsd-arm64":
       optional: true
     "@esbuild/openbsd-x64":
       optional: true
@@ -7857,7 +7887,7 @@ __metadata:
       optional: true
   bin:
     esbuild: bin/esbuild
-  checksum: 10/bd0d55aef9319a07324babce0cf854cdbd043030d9dac137a09b08b844caf80667c24c0d88e3bb91c4831846da32c17c66ebb68181e82bce9fdbfef521c633df
+  checksum: 10/95425071c9f24ff88bf61e0710b636ec0eb24ddf8bd1f7e1edef3044e1221104bbfa7bbb31c18018c8c36fa7902c5c0b843f829b981ebc89160cf5eebdaa58f4
   languageName: node
   linkType: hard
 
@@ -10631,12 +10661,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lambda-compression@npm:0.2.14":
-  version: 0.2.14
-  resolution: "lambda-compression@npm:0.2.14"
+"lambda-compression@npm:0.2.15":
+  version: 0.2.15
+  resolution: "lambda-compression@npm:0.2.15"
   dependencies:
-    "@types/aws-lambda": "npm:^8.10.146"
-  checksum: 10/22a3779dec19c49bb287da2f0d7075626457633990f74c1121459cf66a08c4a3648f4df4502dabf5ec11d95900e6996ad07b79c990383a2601fcda0b9e1f303f
+    "@types/aws-lambda": "npm:^8.10.147"
+  checksum: 10/1929f9ed805cdb873f50de84e167f0262c7305b031af56bc4772a78f5a6b215eeb1865693a0d522cd75af3bde4d753e4efbab30c9a0fdd92d81c294ba02d92c0
   languageName: node
   linkType: hard
 
@@ -13067,9 +13097,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "server-side-rendering-1@workspace:packages/server-side-rendering-1"
   dependencies:
-    "@goldstack/template-ssr": "npm:0.3.59"
-    "@goldstack/template-ssr-cli": "npm:0.3.64"
-    "@goldstack/utils-aws-http-api-local": "npm:0.3.49"
+    "@goldstack/template-ssr": "npm:0.3.60"
+    "@goldstack/template-ssr-cli": "npm:0.3.65"
+    "@goldstack/utils-aws-http-api-local": "npm:0.3.50"
     "@goldstack/utils-esbuild": "npm:0.5.12"
     "@jest-mock/express": "npm:^1.4.5"
     "@jest/transform": "npm:^29.3.1"
@@ -13079,7 +13109,7 @@ __metadata:
     "@testing-library/dom": "npm:^10.4.0"
     "@testing-library/jest-dom": "npm:^6.6.3"
     "@testing-library/react": "npm:^16.1.0"
-    "@types/aws-lambda": "npm:^8.10.146"
+    "@types/aws-lambda": "npm:^8.10.147"
     "@types/aws-serverless-express": "npm:^3.3.10"
     "@types/jest": "npm:^29.5.14"
     "@types/node": "npm:^22.10.2"
@@ -13091,10 +13121,10 @@ __metadata:
     chokidar: "npm:^4.0.3"
     concurrently: "npm:^7.3.0"
     date-fns: "npm:^2.28.0"
-    esbuild: "npm:^0.17.18"
-    esbuild-ignore-with-comments-plugin: "npm:0.3.15"
-    esbuild-ssr-css-modules-plugin: "npm:0.1.14"
-    esbuild-tailwind-ssr-plugin: "npm:0.1.5"
+    esbuild: "npm:^0.24.2"
+    esbuild-ignore-with-comments-plugin: "npm:0.3.16"
+    esbuild-ssr-css-modules-plugin: "npm:0.1.15"
+    esbuild-tailwind-ssr-plugin: "npm:0.1.6"
     find-free-port: "npm:^2.0.0"
     jest: "npm:^29.7.0"
     jest-environment-jsdom: "npm:^29.7.0"
@@ -13105,7 +13135,7 @@ __metadata:
     react-dom: "npm:18.2.0"
     rimraf: "npm:^3.0.2"
     source-map-support: "npm:^0.5.21"
-    static-file-mapper-build: "npm:0.3.25"
+    static-file-mapper-build: "npm:0.3.26"
     supertest: "npm:^4.0.2"
     tailwindcss: "npm:^3.4.17"
     tree-kill: "npm:^1.2.2"
@@ -13364,20 +13394,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"static-file-mapper-build@npm:0.3.25":
-  version: 0.3.25
-  resolution: "static-file-mapper-build@npm:0.3.25"
+"static-file-mapper-build@npm:0.3.26":
+  version: 0.3.26
+  resolution: "static-file-mapper-build@npm:0.3.26"
   dependencies:
     "@goldstack/utils-sh": "npm:0.5.21"
-    static-file-mapper: "npm:0.3.16"
-  checksum: 10/cdfb5b3aeb5109b3717ab079d7179b7f67ec2c102e761e0af2eeed1f0bef2dac3ce78dd2a501e2c8b12b8f4bde2bba673411139c4b7dd6a0260c9cc947460246
+    static-file-mapper: "npm:0.3.17"
+  checksum: 10/c1d80222c20fa984c87d8ec732506bba9de723ad060efc88f66e94cf8147ca19dab92ef985d18637499234d07d81b86902d96d2c6cefc061ffa90ef61bce94f2
   languageName: node
   linkType: hard
 
-"static-file-mapper@npm:0.3.16":
-  version: 0.3.16
-  resolution: "static-file-mapper@npm:0.3.16"
-  checksum: 10/efb08474d545594a25832ccd0e4555683d8ddeb1ffb9e86a57592155dbcce6435428b65f20c3e6ba98701b16beed6f392608beb526c48fd55869b6caaadd0792
+"static-file-mapper@npm:0.3.17":
+  version: 0.3.17
+  resolution: "static-file-mapper@npm:0.3.17"
+  checksum: 10/089fe032f7a9220fcf8aa1838c4b94dcc0d305a7909ccbc86c7faf1bfef4357136f76953037c0e397778e138a1c71dec353d7a336720326ffc1dde62caf6a453
   languageName: node
   linkType: hard
 
