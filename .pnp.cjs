@@ -32,7 +32,7 @@ const RAW_RUNTIME_STATE =
       [null, {\
         "packageLocation": "./",\
         "packageDependencies": [\
-          ["@goldstack/nodemonx", "npm:0.4.22"],\
+          ["@goldstack/nodemonx", "npm:0.4.23"],\
           ["@goldstack/utils-typescript-references", "npm:0.3.13"],\
           ["@types/jest", "npm:29.5.14"],\
           ["@types/node", "npm:22.10.2"],\
@@ -3332,13 +3332,13 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/nodemonx", [\
-      ["npm:0.4.22", {\
-        "packageLocation": "./.yarn/cache/@goldstack-nodemonx-npm-0.4.22-a78dd7d01b-d93abf0f4b.zip/node_modules/@goldstack/nodemonx/",\
+      ["npm:0.4.23", {\
+        "packageLocation": "./.yarn/cache/@goldstack-nodemonx-npm-0.4.23-acb34cf1b3-77df4afd0e.zip/node_modules/@goldstack/nodemonx/",\
         "packageDependencies": [\
-          ["@goldstack/nodemonx", "npm:0.4.22"],\
+          ["@goldstack/nodemonx", "npm:0.4.23"],\
           ["@goldstack/utils-log", "npm:0.3.18"],\
           ["@goldstack/utils-sh", "npm:0.5.21"],\
-          ["minimatch", "npm:5.1.6"],\
+          ["minimatch", "npm:10.0.1"],\
           ["node-watch", "npm:0.6.4"]\
         ],\
         "linkType": "HARD"\
@@ -3367,10 +3367,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/template-ssr-cli", [\
-      ["npm:0.3.65", {\
-        "packageLocation": "./.yarn/cache/@goldstack-template-ssr-cli-npm-0.3.65-b79dab30d4-3b1ac73ad4.zip/node_modules/@goldstack/template-ssr-cli/",\
+      ["npm:0.3.66", {\
+        "packageLocation": "./.yarn/cache/@goldstack-template-ssr-cli-npm-0.3.66-ef57f48f80-d4578b6cf4.zip/node_modules/@goldstack/template-ssr-cli/",\
         "packageDependencies": [\
-          ["@goldstack/template-ssr-cli", "npm:0.3.65"],\
+          ["@goldstack/template-ssr-cli", "npm:0.3.66"],\
           ["@goldstack/infra", "npm:0.4.22"],\
           ["@goldstack/infra-aws", "npm:0.4.32"],\
           ["@goldstack/template-ssr", "npm:0.3.60"],\
@@ -3387,7 +3387,7 @@ const RAW_RUNTIME_STATE =
           ["@goldstack/utils-template", "npm:0.4.22"],\
           ["@goldstack/utils-terraform", "npm:0.4.42"],\
           ["@goldstack/utils-terraform-aws", "npm:0.4.45"],\
-          ["minimatch", "npm:5.1.6"],\
+          ["outmatch", "npm:1.0.0"],\
           ["source-map-support", "npm:0.5.21"],\
           ["yargs", "npm:17.5.1"]\
         ],\
@@ -12758,6 +12758,14 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["minimatch", [\
+      ["npm:10.0.1", {\
+        "packageLocation": "./.yarn/cache/minimatch-npm-10.0.1-eabcc0d3a0-082e7ccbc0.zip/node_modules/minimatch/",\
+        "packageDependencies": [\
+          ["minimatch", "npm:10.0.1"],\
+          ["brace-expansion", "npm:2.0.1"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
       ["npm:3.0.8", {\
         "packageLocation": "./.yarn/cache/minimatch-npm-3.0.8-f3deb724b2-6df5373cb1.zip/node_modules/minimatch/",\
         "packageDependencies": [\
@@ -13386,6 +13394,15 @@ const RAW_RUNTIME_STATE =
           ["prelude-ls", "npm:1.2.1"],\
           ["type-check", "npm:0.4.0"],\
           ["word-wrap", "npm:1.2.4"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["outmatch", [\
+      ["npm:1.0.0", {\
+        "packageLocation": "./.yarn/cache/outmatch-npm-1.0.0-dec4a0f223-3ea477731d.zip/node_modules/outmatch/",\
+        "packageDependencies": [\
+          ["outmatch", "npm:1.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -14262,7 +14279,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["project-server-side-rendering", "workspace:."],\
-          ["@goldstack/nodemonx", "npm:0.4.22"],\
+          ["@goldstack/nodemonx", "npm:0.4.23"],\
           ["@goldstack/utils-typescript-references", "npm:0.3.13"],\
           ["@types/jest", "npm:29.5.14"],\
           ["@types/node", "npm:22.10.2"],\
@@ -15020,7 +15037,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["server-side-rendering-1", "workspace:packages/server-side-rendering-1"],\
           ["@goldstack/template-ssr", "npm:0.3.60"],\
-          ["@goldstack/template-ssr-cli", "npm:0.3.65"],\
+          ["@goldstack/template-ssr-cli", "npm:0.3.66"],\
           ["@goldstack/utils-aws-http-api-local", "npm:0.3.50"],\
           ["@goldstack/utils-esbuild", "npm:0.5.12"],\
           ["@jest-mock/express", "npm:1.4.5"],\

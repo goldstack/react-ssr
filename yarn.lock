@@ -2714,23 +2714,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/nodemonx@npm:0.4.22":
-  version: 0.4.22
-  resolution: "@goldstack/nodemonx@npm:0.4.22"
+"@goldstack/nodemonx@npm:0.4.23":
+  version: 0.4.23
+  resolution: "@goldstack/nodemonx@npm:0.4.23"
   dependencies:
     "@goldstack/utils-log": "npm:0.3.18"
     "@goldstack/utils-sh": "npm:0.5.21"
-    minimatch: "npm:^5.1.0"
+    minimatch: "npm:^10.0.1"
     node-watch: "npm:^0.6.4"
   bin:
     nodemonx: ./bin/utils-nodemonx
-  checksum: 10/d93abf0f4b363826190646059b060c5b43350f62843117b534827e0fa39dd89179edf7984e44b292085250b7d42d14015b124fcfb27dba9da5e64aeedb9bfdc3
+  checksum: 10/77df4afd0ea0d5c843c3bd7e2a920adeb5284a29acae88c666ff4717f0e2fae7acac591bd10c7740de29678450807d690867611a84bb0f7be95606e9e0d993b7
   languageName: node
   linkType: hard
 
-"@goldstack/template-ssr-cli@npm:0.3.65":
-  version: 0.3.65
-  resolution: "@goldstack/template-ssr-cli@npm:0.3.65"
+"@goldstack/template-ssr-cli@npm:0.3.66":
+  version: 0.3.66
+  resolution: "@goldstack/template-ssr-cli@npm:0.3.66"
   dependencies:
     "@goldstack/infra": "npm:0.4.22"
     "@goldstack/infra-aws": "npm:0.4.32"
@@ -2748,10 +2748,10 @@ __metadata:
     "@goldstack/utils-template": "npm:0.4.22"
     "@goldstack/utils-terraform": "npm:0.4.42"
     "@goldstack/utils-terraform-aws": "npm:0.4.45"
-    minimatch: "npm:^5.1.0"
+    outmatch: "npm:^1.0.0"
     source-map-support: "npm:^0.5.21"
     yargs: "npm:^17.5.1"
-  checksum: 10/3b1ac73ad4186b3e69723454cb01aa3de6be6f9157a1a6f757cfc17c117f71dd790fef5e4b294952a2dc1ba95f14deb3a6b1b947ef907fd05d1338d583bae3b1
+  checksum: 10/d4578b6cf40d0748b4ce68cb7f03bfe686a627e6e526f605fbeb6a02b1e5579d9c91d9879a221b8a2dc8a01ff4fdcd5526d48da02702778b6d14207ada5ff26f
   languageName: node
   linkType: hard
 
@@ -11084,6 +11084,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"minimatch@npm:^10.0.1":
+  version: 10.0.1
+  resolution: "minimatch@npm:10.0.1"
+  dependencies:
+    brace-expansion: "npm:^2.0.1"
+  checksum: 10/082e7ccbc090d5f8c4e4e029255d5a1d1e3af37bda837da2b8b0085b1503a1210c91ac90d9ebfe741d8a5f286ece820a1abb4f61dc1f82ce602a055d461d93f3
+  languageName: node
+  linkType: hard
+
 "minimatch@npm:^3.0.4, minimatch@npm:^3.0.5, minimatch@npm:^3.1.2":
   version: 3.1.2
   resolution: "minimatch@npm:3.1.2"
@@ -11093,7 +11102,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"minimatch@npm:^5.0.1, minimatch@npm:^5.1.0":
+"minimatch@npm:^5.0.1":
   version: 5.1.6
   resolution: "minimatch@npm:5.1.6"
   dependencies:
@@ -11662,6 +11671,13 @@ __metadata:
     type-check: "npm:^0.4.0"
     word-wrap: "npm:^1.2.3"
   checksum: 10/19cfb625ba3cafd99c204744595a8b5111491632d379be341a8286c53a0101adac6f7ca9be4319ccecaaf5d43a55e65dde8b434620726032472833d958d43698
+  languageName: node
+  linkType: hard
+
+"outmatch@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "outmatch@npm:1.0.0"
+  checksum: 10/3ea477731decf6fc5a9b58b1ff0ea70aa36cdf4eadea038746902224cef28a9073d79ad8785142fdad5f2dfd856800cedc44e847298dc651294540727fa73e2b
   languageName: node
   linkType: hard
 
@@ -12381,7 +12397,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "project-server-side-rendering@workspace:."
   dependencies:
-    "@goldstack/nodemonx": "npm:0.4.22"
+    "@goldstack/nodemonx": "npm:0.4.23"
     "@goldstack/utils-typescript-references": "npm:0.3.13"
     "@types/jest": "npm:^29.5.14"
     "@types/node": "npm:^22.10.2"
@@ -13098,7 +13114,7 @@ __metadata:
   resolution: "server-side-rendering-1@workspace:packages/server-side-rendering-1"
   dependencies:
     "@goldstack/template-ssr": "npm:0.3.60"
-    "@goldstack/template-ssr-cli": "npm:0.3.65"
+    "@goldstack/template-ssr-cli": "npm:0.3.66"
     "@goldstack/utils-aws-http-api-local": "npm:0.3.50"
     "@goldstack/utils-esbuild": "npm:0.5.12"
     "@jest-mock/express": "npm:^1.4.5"
