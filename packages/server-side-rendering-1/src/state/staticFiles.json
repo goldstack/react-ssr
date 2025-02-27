@@ -7,38 +7,38 @@
   },
   {
     "names": [
-      "goldstack-ci-test-server-side-rendering-1740289604938-posts.map"
+      "goldstack-ci-test-server-side-rendering-1740695115246--__index.map"
     ],
-    "generatedName": "posts.26d60631273de4355bbef899d1f84104.map.json"
+    "generatedName": "-__index.98cbfdac15e9d8432e4eb84b091edb29.map.json"
   },
   {
     "names": [
-      "goldstack-ci-test-server-side-rendering-1740289604938-posts-bundle.js"
+      "goldstack-ci-test-server-side-rendering-1740695115246--__index-bundle.js"
     ],
-    "generatedName": "posts-bundle.8ee8870bceb2311b582cc445a1d3d3d5.js"
+    "generatedName": "-__index-bundle.8698c4a2f6b95deb77bdd13b962aff47.js"
   },
   {
     "names": [
-      "goldstack-ci-test-server-side-rendering-1740289604938-robots_txt.map"
+      "goldstack-ci-test-server-side-rendering-1740695115246-posts.map"
     ],
-    "generatedName": "robots_txt.585d14c44fe34072c4bd97b3ec02d1c8.map.json"
+    "generatedName": "posts.6a37195f265d46a22ec64722208a06a5.map.json"
   },
   {
     "names": [
-      "goldstack-ci-test-server-side-rendering-1740289604938-robots_txt-bundle.js"
+      "goldstack-ci-test-server-side-rendering-1740695115246-posts-bundle.js"
     ],
-    "generatedName": "robots_txt-bundle.634295230c5a74e8d451f6d67e4114ce.js"
+    "generatedName": "posts-bundle.e850165d9dd40d67d4698f8206c12b2d.js"
   },
   {
     "names": [
-      "goldstack-ci-test-server-side-rendering-1740289604938--__index.map"
+      "goldstack-ci-test-server-side-rendering-1740695115246-robots_txt.map"
     ],
-    "generatedName": "-__index.53a740097e3779684e6203e861a7235e.map.json"
+    "generatedName": "robots_txt.269ac4b84f1df7f60ced8d29459ac390.map.json"
   },
   {
     "names": [
-      "goldstack-ci-test-server-side-rendering-1740289604938--__index-bundle.js"
+      "goldstack-ci-test-server-side-rendering-1740695115246-robots_txt-bundle.js"
     ],
-    "generatedName": "-__index-bundle.592cc4372cb3c72e5c4085a9debac9ea.js"
+    "generatedName": "robots_txt-bundle.2cd4475ee7ba3571525e929963ab7840.js"
   }
 ]
