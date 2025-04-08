@@ -3345,37 +3345,37 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/template-ssr", [\
-      ["npm:0.3.63", {\
-        "packageLocation": "./.yarn/cache/@goldstack-template-ssr-npm-0.3.63-b3c5df25f1-f336728b49.zip/node_modules/@goldstack/template-ssr/",\
+      ["npm:0.3.64", {\
+        "packageLocation": "./.yarn/cache/@goldstack-template-ssr-npm-0.3.64-ffd6970e04-1e269c0c85.zip/node_modules/@goldstack/template-ssr/",\
         "packageDependencies": [\
-          ["@goldstack/template-ssr", "npm:0.3.63"],\
+          ["@goldstack/template-ssr", "npm:0.3.64"],\
           ["@goldstack/infra", "npm:0.4.22"],\
           ["@goldstack/infra-aws", "npm:0.4.34"],\
-          ["@goldstack/template-ssr-server", "npm:0.3.61"],\
+          ["@goldstack/template-ssr-server", "npm:0.3.62"],\
           ["@goldstack/utils-aws-lambda", "npm:0.3.44"],\
           ["@goldstack/utils-esbuild", "npm:0.5.12"],\
           ["@goldstack/utils-package", "npm:0.4.22"],\
           ["@goldstack/utils-package-config-embedded", "npm:0.5.23"],\
           ["@goldstack/utils-template", "npm:0.4.22"],\
-          ["@goldstack/utils-terraform", "npm:0.4.45"],\
+          ["@goldstack/utils-terraform", "npm:0.4.46"],\
           ["@types/aws-lambda", "npm:8.10.147"],\
           ["react", "npm:18.2.0"],\
-          ["react-dom", "virtual:8f72333cfa7630e257f08f60cf40098438fdeef3efcfd3d6c9f943cb6bc5c83e97d3b28aaad072c51b71e6afb9a4e5f42a64d9215877f8e99e45ca7644983311#npm:18.2.0"],\
+          ["react-dom", "virtual:d88978cfa430d19425b99ba0099b96481ac0af50aff9397b8e388f0d4a1b2b3bef33dad3c15a3741253453500bec603f3c3d1ba09654c3af3dfbd3eac9bc6b12#npm:18.2.0"],\
           ["source-map-support", "npm:0.5.21"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@goldstack/template-ssr-cli", [\
-      ["npm:0.3.69", {\
-        "packageLocation": "./.yarn/cache/@goldstack-template-ssr-cli-npm-0.3.69-9f0d380927-8af929ff49.zip/node_modules/@goldstack/template-ssr-cli/",\
+      ["npm:0.3.70", {\
+        "packageLocation": "./.yarn/cache/@goldstack-template-ssr-cli-npm-0.3.70-d02e0167c6-96141c8bce.zip/node_modules/@goldstack/template-ssr-cli/",\
         "packageDependencies": [\
-          ["@goldstack/template-ssr-cli", "npm:0.3.69"],\
+          ["@goldstack/template-ssr-cli", "npm:0.3.70"],\
           ["@goldstack/infra", "npm:0.4.22"],\
           ["@goldstack/infra-aws", "npm:0.4.34"],\
-          ["@goldstack/template-ssr", "npm:0.3.63"],\
-          ["@goldstack/template-ssr-server", "npm:0.3.61"],\
-          ["@goldstack/template-ssr-server-compile-bundle", "npm:0.3.58"],\
+          ["@goldstack/template-ssr", "npm:0.3.64"],\
+          ["@goldstack/template-ssr-server", "npm:0.3.62"],\
+          ["@goldstack/template-ssr-server-compile-bundle", "npm:0.3.59"],\
           ["@goldstack/utils-aws-lambda", "npm:0.3.44"],\
           ["@goldstack/utils-cli", "npm:0.3.16"],\
           ["@goldstack/utils-docker", "npm:0.4.23"],\
@@ -3385,8 +3385,8 @@ const RAW_RUNTIME_STATE =
           ["@goldstack/utils-s3-deployment", "npm:0.5.38"],\
           ["@goldstack/utils-sh", "npm:0.5.21"],\
           ["@goldstack/utils-template", "npm:0.4.22"],\
-          ["@goldstack/utils-terraform", "npm:0.4.45"],\
-          ["@goldstack/utils-terraform-aws", "npm:0.4.48"],\
+          ["@goldstack/utils-terraform", "npm:0.4.46"],\
+          ["@goldstack/utils-terraform-aws", "npm:0.4.49"],\
           ["outmatch", "npm:1.0.0"],\
           ["source-map-support", "npm:0.5.21"],\
           ["yargs", "npm:17.5.1"]\
@@ -3395,24 +3395,24 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/template-ssr-server", [\
-      ["npm:0.3.61", {\
-        "packageLocation": "./.yarn/cache/@goldstack-template-ssr-server-npm-0.3.61-0b0489435f-b5c70c5238.zip/node_modules/@goldstack/template-ssr-server/",\
+      ["npm:0.3.62", {\
+        "packageLocation": "./.yarn/cache/@goldstack-template-ssr-server-npm-0.3.62-30e66d54e2-6a722f7721.zip/node_modules/@goldstack/template-ssr-server/",\
         "packageDependencies": [\
-          ["@goldstack/template-ssr-server", "npm:0.3.61"],\
+          ["@goldstack/template-ssr-server", "npm:0.3.62"],\
           ["@goldstack/infra", "npm:0.4.22"],\
           ["@goldstack/infra-aws", "npm:0.4.34"],\
-          ["@goldstack/template-ssr-server-compile-bundle", "npm:0.3.58"],\
+          ["@goldstack/template-ssr-server-compile-bundle", "npm:0.3.59"],\
           ["@goldstack/utils-aws-lambda", "npm:0.3.44"],\
           ["@goldstack/utils-esbuild", "npm:0.5.12"],\
           ["@goldstack/utils-package", "npm:0.4.22"],\
           ["@goldstack/utils-package-config-embedded", "npm:0.5.23"],\
           ["@goldstack/utils-sh", "npm:0.5.21"],\
           ["@goldstack/utils-template", "npm:0.4.22"],\
-          ["@goldstack/utils-terraform", "npm:0.4.45"],\
+          ["@goldstack/utils-terraform", "npm:0.4.46"],\
           ["@types/aws-lambda", "npm:8.10.147"],\
           ["lambda-compression", "npm:0.2.15"],\
           ["react", "npm:18.2.0"],\
-          ["react-dom", "virtual:8f72333cfa7630e257f08f60cf40098438fdeef3efcfd3d6c9f943cb6bc5c83e97d3b28aaad072c51b71e6afb9a4e5f42a64d9215877f8e99e45ca7644983311#npm:18.2.0"],\
+          ["react-dom", "virtual:d88978cfa430d19425b99ba0099b96481ac0af50aff9397b8e388f0d4a1b2b3bef33dad3c15a3741253453500bec603f3c3d1ba09654c3af3dfbd3eac9bc6b12#npm:18.2.0"],\
           ["source-map-support", "npm:0.5.21"],\
           ["static-file-mapper", "npm:0.3.17"]\
         ],\
@@ -3420,10 +3420,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/template-ssr-server-compile-bundle", [\
-      ["npm:0.3.58", {\
-        "packageLocation": "./.yarn/cache/@goldstack-template-ssr-server-compile-bundle-npm-0.3.58-8f72333cfa-5f2c9365f4.zip/node_modules/@goldstack/template-ssr-server-compile-bundle/",\
+      ["npm:0.3.59", {\
+        "packageLocation": "./.yarn/cache/@goldstack-template-ssr-server-compile-bundle-npm-0.3.59-d88978cfa4-2795c73bea.zip/node_modules/@goldstack/template-ssr-server-compile-bundle/",\
         "packageDependencies": [\
-          ["@goldstack/template-ssr-server-compile-bundle", "npm:0.3.58"],\
+          ["@goldstack/template-ssr-server-compile-bundle", "npm:0.3.59"],\
           ["@goldstack/infra", "npm:0.4.22"],\
           ["@goldstack/infra-aws", "npm:0.4.34"],\
           ["@goldstack/utils-aws-lambda", "npm:0.3.44"],\
@@ -3433,12 +3433,12 @@ const RAW_RUNTIME_STATE =
           ["@goldstack/utils-package-config-embedded", "npm:0.5.23"],\
           ["@goldstack/utils-sh", "npm:0.5.21"],\
           ["@goldstack/utils-template", "npm:0.4.22"],\
-          ["@goldstack/utils-terraform", "npm:0.4.45"],\
+          ["@goldstack/utils-terraform", "npm:0.4.46"],\
           ["@types/aws-lambda", "npm:8.10.147"],\
           ["esbuild", "npm:0.24.2"],\
           ["lambda-compression", "npm:0.2.15"],\
           ["react", "npm:18.2.0"],\
-          ["react-dom", "virtual:8f72333cfa7630e257f08f60cf40098438fdeef3efcfd3d6c9f943cb6bc5c83e97d3b28aaad072c51b71e6afb9a4e5f42a64d9215877f8e99e45ca7644983311#npm:18.2.0"],\
+          ["react-dom", "virtual:d88978cfa430d19425b99ba0099b96481ac0af50aff9397b8e388f0d4a1b2b3bef33dad3c15a3741253453500bec603f3c3d1ba09654c3af3dfbd3eac9bc6b12#npm:18.2.0"],\
           ["source-map-support", "npm:0.5.21"],\
           ["static-file-mapper-build", "npm:0.3.26"]\
         ],\
@@ -3625,10 +3625,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/utils-terraform", [\
-      ["npm:0.4.45", {\
-        "packageLocation": "./.yarn/cache/@goldstack-utils-terraform-npm-0.4.45-ff32ce215c-a0cc36f82c.zip/node_modules/@goldstack/utils-terraform/",\
+      ["npm:0.4.46", {\
+        "packageLocation": "./.yarn/cache/@goldstack-utils-terraform-npm-0.4.46-63fa4dc445-05ef54e7f8.zip/node_modules/@goldstack/utils-terraform/",\
         "packageDependencies": [\
-          ["@goldstack/utils-terraform", "npm:0.4.45"],\
+          ["@goldstack/utils-terraform", "npm:0.4.46"],\
           ["@goldstack/infra", "npm:0.4.22"],\
           ["@goldstack/infra-aws", "npm:0.4.34"],\
           ["@goldstack/utils-config", "npm:0.4.22"],\
@@ -3643,10 +3643,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/utils-terraform-aws", [\
-      ["npm:0.4.48", {\
-        "packageLocation": "./.yarn/cache/@goldstack-utils-terraform-aws-npm-0.4.48-210fd9e291-e09659b36a.zip/node_modules/@goldstack/utils-terraform-aws/",\
+      ["npm:0.4.49", {\
+        "packageLocation": "./.yarn/cache/@goldstack-utils-terraform-aws-npm-0.4.49-9c830ee33f-50df1cebc3.zip/node_modules/@goldstack/utils-terraform-aws/",\
         "packageDependencies": [\
-          ["@goldstack/utils-terraform-aws", "npm:0.4.48"],\
+          ["@goldstack/utils-terraform-aws", "npm:0.4.49"],\
           ["@aws-sdk/client-dynamodb", "npm:3.645.0"],\
           ["@aws-sdk/client-s3", "npm:3.620.0"],\
           ["@aws-sdk/types", "npm:3.609.0"],\
@@ -3656,7 +3656,7 @@ const RAW_RUNTIME_STATE =
           ["@goldstack/utils-log", "npm:0.3.18"],\
           ["@goldstack/utils-package", "npm:0.4.22"],\
           ["@goldstack/utils-sh", "npm:0.5.21"],\
-          ["@goldstack/utils-terraform", "npm:0.4.45"]\
+          ["@goldstack/utils-terraform", "npm:0.4.46"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -14523,10 +14523,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["virtual:8f72333cfa7630e257f08f60cf40098438fdeef3efcfd3d6c9f943cb6bc5c83e97d3b28aaad072c51b71e6afb9a4e5f42a64d9215877f8e99e45ca7644983311#npm:18.2.0", {\
-        "packageLocation": "./.yarn/__virtual__/react-dom-virtual-1d0d580cfc/0/cache/react-dom-npm-18.2.0-dd675bca1c-ca5e7762ec.zip/node_modules/react-dom/",\
+      ["virtual:d88978cfa430d19425b99ba0099b96481ac0af50aff9397b8e388f0d4a1b2b3bef33dad3c15a3741253453500bec603f3c3d1ba09654c3af3dfbd3eac9bc6b12#npm:18.2.0", {\
+        "packageLocation": "./.yarn/__virtual__/react-dom-virtual-1d211b0d7b/0/cache/react-dom-npm-18.2.0-dd675bca1c-ca5e7762ec.zip/node_modules/react-dom/",\
         "packageDependencies": [\
-          ["react-dom", "virtual:8f72333cfa7630e257f08f60cf40098438fdeef3efcfd3d6c9f943cb6bc5c83e97d3b28aaad072c51b71e6afb9a4e5f42a64d9215877f8e99e45ca7644983311#npm:18.2.0"],\
+          ["react-dom", "virtual:d88978cfa430d19425b99ba0099b96481ac0af50aff9397b8e388f0d4a1b2b3bef33dad3c15a3741253453500bec603f3c3d1ba09654c3af3dfbd3eac9bc6b12#npm:18.2.0"],\
           ["@types/react", null],\
           ["loose-envify", "npm:1.4.0"],\
           ["react", "npm:18.2.0"],\
@@ -15036,8 +15036,8 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./packages/server-side-rendering-1/",\
         "packageDependencies": [\
           ["server-side-rendering-1", "workspace:packages/server-side-rendering-1"],\
-          ["@goldstack/template-ssr", "npm:0.3.63"],\
-          ["@goldstack/template-ssr-cli", "npm:0.3.69"],\
+          ["@goldstack/template-ssr", "npm:0.3.64"],\
+          ["@goldstack/template-ssr-cli", "npm:0.3.70"],\
           ["@goldstack/utils-aws-http-api-local", "npm:0.3.52"],\
           ["@goldstack/utils-esbuild", "npm:0.5.12"],\
           ["@jest-mock/express", "npm:1.4.5"],\
