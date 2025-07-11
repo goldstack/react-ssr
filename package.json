@@ -1,5 +1,33 @@
 {
+  "name": "project-server-side-rendering",
+  "private": true,
+  "license": "",
   "author": "",
+  "sideEffects": false,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "yarn clean && yarn compile",
+    "clean": "yarn workspaces foreach -W run clean",
+    "clean-terraform": "yarn workspaces foreach -W run clean-terraform",
+    "compile": "yarn fix-project-references-all && tsc --build",
+    "coverage": "yarn workspaces foreach --topological-devs --worktree run coverage",
+    "deploy": "yarn workspaces foreach -W run deploy \"$@\"",
+    "fix-project-references": "utils-typescript-references --skipRoot",
+    "fix-project-references-all": "utils-typescript-references",
+    "format": "prettier --loglevel log --config .prettierrc.json --write .",
+    "format-check": "prettier --loglevel log --config .prettierrc.json --check .",
+    "infra": "yarn workspaces foreach -W run infra \"$@\"",
+    "lint": "eslint . --ext .js,.ts,.tsx,.json,.yml,.yaml",
+    "lint-fix": "eslint . --ext .js,.ts,.tsx,.json,.yml,.yaml --fix",
+    "package:doctor": "yarn dlx @yarnpkg/doctor .",
+    "test": "yarn workspaces foreach -Wv run test",
+    "test-watch": "nodemonx --watch . --exec 'yarn test'"
+  },
+  "resolutions": {
+    "generic-names": "4.0.0"
+  },
   "devDependencies": {
     "@goldstack/nodemonx": "0.4.24",
     "@goldstack/utils-typescript-references": "0.3.14",
@@ -19,33 +47,5 @@
     "react": "18.2.0",
     "typescript": "^5.8.3"
   },
-  "license": "",
-  "name": "project-server-side-rendering",
-  "packageManager": "yarn@4.9.2",
-  "private": true,
-  "resolutions": {
-    "generic-names": "4.0.0"
-  },
-  "scripts": {
-    "build": "yarn clean && yarn compile",
-    "clean": "yarn workspaces foreach -W run clean",
-    "clean-terraform": "yarn workspaces foreach -W run clean-terraform",
-    "compile": "yarn fix-project-references-all && tsc --build",
-    "coverage": "yarn workspaces foreach --topological-devs --worktree run coverage",
-    "deploy": "yarn workspaces foreach -W run deploy \"$@\"",
-    "fix-project-references": "utils-typescript-references --skipRoot",
-    "fix-project-references-all": "utils-typescript-references",
-    "format": "prettier --loglevel log --config .prettierrc.json --write .",
-    "format-check": "prettier --loglevel log --config .prettierrc.json --check .",
-    "infra": "yarn workspaces foreach -W run infra \"$@\"",
-    "lint": "eslint . --ext .js,.ts,.tsx,.json,.yml,.yaml",
-    "lint-fix": "eslint . --ext .js,.ts,.tsx,.json,.yml,.yaml --fix",
-    "package:doctor": "yarn dlx @yarnpkg/doctor .",
-    "test": "yarn workspaces foreach -Wv run test",
-    "test-watch": "nodemonx --watch . --exec 'yarn test'"
-  },
-  "sideEffects": false,
-  "workspaces": [
-    "packages/*"
-  ]
+  "packageManager": "yarn@4.9.2"
 }
