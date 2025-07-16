@@ -2836,15 +2836,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/template-ssr-cli@npm:0.3.71":
-  version: 0.3.71
-  resolution: "@goldstack/template-ssr-cli@npm:0.3.71"
+"@goldstack/template-ssr-cli@npm:0.3.72":
+  version: 0.3.72
+  resolution: "@goldstack/template-ssr-cli@npm:0.3.72"
   dependencies:
     "@goldstack/infra": "npm:0.4.23"
     "@goldstack/infra-aws": "npm:0.4.35"
-    "@goldstack/template-ssr": "npm:0.3.65"
-    "@goldstack/template-ssr-server": "npm:0.3.63"
-    "@goldstack/template-ssr-server-compile-bundle": "npm:0.3.60"
+    "@goldstack/template-ssr": "npm:0.3.66"
+    "@goldstack/template-ssr-server": "npm:0.3.64"
+    "@goldstack/template-ssr-server-compile-bundle": "npm:0.3.61"
     "@goldstack/utils-aws-lambda": "npm:0.3.45"
     "@goldstack/utils-cli": "npm:0.3.17"
     "@goldstack/utils-docker": "npm:0.4.24"
@@ -2859,13 +2859,13 @@ __metadata:
     outmatch: "npm:^1.0.0"
     source-map-support: "npm:^0.5.21"
     yargs: "npm:^17.5.1"
-  checksum: 10/efe27faa4b339a6d0bf7160cb79bb78e8062132eea63ec0b528743790b7feb32ccc0d6784a0ab50003e237b5aa3eba84bd4bf3b98e7cce4042dd18f2df037a94
+  checksum: 10/7a5a4ff57d45ab7ffddb6bb5d97125f9e4234f2218e3f3b8d9b50492b3b03630a9c74d723952dcdba99aefa0cac70f67595c0d1d809f50546686c2074438d42b
   languageName: node
   linkType: hard
 
-"@goldstack/template-ssr-server-compile-bundle@npm:0.3.60":
-  version: 0.3.60
-  resolution: "@goldstack/template-ssr-server-compile-bundle@npm:0.3.60"
+"@goldstack/template-ssr-server-compile-bundle@npm:0.3.61":
+  version: 0.3.61
+  resolution: "@goldstack/template-ssr-server-compile-bundle@npm:0.3.61"
   dependencies:
     "@goldstack/infra": "npm:0.4.23"
     "@goldstack/infra-aws": "npm:0.4.35"
@@ -2880,21 +2880,21 @@ __metadata:
     "@types/aws-lambda": "npm:^8.10.147"
     esbuild: "npm:^0.24.2"
     lambda-compression: "npm:0.2.16"
-    react: "npm:18.2.0"
-    react-dom: "npm:18.2.0"
+    react: "npm:^19.1.0"
+    react-dom: "npm:^19.1.0"
     source-map-support: "npm:^0.5.21"
     static-file-mapper-build: "npm:0.3.27"
-  checksum: 10/e7486f2ca091b587f71eaaff6ab1e5c5f54d92bb216cb6d489145e1bd28d319acbb31787cc89bea0a9166cdec3ff93e588dc2bff30f97b5d7529cc7a9b16776d
+  checksum: 10/736d43d3588caaa139728fcfe7892087c5772c900b4e41652c65f3f82a07935f51cbc8b1c0af89e6e54ff953fe3ecfde4e53afc2b0c0f3bd68ae3a72e98c3f08
   languageName: node
   linkType: hard
 
-"@goldstack/template-ssr-server@npm:0.3.63":
-  version: 0.3.63
-  resolution: "@goldstack/template-ssr-server@npm:0.3.63"
+"@goldstack/template-ssr-server@npm:0.3.64":
+  version: 0.3.64
+  resolution: "@goldstack/template-ssr-server@npm:0.3.64"
   dependencies:
     "@goldstack/infra": "npm:0.4.23"
     "@goldstack/infra-aws": "npm:0.4.35"
-    "@goldstack/template-ssr-server-compile-bundle": "npm:0.3.60"
+    "@goldstack/template-ssr-server-compile-bundle": "npm:0.3.61"
     "@goldstack/utils-aws-lambda": "npm:0.3.45"
     "@goldstack/utils-esbuild": "npm:0.5.13"
     "@goldstack/utils-package": "npm:0.4.23"
@@ -2904,21 +2904,21 @@ __metadata:
     "@goldstack/utils-terraform": "npm:0.4.47"
     "@types/aws-lambda": "npm:^8.10.147"
     lambda-compression: "npm:0.2.16"
-    react: "npm:18.2.0"
-    react-dom: "npm:18.2.0"
+    react: "npm:^19.1.0"
+    react-dom: "npm:^19.1.0"
     source-map-support: "npm:^0.5.21"
     static-file-mapper: "npm:0.3.18"
-  checksum: 10/9c4d70d1442c096c8bb75d3a55e11132b8152375a81b7931abc6828c1cf31644e7f1b2ce104160d9e1007568db56e38f5db8349768bdd63186c3be85a5765cb1
+  checksum: 10/9196075eb7f28eae19cf0b113af973d28394563ae19029b6dbc3f83fcfe482024c53283294ca07c1f7973be56da253e5ddc3e9fc1972e47a5e349480d9dd93b5
   languageName: node
   linkType: hard
 
-"@goldstack/template-ssr@npm:0.3.65":
-  version: 0.3.65
-  resolution: "@goldstack/template-ssr@npm:0.3.65"
+"@goldstack/template-ssr@npm:0.3.66":
+  version: 0.3.66
+  resolution: "@goldstack/template-ssr@npm:0.3.66"
   dependencies:
     "@goldstack/infra": "npm:0.4.23"
     "@goldstack/infra-aws": "npm:0.4.35"
-    "@goldstack/template-ssr-server": "npm:0.3.63"
+    "@goldstack/template-ssr-server": "npm:0.3.64"
     "@goldstack/utils-aws-lambda": "npm:0.3.45"
     "@goldstack/utils-esbuild": "npm:0.5.13"
     "@goldstack/utils-package": "npm:0.4.23"
@@ -2926,10 +2926,10 @@ __metadata:
     "@goldstack/utils-template": "npm:0.4.23"
     "@goldstack/utils-terraform": "npm:0.4.47"
     "@types/aws-lambda": "npm:^8.10.147"
-    react: "npm:18.2.0"
-    react-dom: "npm:18.2.0"
+    react: "npm:^19.1.0"
+    react-dom: "npm:^19.1.0"
     source-map-support: "npm:^0.5.21"
-  checksum: 10/cf9e226fdeffefd24c473ab2589824c138a135c30e023579e72f9fe7c53204e2638b07dd2e355021e5910a521beb2d177248da19a635ea6e2f916ed20067dfbc
+  checksum: 10/311107b4f3bcc4f5827c5d35c189dcc909fb8e40491900de37df224a22a3e3e2a73ef043465e99c97ae5fede0ebaac7c3bdc12f7b57558937354459c58354588
   languageName: node
   linkType: hard
 
@@ -11491,7 +11491,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"loose-envify@npm:^1.1.0, loose-envify@npm:^1.4.0":
+"loose-envify@npm:^1.4.0":
   version: 1.4.0
   resolution: "loose-envify@npm:1.4.0"
   dependencies:
@@ -13050,7 +13050,7 @@ __metadata:
     eslint-plugin-yaml: "npm:^0.5.0"
     nodemon: "npm:^2.0.20"
     prettier: "npm:^2.7.1"
-    react: "npm:18.2.0"
+    react: "npm:^19.1.0"
     typescript: "npm:^5.8.3"
   languageName: unknown
   linkType: soft
@@ -13206,15 +13206,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-dom@npm:18.2.0":
-  version: 18.2.0
-  resolution: "react-dom@npm:18.2.0"
+"react-dom@npm:^19.1.0":
+  version: 19.1.0
+  resolution: "react-dom@npm:19.1.0"
   dependencies:
-    loose-envify: "npm:^1.1.0"
-    scheduler: "npm:^0.23.0"
+    scheduler: "npm:^0.26.0"
   peerDependencies:
-    react: ^18.2.0
-  checksum: 10/ca5e7762ec8c17a472a3605b6f111895c9f87ac7d43a610ab7024f68cd833d08eda0625ce02ec7178cc1f3c957cf0b9273cdc17aa2cd02da87544331c43b1d21
+    react: ^19.1.0
+  checksum: 10/c5b58605862c7b0bb044416b01c73647bb8e89717fb5d7a2c279b11815fb7b49b619fe685c404e59f55eb52c66831236cc565c25ee1c2d042739f4a2cc538aa2
   languageName: node
   linkType: hard
 
@@ -13239,12 +13238,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:18.2.0":
-  version: 18.2.0
-  resolution: "react@npm:18.2.0"
-  dependencies:
-    loose-envify: "npm:^1.1.0"
-  checksum: 10/b9214a9bd79e99d08de55f8bef2b7fc8c39630be97c4e29d7be173d14a9a10670b5325e94485f74cd8bff4966ef3c78ee53c79a7b0b9b70cba20aa8973acc694
+"react@npm:^19.1.0":
+  version: 19.1.0
+  resolution: "react@npm:19.1.0"
+  checksum: 10/d0180689826fd9de87e839c365f6f361c561daea397d61d724687cae88f432a307d1c0f53a0ee95ddbe3352c10dac41d7ff1ad85530fb24951b27a39e5398db4
   languageName: node
   linkType: hard
 
@@ -13642,12 +13639,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"scheduler@npm:^0.23.0":
-  version: 0.23.0
-  resolution: "scheduler@npm:0.23.0"
-  dependencies:
-    loose-envify: "npm:^1.1.0"
-  checksum: 10/0c4557aa37bafca44ff21dc0ea7c92e2dbcb298bc62eae92b29a39b029134f02fb23917d6ebc8b1fa536b4184934314c20d8864d156a9f6357f3398aaf7bfda8
+"scheduler@npm:^0.26.0":
+  version: 0.26.0
+  resolution: "scheduler@npm:0.26.0"
+  checksum: 10/1ecf2e5d7de1a7a132796834afe14a2d589ba7e437615bd8c06f3e0786a3ac3434655e67aac8755d9b14e05754c177e49c064261de2673aaa3c926bc98caa002
   languageName: node
   linkType: hard
 
@@ -13751,8 +13746,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "server-side-rendering-1@workspace:packages/server-side-rendering-1"
   dependencies:
-    "@goldstack/template-ssr": "npm:0.3.65"
-    "@goldstack/template-ssr-cli": "npm:0.3.71"
+    "@goldstack/template-ssr": "npm:0.3.66"
+    "@goldstack/template-ssr-cli": "npm:0.3.72"
     "@goldstack/utils-aws-http-api-local": "npm:0.3.53"
     "@goldstack/utils-esbuild": "npm:0.5.13"
     "@jest-mock/express": "npm:^1.4.5"
@@ -13785,8 +13780,8 @@ __metadata:
     jest-transform-stub: "npm:^2.0.0"
     node-css-require: "npm:0.4.14"
     node-fetch: "npm:2.6.7"
-    react: "npm:18.2.0"
-    react-dom: "npm:18.2.0"
+    react: "npm:^19.1.0"
+    react-dom: "npm:^19.1.0"
     rimraf: "npm:^3.0.2"
     source-map-support: "npm:^0.5.21"
     static-file-mapper-build: "npm:0.3.27"
