@@ -7,38 +7,38 @@
   },
   {
     "names": [
-      "goldstack-ci-test-server-side-rendering-1752647914515-__index.map"
+      "goldstack-ci-test-server-side-rendering-1752805495289-__index.map"
     ],
-    "generatedName": "__index.ce7b64848778275973156b50ed900f05.map.json"
+    "generatedName": "__index.3480c8b6c727e4bafbefd5f93de4578d.map.json"
   },
   {
     "names": [
-      "goldstack-ci-test-server-side-rendering-1752647914515-__index-bundle.js"
+      "goldstack-ci-test-server-side-rendering-1752805495289-__index-bundle.js"
     ],
-    "generatedName": "__index-bundle.1f248766a9e712b639014b29116d5deb.js"
+    "generatedName": "__index-bundle.b9a48c2f64c128bbb77fa71d536b573e.js"
   },
   {
     "names": [
-      "goldstack-ci-test-server-side-rendering-1752647914515-robots_txt.map"
+      "goldstack-ci-test-server-side-rendering-1752805495289-robots_txt.map"
     ],
-    "generatedName": "robots_txt.59c1a6f452561d45f5a0622cf7d5ea0b.map.json"
+    "generatedName": "robots_txt.20c47cfc93d87edf300a75e6ed556b24.map.json"
   },
   {
     "names": [
-      "goldstack-ci-test-server-side-rendering-1752647914515-robots_txt-bundle.js"
+      "goldstack-ci-test-server-side-rendering-1752805495289-robots_txt-bundle.js"
     ],
-    "generatedName": "robots_txt-bundle.71b796accc586cfc8de8604528c2472f.js"
+    "generatedName": "robots_txt-bundle.d65def6d6e5883ba42cf9726b97fac4a.js"
   },
   {
     "names": [
-      "goldstack-ci-test-server-side-rendering-1752647914515-posts.map"
+      "goldstack-ci-test-server-side-rendering-1752805495289-posts.map"
     ],
-    "generatedName": "posts.6212046a7cb3439fdd6075ced094e4b4.map.json"
+    "generatedName": "posts.1d5485679fd6a8fdc678224e379b7027.map.json"
   },
   {
     "names": [
-      "goldstack-ci-test-server-side-rendering-1752647914515-posts-bundle.js"
+      "goldstack-ci-test-server-side-rendering-1752805495289-posts-bundle.js"
     ],
-    "generatedName": "posts-bundle.b4f172009f86cba80f5943c9a3eab187.js"
+    "generatedName": "posts-bundle.a1c25a0372938b04461b9cd7bae98b9a.js"
   }
 ]
