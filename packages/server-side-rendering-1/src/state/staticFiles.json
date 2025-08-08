@@ -7,38 +7,38 @@
   },
   {
     "names": [
-      "goldstack-ci-test-server-side-rendering-1754379596696-__index.map"
+      "goldstack-ci-test-server-side-rendering-1754636675550-__index.map"
     ],
-    "generatedName": "__index.9aba2a3a1fe9e1ae246dd5cd0f38ed2e.map.json"
+    "generatedName": "__index.24da0652c2e51ba363f686ab13a9c110.map.json"
   },
   {
     "names": [
-      "goldstack-ci-test-server-side-rendering-1754379596696-__index-bundle.js"
+      "goldstack-ci-test-server-side-rendering-1754636675550-__index-bundle.js"
     ],
-    "generatedName": "__index-bundle.11f205e6a4938b93887c343735b4669e.js"
+    "generatedName": "__index-bundle.c4f2df7fad3064399c6f8ab3653e111a.js"
   },
   {
     "names": [
-      "goldstack-ci-test-server-side-rendering-1754379596696-robots_txt.map"
+      "goldstack-ci-test-server-side-rendering-1754636675550-robots_txt.map"
     ],
-    "generatedName": "robots_txt.07178bdd1eff73a1a6c0fe07c71cfe33.map.json"
+    "generatedName": "robots_txt.81a7b5a4a1b21a2eb4b28266a648fb18.map.json"
   },
   {
     "names": [
-      "goldstack-ci-test-server-side-rendering-1754379596696-robots_txt-bundle.js"
+      "goldstack-ci-test-server-side-rendering-1754636675550-robots_txt-bundle.js"
     ],
-    "generatedName": "robots_txt-bundle.dac025fd0634028de0a99626c1d9c9eb.js"
+    "generatedName": "robots_txt-bundle.618c3c4d4961bca43452cf7b3a799c98.js"
   },
   {
     "names": [
-      "goldstack-ci-test-server-side-rendering-1754379596696-posts.map"
+      "goldstack-ci-test-server-side-rendering-1754636675550-posts.map"
     ],
-    "generatedName": "posts.87a3ffed723faa74f72964426f7f890b.map.json"
+    "generatedName": "posts.9406e96fc17f180c2091add685108d66.map.json"
   },
   {
     "names": [
-      "goldstack-ci-test-server-side-rendering-1754379596696-posts-bundle.js"
+      "goldstack-ci-test-server-side-rendering-1754636675550-posts-bundle.js"
     ],
-    "generatedName": "posts-bundle.758ab407f2f9c8f4bc9d1351838672fa.js"
+    "generatedName": "posts-bundle.47931d7fa4cd6395c51a0ce62795eab3.js"
   }
 ]
