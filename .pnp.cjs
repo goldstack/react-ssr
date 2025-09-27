@@ -3638,13 +3638,13 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/template-ssr", [\
-      ["npm:0.3.71", {\
-        "packageLocation": "./.yarn/cache/@goldstack-template-ssr-npm-0.3.71-3c28b931ef-e017dafbfd.zip/node_modules/@goldstack/template-ssr/",\
+      ["npm:0.3.72", {\
+        "packageLocation": "./.yarn/cache/@goldstack-template-ssr-npm-0.3.72-5375358670-83547dae25.zip/node_modules/@goldstack/template-ssr/",\
         "packageDependencies": [\
           ["@goldstack/infra", "npm:0.4.25"],\
           ["@goldstack/infra-aws", "npm:0.4.38"],\
-          ["@goldstack/template-ssr", "npm:0.3.71"],\
-          ["@goldstack/template-ssr-server", "npm:0.3.69"],\
+          ["@goldstack/template-ssr", "npm:0.3.72"],\
+          ["@goldstack/template-ssr-server", "npm:0.3.70"],\
           ["@goldstack/utils-aws-lambda", "npm:0.3.50"],\
           ["@goldstack/utils-esbuild", "npm:0.5.15"],\
           ["@goldstack/utils-package", "npm:0.4.25"],\
@@ -3653,22 +3653,22 @@ const RAW_RUNTIME_STATE =
           ["@goldstack/utils-terraform", "npm:0.4.50"],\
           ["@types/aws-lambda", "npm:8.10.147"],\
           ["react", "npm:19.1.0"],\
-          ["react-dom", "virtual:27611aa9c6c7d82f58f5565755dd396aba54e38a6461122c97b5e182c127015bf4834dd564c4e78d386693a5005796525ddbcc639fb1919dd1588a87f640b494#npm:19.1.0"],\
+          ["react-dom", "virtual:20e1c02e735cf1005308dc26394b161eef11e135497caedb0a752a66fd67448318ce0762b3d3d123aa34c3d8eb2847bf6739ebdf8fbf14ccd9e90c4cb92c2942#npm:19.1.0"],\
           ["source-map-support", "npm:0.5.21"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@goldstack/template-ssr-cli", [\
-      ["npm:0.3.77", {\
-        "packageLocation": "./.yarn/cache/@goldstack-template-ssr-cli-npm-0.3.77-092c472f63-398ef8f163.zip/node_modules/@goldstack/template-ssr-cli/",\
+      ["npm:0.3.78", {\
+        "packageLocation": "./.yarn/cache/@goldstack-template-ssr-cli-npm-0.3.78-37f05057f8-e348493599.zip/node_modules/@goldstack/template-ssr-cli/",\
         "packageDependencies": [\
           ["@goldstack/infra", "npm:0.4.25"],\
           ["@goldstack/infra-aws", "npm:0.4.38"],\
-          ["@goldstack/template-ssr", "npm:0.3.71"],\
-          ["@goldstack/template-ssr-cli", "npm:0.3.77"],\
-          ["@goldstack/template-ssr-server", "npm:0.3.69"],\
-          ["@goldstack/template-ssr-server-compile-bundle", "npm:0.3.66"],\
+          ["@goldstack/template-ssr", "npm:0.3.72"],\
+          ["@goldstack/template-ssr-cli", "npm:0.3.78"],\
+          ["@goldstack/template-ssr-server", "npm:0.3.70"],\
+          ["@goldstack/template-ssr-server-compile-bundle", "npm:0.3.67"],\
           ["@goldstack/utils-aws-lambda", "npm:0.3.50"],\
           ["@goldstack/utils-cli", "npm:0.3.19"],\
           ["@goldstack/utils-docker", "npm:0.4.26"],\
@@ -3688,13 +3688,13 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/template-ssr-server", [\
-      ["npm:0.3.69", {\
-        "packageLocation": "./.yarn/cache/@goldstack-template-ssr-server-npm-0.3.69-d0e3c55d8b-85798e59ef.zip/node_modules/@goldstack/template-ssr-server/",\
+      ["npm:0.3.70", {\
+        "packageLocation": "./.yarn/cache/@goldstack-template-ssr-server-npm-0.3.70-d23f563e96-be32cef877.zip/node_modules/@goldstack/template-ssr-server/",\
         "packageDependencies": [\
           ["@goldstack/infra", "npm:0.4.25"],\
           ["@goldstack/infra-aws", "npm:0.4.38"],\
-          ["@goldstack/template-ssr-server", "npm:0.3.69"],\
-          ["@goldstack/template-ssr-server-compile-bundle", "npm:0.3.66"],\
+          ["@goldstack/template-ssr-server", "npm:0.3.70"],\
+          ["@goldstack/template-ssr-server-compile-bundle", "npm:0.3.67"],\
           ["@goldstack/utils-aws-lambda", "npm:0.3.50"],\
           ["@goldstack/utils-esbuild", "npm:0.5.15"],\
           ["@goldstack/utils-package", "npm:0.4.25"],\
@@ -3705,7 +3705,7 @@ const RAW_RUNTIME_STATE =
           ["@types/aws-lambda", "npm:8.10.147"],\
           ["lambda-compression", "npm:0.2.18"],\
           ["react", "npm:19.1.0"],\
-          ["react-dom", "virtual:27611aa9c6c7d82f58f5565755dd396aba54e38a6461122c97b5e182c127015bf4834dd564c4e78d386693a5005796525ddbcc639fb1919dd1588a87f640b494#npm:19.1.0"],\
+          ["react-dom", "virtual:20e1c02e735cf1005308dc26394b161eef11e135497caedb0a752a66fd67448318ce0762b3d3d123aa34c3d8eb2847bf6739ebdf8fbf14ccd9e90c4cb92c2942#npm:19.1.0"],\
           ["source-map-support", "npm:0.5.21"],\
           ["static-file-mapper", "npm:0.3.20"]\
         ],\
@@ -3713,12 +3713,12 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/template-ssr-server-compile-bundle", [\
-      ["npm:0.3.66", {\
-        "packageLocation": "./.yarn/cache/@goldstack-template-ssr-server-compile-bundle-npm-0.3.66-27611aa9c6-6cbaa246a4.zip/node_modules/@goldstack/template-ssr-server-compile-bundle/",\
+      ["npm:0.3.67", {\
+        "packageLocation": "./.yarn/cache/@goldstack-template-ssr-server-compile-bundle-npm-0.3.67-20e1c02e73-a14bf014c1.zip/node_modules/@goldstack/template-ssr-server-compile-bundle/",\
         "packageDependencies": [\
           ["@goldstack/infra", "npm:0.4.25"],\
           ["@goldstack/infra-aws", "npm:0.4.38"],\
-          ["@goldstack/template-ssr-server-compile-bundle", "npm:0.3.66"],\
+          ["@goldstack/template-ssr-server-compile-bundle", "npm:0.3.67"],\
           ["@goldstack/utils-aws-lambda", "npm:0.3.50"],\
           ["@goldstack/utils-esbuild", "npm:0.5.15"],\
           ["@goldstack/utils-log", "npm:0.3.21"],\
@@ -3731,7 +3731,7 @@ const RAW_RUNTIME_STATE =
           ["esbuild", "npm:0.25.6"],\
           ["lambda-compression", "npm:0.2.18"],\
           ["react", "npm:19.1.0"],\
-          ["react-dom", "virtual:27611aa9c6c7d82f58f5565755dd396aba54e38a6461122c97b5e182c127015bf4834dd564c4e78d386693a5005796525ddbcc639fb1919dd1588a87f640b494#npm:19.1.0"],\
+          ["react-dom", "virtual:20e1c02e735cf1005308dc26394b161eef11e135497caedb0a752a66fd67448318ce0762b3d3d123aa34c3d8eb2847bf6739ebdf8fbf14ccd9e90c4cb92c2942#npm:19.1.0"],\
           ["source-map-support", "npm:0.5.21"],\
           ["static-file-mapper-build", "npm:0.3.29"]\
         ],\
@@ -6773,7 +6773,7 @@ const RAW_RUNTIME_STATE =
           ["@babel/runtime", "npm:7.27.6"],\
           ["@testing-library/dom", "npm:10.4.0"],\
           ["@testing-library/react", "virtual:256f558e48944514ad002b603b13bda667df5cb1c096573b931a10e4a80a982e5a7c25725fccd5eb78814dc69f0902e5ce34f3797bb81ab6b46fcaea24771376#npm:16.1.0"],\
-          ["@types/react", "npm:18.3.23"],\
+          ["@types/react", "npm:18.3.24"],\
           ["@types/react-dom", null],\
           ["@types/testing-library__dom", null],\
           ["react", "npm:19.1.0"],\
@@ -7177,11 +7177,11 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@types/react", [\
-      ["npm:18.3.23", {\
-        "packageLocation": "./.yarn/cache/@types-react-npm-18.3.23-612ea8557b-4b965dffe3.zip/node_modules/@types/react/",\
+      ["npm:18.3.24", {\
+        "packageLocation": "./.yarn/cache/@types-react-npm-18.3.24-ffcfaf8702-3f8529961a.zip/node_modules/@types/react/",\
         "packageDependencies": [\
           ["@types/prop-types", "npm:15.7.3"],\
-          ["@types/react", "npm:18.3.23"],\
+          ["@types/react", "npm:18.3.24"],\
           ["csstype", "npm:3.0.3"]\
         ],\
         "linkType": "HARD"\
@@ -13700,12 +13700,12 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:256f558e48944514ad002b603b13bda667df5cb1c096573b931a10e4a80a982e5a7c25725fccd5eb78814dc69f0902e5ce34f3797bb81ab6b46fcaea24771376#npm:19.1.0", {\
-        "packageLocation": "./.yarn/__virtual__/react-dom-virtual-31fc5987ad/0/cache/react-dom-npm-19.1.0-773f826e46-c5b5860586.zip/node_modules/react-dom/",\
+      ["virtual:20e1c02e735cf1005308dc26394b161eef11e135497caedb0a752a66fd67448318ce0762b3d3d123aa34c3d8eb2847bf6739ebdf8fbf14ccd9e90c4cb92c2942#npm:19.1.0", {\
+        "packageLocation": "./.yarn/__virtual__/react-dom-virtual-f016452b65/0/cache/react-dom-npm-19.1.0-773f826e46-c5b5860586.zip/node_modules/react-dom/",\
         "packageDependencies": [\
-          ["@types/react", "npm:18.3.23"],\
+          ["@types/react", null],\
           ["react", "npm:19.1.0"],\
-          ["react-dom", "virtual:256f558e48944514ad002b603b13bda667df5cb1c096573b931a10e4a80a982e5a7c25725fccd5eb78814dc69f0902e5ce34f3797bb81ab6b46fcaea24771376#npm:19.1.0"],\
+          ["react-dom", "virtual:20e1c02e735cf1005308dc26394b161eef11e135497caedb0a752a66fd67448318ce0762b3d3d123aa34c3d8eb2847bf6739ebdf8fbf14ccd9e90c4cb92c2942#npm:19.1.0"],\
           ["scheduler", "npm:0.26.0"]\
         ],\
         "packagePeers": [\
@@ -13714,12 +13714,12 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["virtual:27611aa9c6c7d82f58f5565755dd396aba54e38a6461122c97b5e182c127015bf4834dd564c4e78d386693a5005796525ddbcc639fb1919dd1588a87f640b494#npm:19.1.0", {\
-        "packageLocation": "./.yarn/__virtual__/react-dom-virtual-230cbf8a5f/0/cache/react-dom-npm-19.1.0-773f826e46-c5b5860586.zip/node_modules/react-dom/",\
+      ["virtual:256f558e48944514ad002b603b13bda667df5cb1c096573b931a10e4a80a982e5a7c25725fccd5eb78814dc69f0902e5ce34f3797bb81ab6b46fcaea24771376#npm:19.1.0", {\
+        "packageLocation": "./.yarn/__virtual__/react-dom-virtual-31fc5987ad/0/cache/react-dom-npm-19.1.0-773f826e46-c5b5860586.zip/node_modules/react-dom/",\
         "packageDependencies": [\
-          ["@types/react", null],\
+          ["@types/react", "npm:18.3.24"],\
           ["react", "npm:19.1.0"],\
-          ["react-dom", "virtual:27611aa9c6c7d82f58f5565755dd396aba54e38a6461122c97b5e182c127015bf4834dd564c4e78d386693a5005796525ddbcc639fb1919dd1588a87f640b494#npm:19.1.0"],\
+          ["react-dom", "virtual:256f558e48944514ad002b603b13bda667df5cb1c096573b931a10e4a80a982e5a7c25725fccd5eb78814dc69f0902e5ce34f3797bb81ab6b46fcaea24771376#npm:19.1.0"],\
           ["scheduler", "npm:0.26.0"]\
         ],\
         "packagePeers": [\
@@ -14181,8 +14181,8 @@ const RAW_RUNTIME_STATE =
       ["workspace:packages/server-side-rendering-1", {\
         "packageLocation": "./packages/server-side-rendering-1/",\
         "packageDependencies": [\
-          ["@goldstack/template-ssr", "npm:0.3.71"],\
-          ["@goldstack/template-ssr-cli", "npm:0.3.77"],\
+          ["@goldstack/template-ssr", "npm:0.3.72"],\
+          ["@goldstack/template-ssr-cli", "npm:0.3.78"],\
           ["@goldstack/utils-aws-http-api-local", "npm:0.3.59"],\
           ["@goldstack/utils-esbuild", "npm:0.5.15"],\
           ["@jest-mock/express", "npm:1.4.5"],\
@@ -14197,7 +14197,7 @@ const RAW_RUNTIME_STATE =
           ["@types/aws-serverless-express", "npm:3.3.10"],\
           ["@types/jest", "npm:29.5.14"],\
           ["@types/node", "npm:24.0.13"],\
-          ["@types/react", "npm:18.3.23"],\
+          ["@types/react", "npm:18.3.24"],\
           ["@types/testing-library__jest-dom", "npm:5.14.9"],\
           ["@types/testing-library__react", "npm:10.2.0"],\
           ["@yarnpkg/esbuild-plugin-pnp", "virtual:4fe2d15dbea947d7a8bb84b7d59a0cb91f984dddb4cccec7d198c300cc69ef9efa18c2ec91a92085890222d5e19a477b7a3dc9256083004095ef1128309008e4#npm:3.0.0-rc.15"],\

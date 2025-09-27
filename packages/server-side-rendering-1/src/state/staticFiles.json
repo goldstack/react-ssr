@@ -7,38 +7,38 @@
   },
   {
     "names": [
-      "goldstack-ci-test-server-side-rendering-1758954414977-__index.map"
+      "goldstack-ci-test-server-side-rendering-1758967543946-__index.map"
     ],
-    "generatedName": "__index.273fc1f0d25649d764497a7022b39c03.map.json"
+    "generatedName": "__index.bffc37b6bf6dcba303869a3db373fe8e.map.json"
   },
   {
     "names": [
-      "goldstack-ci-test-server-side-rendering-1758954414977-__index-bundle.js"
+      "goldstack-ci-test-server-side-rendering-1758967543946-__index-bundle.js"
     ],
-    "generatedName": "__index-bundle.58f86e52b161c2c334074a31a4112849.js"
+    "generatedName": "__index-bundle.cde7606a7a5e552c551743e1111f7878.js"
   },
   {
     "names": [
-      "goldstack-ci-test-server-side-rendering-1758954414977-robots_txt.map"
+      "goldstack-ci-test-server-side-rendering-1758967543946-robots_txt.map"
     ],
-    "generatedName": "robots_txt.cbdf59dbce472eda33c7bd57132b7a49.map.json"
+    "generatedName": "robots_txt.67d17af4be50f310fc016d972ed6d191.map.json"
   },
   {
     "names": [
-      "goldstack-ci-test-server-side-rendering-1758954414977-robots_txt-bundle.js"
+      "goldstack-ci-test-server-side-rendering-1758967543946-robots_txt-bundle.js"
     ],
-    "generatedName": "robots_txt-bundle.1dcb6ca463571fe7e3f8a4c8110f6ea6.js"
+    "generatedName": "robots_txt-bundle.c4d242b08d62af9476971cd378007b7f.js"
   },
   {
     "names": [
-      "goldstack-ci-test-server-side-rendering-1758954414977-posts.map"
+      "goldstack-ci-test-server-side-rendering-1758967543946-posts.map"
     ],
-    "generatedName": "posts.0ad7c970eff236a8a9008083b42981ee.map.json"
+    "generatedName": "posts.5ffa861e8a6cfade36e4d50501c968d2.map.json"
   },
   {
     "names": [
-      "goldstack-ci-test-server-side-rendering-1758954414977-posts-bundle.js"
+      "goldstack-ci-test-server-side-rendering-1758967543946-posts-bundle.js"
     ],
-    "generatedName": "posts-bundle.9c2c0e640515ef34ce2575eddc68dedc.js"
+    "generatedName": "posts-bundle.1c97a53bfdb7565b0134b1de2ce9c81d.js"
   }
 ]
