@@ -7,38 +7,38 @@
   },
   {
     "names": [
-      "goldstack-ci-test-server-side-rendering-1763460932308-__index.map"
+      "goldstack-ci-test-server-side-rendering-1763549323077-__index.map"
     ],
-    "generatedName": "__index.9bbdb87b945af9335204a01a50ce9383.map.json"
+    "generatedName": "__index.92240c46d793e2816eba92e158a18252.map.json"
   },
   {
     "names": [
-      "goldstack-ci-test-server-side-rendering-1763460932308-__index-bundle.js"
+      "goldstack-ci-test-server-side-rendering-1763549323077-__index-bundle.js"
     ],
-    "generatedName": "__index-bundle.32e24d28ef3eddc97406d3b878cb6cb3.js"
+    "generatedName": "__index-bundle.4c4d807b4cec175f9a1b024a71977b6f.js"
   },
   {
     "names": [
-      "goldstack-ci-test-server-side-rendering-1763460932308-robots_txt.map"
+      "goldstack-ci-test-server-side-rendering-1763549323077-robots_txt.map"
     ],
-    "generatedName": "robots_txt.e4111fceaa777e93bd41c6d9b4bf889b.map.json"
+    "generatedName": "robots_txt.b39c7104d81d3dc17c1e639e25a44f7e.map.json"
   },
   {
     "names": [
-      "goldstack-ci-test-server-side-rendering-1763460932308-robots_txt-bundle.js"
+      "goldstack-ci-test-server-side-rendering-1763549323077-robots_txt-bundle.js"
     ],
-    "generatedName": "robots_txt-bundle.5175111b37e7951c55eb157495da5867.js"
+    "generatedName": "robots_txt-bundle.eac25b88a87a91e817c6096873fd3014.js"
   },
   {
     "names": [
-      "goldstack-ci-test-server-side-rendering-1763460932308-posts.map"
+      "goldstack-ci-test-server-side-rendering-1763549323077-posts.map"
     ],
-    "generatedName": "posts.c9dc3f966f1b9fef4cf1738c37325b5e.map.json"
+    "generatedName": "posts.388b4aa80f26e97fd43e2bd91a92a749.map.json"
   },
   {
     "names": [
-      "goldstack-ci-test-server-side-rendering-1763460932308-posts-bundle.js"
+      "goldstack-ci-test-server-side-rendering-1763549323077-posts-bundle.js"
     ],
-    "generatedName": "posts-bundle.fc2c46fc4dfb729f1b088b5244cec786.js"
+    "generatedName": "posts-bundle.3f90a05fa5b66650abfde410257d3d2c.js"
   }
 ]
