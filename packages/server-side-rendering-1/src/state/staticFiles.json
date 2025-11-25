@@ -7,38 +7,38 @@
   },
   {
     "names": [
-      "goldstack-ci-test-server-side-rendering-1764044469165-__index.map"
+      "goldstack-ci-test-server-side-rendering-1764057264674-__index.map"
     ],
-    "generatedName": "__index.a911309ead26eafc024c58fadbefca2d.map.json"
+    "generatedName": "__index.592641e8c42e27d83f3902de2b5778ee.map.json"
   },
   {
     "names": [
-      "goldstack-ci-test-server-side-rendering-1764044469165-__index-bundle.js"
+      "goldstack-ci-test-server-side-rendering-1764057264674-__index-bundle.js"
     ],
-    "generatedName": "__index-bundle.870b39bd5a421acdf20fd7e21e512284.js"
+    "generatedName": "__index-bundle.35c2446b1bbd4727046ea26acb297a9d.js"
   },
   {
     "names": [
-      "goldstack-ci-test-server-side-rendering-1764044469165-robots_txt.map"
+      "goldstack-ci-test-server-side-rendering-1764057264674-robots_txt.map"
     ],
-    "generatedName": "robots_txt.6c6afed3256e31882eaabc17498d66d4.map.json"
+    "generatedName": "robots_txt.0d3fab5ac9de1eb4054470f2ac37f365.map.json"
   },
   {
     "names": [
-      "goldstack-ci-test-server-side-rendering-1764044469165-robots_txt-bundle.js"
+      "goldstack-ci-test-server-side-rendering-1764057264674-robots_txt-bundle.js"
     ],
-    "generatedName": "robots_txt-bundle.3270da017bcdd46577def2c82d84c58b.js"
+    "generatedName": "robots_txt-bundle.27158f62f9e320eb318b5c40dab33769.js"
   },
   {
     "names": [
-      "goldstack-ci-test-server-side-rendering-1764044469165-posts.map"
+      "goldstack-ci-test-server-side-rendering-1764057264674-posts.map"
     ],
-    "generatedName": "posts.a34f21958a90d5ea3acaafaddeebc9c7.map.json"
+    "generatedName": "posts.25693e00679bc54f4209dd9639da7e85.map.json"
   },
   {
     "names": [
-      "goldstack-ci-test-server-side-rendering-1764044469165-posts-bundle.js"
+      "goldstack-ci-test-server-side-rendering-1764057264674-posts-bundle.js"
     ],
-    "generatedName": "posts-bundle.2d28e2782bed39d59c041ab712ab69de.js"
+    "generatedName": "posts-bundle.9d7ce9817553d4d6fc1bbe462ed7a69c.js"
   }
 ]
