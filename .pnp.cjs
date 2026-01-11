@@ -3962,13 +3962,13 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/template-ssr", [\
-      ["npm:0.3.88", {\
-        "packageLocation": "./.yarn/cache/@goldstack-template-ssr-npm-0.3.88-5f80d3ebdd-d42a1e8922.zip/node_modules/@goldstack/template-ssr/",\
+      ["npm:0.3.89", {\
+        "packageLocation": "./.yarn/cache/@goldstack-template-ssr-npm-0.3.89-633baa0c91-98fc43fdd7.zip/node_modules/@goldstack/template-ssr/",\
         "packageDependencies": [\
           ["@goldstack/infra", "npm:0.4.34"],\
           ["@goldstack/infra-aws", "npm:0.4.52"],\
-          ["@goldstack/template-ssr", "npm:0.3.88"],\
-          ["@goldstack/template-ssr-server", "npm:0.3.86"],\
+          ["@goldstack/template-ssr", "npm:0.3.89"],\
+          ["@goldstack/template-ssr-server", "npm:0.3.87"],\
           ["@goldstack/utils-aws-lambda", "npm:0.3.64"],\
           ["@goldstack/utils-esbuild", "npm:0.5.22"],\
           ["@goldstack/utils-package", "npm:0.4.36"],\
@@ -3984,15 +3984,15 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/template-ssr-cli", [\
-      ["npm:0.3.94", {\
-        "packageLocation": "./.yarn/cache/@goldstack-template-ssr-cli-npm-0.3.94-d098e2a82e-229f56f73c.zip/node_modules/@goldstack/template-ssr-cli/",\
+      ["npm:0.3.95", {\
+        "packageLocation": "./.yarn/cache/@goldstack-template-ssr-cli-npm-0.3.95-7a84df05a6-916677c542.zip/node_modules/@goldstack/template-ssr-cli/",\
         "packageDependencies": [\
           ["@goldstack/infra", "npm:0.4.34"],\
           ["@goldstack/infra-aws", "npm:0.4.52"],\
-          ["@goldstack/template-ssr", "npm:0.3.88"],\
-          ["@goldstack/template-ssr-cli", "npm:0.3.94"],\
-          ["@goldstack/template-ssr-server", "npm:0.3.86"],\
-          ["@goldstack/template-ssr-server-compile-bundle", "npm:0.3.83"],\
+          ["@goldstack/template-ssr", "npm:0.3.89"],\
+          ["@goldstack/template-ssr-cli", "npm:0.3.95"],\
+          ["@goldstack/template-ssr-server", "npm:0.3.87"],\
+          ["@goldstack/template-ssr-server-compile-bundle", "npm:0.3.84"],\
           ["@goldstack/utils-aws-lambda", "npm:0.3.64"],\
           ["@goldstack/utils-cli", "npm:0.3.27"],\
           ["@goldstack/utils-docker", "npm:0.4.35"],\
@@ -4012,13 +4012,13 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/template-ssr-server", [\
-      ["npm:0.3.86", {\
-        "packageLocation": "./.yarn/cache/@goldstack-template-ssr-server-npm-0.3.86-fbf1e99384-6b90e05ac9.zip/node_modules/@goldstack/template-ssr-server/",\
+      ["npm:0.3.87", {\
+        "packageLocation": "./.yarn/cache/@goldstack-template-ssr-server-npm-0.3.87-e46143714a-bbb62e9afd.zip/node_modules/@goldstack/template-ssr-server/",\
         "packageDependencies": [\
           ["@goldstack/infra", "npm:0.4.34"],\
           ["@goldstack/infra-aws", "npm:0.4.52"],\
-          ["@goldstack/template-ssr-server", "npm:0.3.86"],\
-          ["@goldstack/template-ssr-server-compile-bundle", "npm:0.3.83"],\
+          ["@goldstack/template-ssr-server", "npm:0.3.87"],\
+          ["@goldstack/template-ssr-server-compile-bundle", "npm:0.3.84"],\
           ["@goldstack/utils-aws-lambda", "npm:0.3.64"],\
           ["@goldstack/utils-esbuild", "npm:0.5.22"],\
           ["@goldstack/utils-package", "npm:0.4.36"],\
@@ -4027,7 +4027,7 @@ const RAW_RUNTIME_STATE =
           ["@goldstack/utils-template", "npm:0.4.34"],\
           ["@goldstack/utils-terraform", "npm:0.4.65"],\
           ["@types/aws-lambda", "npm:8.10.159"],\
-          ["lambda-compression", "npm:0.2.26"],\
+          ["lambda-compression", "npm:0.2.27"],\
           ["react", "npm:19.2.3"],\
           ["react-dom", "virtual:ea1d9e7049b95ed362294c9df397aab9c8003d7203ea20a644a1562064d0f435c693872484b439325fdea8e2b85d16d249f14b9d624705186342a0eb450de825#npm:19.2.3"],\
           ["source-map-support", "npm:0.5.21"],\
@@ -4037,12 +4037,12 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/template-ssr-server-compile-bundle", [\
-      ["npm:0.3.83", {\
-        "packageLocation": "./.yarn/cache/@goldstack-template-ssr-server-compile-bundle-npm-0.3.83-b6b82a3983-da84c3c8f0.zip/node_modules/@goldstack/template-ssr-server-compile-bundle/",\
+      ["npm:0.3.84", {\
+        "packageLocation": "./.yarn/cache/@goldstack-template-ssr-server-compile-bundle-npm-0.3.84-fc75fbc42f-1c3126e37b.zip/node_modules/@goldstack/template-ssr-server-compile-bundle/",\
         "packageDependencies": [\
           ["@goldstack/infra", "npm:0.4.34"],\
           ["@goldstack/infra-aws", "npm:0.4.52"],\
-          ["@goldstack/template-ssr-server-compile-bundle", "npm:0.3.83"],\
+          ["@goldstack/template-ssr-server-compile-bundle", "npm:0.3.84"],\
           ["@goldstack/utils-aws-lambda", "npm:0.3.64"],\
           ["@goldstack/utils-esbuild", "npm:0.5.22"],\
           ["@goldstack/utils-log", "npm:0.3.29"],\
@@ -4053,7 +4053,7 @@ const RAW_RUNTIME_STATE =
           ["@goldstack/utils-terraform", "npm:0.4.65"],\
           ["@types/aws-lambda", "npm:8.10.159"],\
           ["esbuild", "npm:0.25.6"],\
-          ["lambda-compression", "npm:0.2.26"],\
+          ["lambda-compression", "npm:0.2.27"],\
           ["react", "npm:19.2.3"],\
           ["react-dom", "virtual:ea1d9e7049b95ed362294c9df397aab9c8003d7203ea20a644a1562064d0f435c693872484b439325fdea8e2b85d16d249f14b9d624705186342a0eb450de825#npm:19.2.3"],\
           ["source-map-support", "npm:0.5.21"],\
@@ -11908,11 +11908,11 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["lambda-compression", [\
-      ["npm:0.2.26", {\
-        "packageLocation": "./.yarn/cache/lambda-compression-npm-0.2.26-b84291e446-85a9bc8783.zip/node_modules/lambda-compression/",\
+      ["npm:0.2.27", {\
+        "packageLocation": "./.yarn/cache/lambda-compression-npm-0.2.27-7fef00fe92-41b105ffc7.zip/node_modules/lambda-compression/",\
         "packageDependencies": [\
           ["@types/aws-lambda", "npm:8.10.159"],\
-          ["lambda-compression", "npm:0.2.26"]\
+          ["lambda-compression", "npm:0.2.27"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -14231,8 +14231,8 @@ const RAW_RUNTIME_STATE =
       ["workspace:packages/server-side-rendering-1", {\
         "packageLocation": "./packages/server-side-rendering-1/",\
         "packageDependencies": [\
-          ["@goldstack/template-ssr", "npm:0.3.88"],\
-          ["@goldstack/template-ssr-cli", "npm:0.3.94"],\
+          ["@goldstack/template-ssr", "npm:0.3.89"],\
+          ["@goldstack/template-ssr-cli", "npm:0.3.95"],\
           ["@goldstack/utils-aws-http-api-local", "npm:0.3.73"],\
           ["@goldstack/utils-esbuild", "npm:0.5.22"],\
           ["@jest-mock/express", "npm:1.4.5"],\
