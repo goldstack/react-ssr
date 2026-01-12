@@ -10508,6 +10508,16 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
+      ["npm:13.0.0", {\
+        "packageLocation": "./.yarn/cache/glob-npm-13.0.0-8e50143ca8-de390721d2.zip/node_modules/glob/",\
+        "packageDependencies": [\
+          ["glob", "npm:13.0.0"],\
+          ["minimatch", "npm:10.1.1"],\
+          ["minipass", "npm:7.1.2"],\
+          ["path-scurry", "npm:2.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
       ["npm:7.2.3", {\
         "packageLocation": "./.yarn/cache/glob-npm-7.2.3-2d866d17a5-59452a9202.zip/node_modules/glob/",\
         "packageDependencies": [\
@@ -14224,6 +14234,15 @@ const RAW_RUNTIME_STATE =
           ["rimraf", "npm:3.0.2"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:6.1.2", {\
+        "packageLocation": "./.yarn/cache/rimraf-npm-6.1.2-ff31ae67d7-add8e566fe.zip/node_modules/rimraf/",\
+        "packageDependencies": [\
+          ["glob", "npm:13.0.0"],\
+          ["package-json-from-dist", "npm:1.0.1"],\
+          ["rimraf", "npm:6.1.2"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["rrweb-cssom", [\
@@ -14468,7 +14487,7 @@ const RAW_RUNTIME_STATE =
           ["node-css-require", "npm:0.4.26"],\
           ["react", "npm:19.2.3"],\
           ["react-dom", "virtual:256f558e48944514ad002b603b13bda667df5cb1c096573b931a10e4a80a982e5a7c25725fccd5eb78814dc69f0902e5ce34f3797bb81ab6b46fcaea24771376#npm:19.2.3"],\
-          ["rimraf", "npm:3.0.2"],\
+          ["rimraf", "npm:6.1.2"],\
           ["server-side-rendering-1", "workspace:packages/server-side-rendering-1"],\
           ["source-map-support", "npm:0.5.21"],\
           ["static-file-mapper-build", "npm:0.3.38"],\
