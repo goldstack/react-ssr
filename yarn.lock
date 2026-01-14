@@ -3238,15 +3238,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/template-ssr-cli@npm:0.3.99":
-  version: 0.3.99
-  resolution: "@goldstack/template-ssr-cli@npm:0.3.99"
+"@goldstack/template-ssr-cli@npm:0.3.100":
+  version: 0.3.100
+  resolution: "@goldstack/template-ssr-cli@npm:0.3.100"
   dependencies:
     "@goldstack/infra": "npm:0.4.37"
     "@goldstack/infra-aws": "npm:0.4.55"
-    "@goldstack/template-ssr": "npm:0.3.93"
-    "@goldstack/template-ssr-server": "npm:0.3.91"
-    "@goldstack/template-ssr-server-compile-bundle": "npm:0.3.88"
+    "@goldstack/template-ssr": "npm:0.3.94"
+    "@goldstack/template-ssr-server": "npm:0.3.92"
+    "@goldstack/template-ssr-server-compile-bundle": "npm:0.3.89"
     "@goldstack/utils-aws-lambda": "npm:0.3.67"
     "@goldstack/utils-cli": "npm:0.3.29"
     "@goldstack/utils-docker": "npm:0.4.38"
@@ -3261,13 +3261,13 @@ __metadata:
     outmatch: "npm:^1.0.0"
     source-map-support: "npm:^0.5.21"
     yargs: "npm:^17"
-  checksum: 10/bac74c92d388324e337942d899ae03e531cde2208269e2f5de4ac85d04d468d562f4b0995bbd8c9b63809adf9eab63d00b27d1d000e7fc5ef2884713f9f0f2bc
+  checksum: 10/e4a9b65ad918f15d247010b4edecf89b27b71f04b573e6ef7371d1b05913e40dfcd8ebdab9f823772d99d1d7615cc69c32fd262d75c0974ec44bb2b4a814e7fe
   languageName: node
   linkType: hard
 
-"@goldstack/template-ssr-server-compile-bundle@npm:0.3.88":
-  version: 0.3.88
-  resolution: "@goldstack/template-ssr-server-compile-bundle@npm:0.3.88"
+"@goldstack/template-ssr-server-compile-bundle@npm:0.3.89":
+  version: 0.3.89
+  resolution: "@goldstack/template-ssr-server-compile-bundle@npm:0.3.89"
   dependencies:
     "@goldstack/infra": "npm:0.4.37"
     "@goldstack/infra-aws": "npm:0.4.55"
@@ -3286,17 +3286,17 @@ __metadata:
     react-dom: "npm:^19"
     source-map-support: "npm:^0.5.21"
     static-file-mapper-build: "npm:0.3.41"
-  checksum: 10/6fd6c946e0812982a27292aa79dcd929fe477a8f0f71b8c71cc698d61d0e70bcaf4883f108b5b2eaced28578ef152abecb0ccd35e62c3458b778ceacab22a2a4
+  checksum: 10/c424fdfb8815359b849bec11a39a59a44f045d2953a5429336a197984557421fcdde91f423fd78710d45a4ba24af2399a1a554f4777dc91b4443defe1cd1c6c9
   languageName: node
   linkType: hard
 
-"@goldstack/template-ssr-server@npm:0.3.91":
-  version: 0.3.91
-  resolution: "@goldstack/template-ssr-server@npm:0.3.91"
+"@goldstack/template-ssr-server@npm:0.3.92":
+  version: 0.3.92
+  resolution: "@goldstack/template-ssr-server@npm:0.3.92"
   dependencies:
     "@goldstack/infra": "npm:0.4.37"
     "@goldstack/infra-aws": "npm:0.4.55"
-    "@goldstack/template-ssr-server-compile-bundle": "npm:0.3.88"
+    "@goldstack/template-ssr-server-compile-bundle": "npm:0.3.89"
     "@goldstack/utils-aws-lambda": "npm:0.3.67"
     "@goldstack/utils-esbuild": "npm:0.5.24"
     "@goldstack/utils-package": "npm:0.4.39"
@@ -3310,17 +3310,17 @@ __metadata:
     react-dom: "npm:^19"
     source-map-support: "npm:^0.5.21"
     static-file-mapper: "npm:0.3.29"
-  checksum: 10/48d1a11e865dd8eb499f5bf7e8b06b13fc3273e53338ce8cf247fe5196c010486065bebce0d9a1f74a6dce6172a204d819a91f0c3b03a08ebe7ff2ec8c1c4349
+  checksum: 10/7145cf5a90d4360e5fa0f4f2a5f0bcd75115fb98c1553e75bf8de4d43d8bf06e41d28471f502cd73a397c084e3b0d2b544941f47675957650c63c964d9726ef0
   languageName: node
   linkType: hard
 
-"@goldstack/template-ssr@npm:0.3.93":
-  version: 0.3.93
-  resolution: "@goldstack/template-ssr@npm:0.3.93"
+"@goldstack/template-ssr@npm:0.3.94":
+  version: 0.3.94
+  resolution: "@goldstack/template-ssr@npm:0.3.94"
   dependencies:
     "@goldstack/infra": "npm:0.4.37"
     "@goldstack/infra-aws": "npm:0.4.55"
-    "@goldstack/template-ssr-server": "npm:0.3.91"
+    "@goldstack/template-ssr-server": "npm:0.3.92"
     "@goldstack/utils-aws-lambda": "npm:0.3.67"
     "@goldstack/utils-esbuild": "npm:0.5.24"
     "@goldstack/utils-package": "npm:0.4.39"
@@ -3331,7 +3331,7 @@ __metadata:
     react: "npm:^19"
     react-dom: "npm:^19"
     source-map-support: "npm:^0.5.21"
-  checksum: 10/e59845160fffb69b855ce38d74301af80be0bea7df9642eb4f43ecddc92474d1b28d30653bc42d49199736b72715ea57a53c10ed7a27877f985cfa49886ff2a8
+  checksum: 10/213c32ed01838b560398189f94c9eae5d752905ea635d5bad7a727a33cc001c95e263a9a274662f1066134f2649209a3eaf809507cbae57bc358b55a00c8a134
   languageName: node
   linkType: hard
 
@@ -12613,8 +12613,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "server-side-rendering-1@workspace:packages/server-side-rendering-1"
   dependencies:
-    "@goldstack/template-ssr": "npm:0.3.93"
-    "@goldstack/template-ssr-cli": "npm:0.3.99"
+    "@goldstack/template-ssr": "npm:0.3.94"
+    "@goldstack/template-ssr-cli": "npm:0.3.100"
     "@goldstack/utils-aws-http-api-local": "npm:0.3.76"
     "@goldstack/utils-esbuild": "npm:0.5.24"
     "@jest-mock/express": "npm:^1.4.5"
