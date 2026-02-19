@@ -7,38 +7,38 @@
   },
   {
     "names": [
-      "goldstack-ci-test-server-side-rendering-1770518754444-__index.map"
+      "goldstack-ci-test-server-side-rendering-1771460794737-posts.map"
     ],
-    "generatedName": "__index.ec22b9bc6d84ade19144b4233eaeb8d1.map.json"
+    "generatedName": "posts.4a4c5c91952f97ae714c67e5a8aeb4ec.map.json"
   },
   {
     "names": [
-      "goldstack-ci-test-server-side-rendering-1770518754444-__index-bundle.js"
+      "goldstack-ci-test-server-side-rendering-1771460794737-posts-bundle.js"
     ],
-    "generatedName": "__index-bundle.616d118aeb293690216483613ac65f91.js"
+    "generatedName": "posts-bundle.777a02b3f2233a7fabf2010fab5db84e.js"
   },
   {
     "names": [
-      "goldstack-ci-test-server-side-rendering-1770518754444-robots_txt.map"
+      "goldstack-ci-test-server-side-rendering-1771460794737-__index.map"
     ],
-    "generatedName": "robots_txt.11d72aa0ef7a53b2afa804e3827a215d.map.json"
+    "generatedName": "__index.a9ddc7b8b3184bca0080b4f06976b806.map.json"
   },
   {
     "names": [
-      "goldstack-ci-test-server-side-rendering-1770518754444-robots_txt-bundle.js"
+      "goldstack-ci-test-server-side-rendering-1771460794737-__index-bundle.js"
     ],
-    "generatedName": "robots_txt-bundle.00172418880e900e25304c127cbce73e.js"
+    "generatedName": "__index-bundle.06ecbced775b459a05f132ffac937043.js"
   },
   {
     "names": [
-      "goldstack-ci-test-server-side-rendering-1770518754444-posts.map"
+      "goldstack-ci-test-server-side-rendering-1771460794737-robots_txt.map"
     ],
-    "generatedName": "posts.0ca8c8fe516cfc627aa426aceee41afd.map.json"
+    "generatedName": "robots_txt.05a266020931e1add1b32b4a956b2fb1.map.json"
   },
   {
     "names": [
-      "goldstack-ci-test-server-side-rendering-1770518754444-posts-bundle.js"
+      "goldstack-ci-test-server-side-rendering-1771460794737-robots_txt-bundle.js"
     ],
-    "generatedName": "posts-bundle.597124a39e5b4e6f87cec04ac058eb42.js"
+    "generatedName": "robots_txt-bundle.85cc72af179a7a29368aad138a6238a7.js"
   }
 ]
