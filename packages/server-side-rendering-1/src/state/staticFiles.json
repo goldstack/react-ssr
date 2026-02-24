@@ -7,38 +7,38 @@
   },
   {
     "names": [
-      "goldstack-ci-test-server-side-rendering-1771460794737-posts.map"
+      "goldstack-ci-test-server-side-rendering-1771966302983-__index.map"
     ],
-    "generatedName": "posts.4a4c5c91952f97ae714c67e5a8aeb4ec.map.json"
+    "generatedName": "__index.5fc33fd2513548ad95c67a182584345a.map.json"
   },
   {
     "names": [
-      "goldstack-ci-test-server-side-rendering-1771460794737-posts-bundle.js"
+      "goldstack-ci-test-server-side-rendering-1771966302983-__index-bundle.js"
     ],
-    "generatedName": "posts-bundle.777a02b3f2233a7fabf2010fab5db84e.js"
+    "generatedName": "__index-bundle.1ee43fe0a0de5e79d0a4b37026ed7f76.js"
   },
   {
     "names": [
-      "goldstack-ci-test-server-side-rendering-1771460794737-__index.map"
+      "goldstack-ci-test-server-side-rendering-1771966302983-robots_txt.map"
     ],
-    "generatedName": "__index.a9ddc7b8b3184bca0080b4f06976b806.map.json"
+    "generatedName": "robots_txt.a0d7ae2788df4720e97006fafaded467.map.json"
   },
   {
     "names": [
-      "goldstack-ci-test-server-side-rendering-1771460794737-__index-bundle.js"
+      "goldstack-ci-test-server-side-rendering-1771966302983-robots_txt-bundle.js"
     ],
-    "generatedName": "__index-bundle.06ecbced775b459a05f132ffac937043.js"
+    "generatedName": "robots_txt-bundle.22cd9334d04dfe01eaf68a74e76d9d63.js"
   },
   {
     "names": [
-      "goldstack-ci-test-server-side-rendering-1771460794737-robots_txt.map"
+      "goldstack-ci-test-server-side-rendering-1771966302983-posts.map"
     ],
-    "generatedName": "robots_txt.05a266020931e1add1b32b4a956b2fb1.map.json"
+    "generatedName": "posts.a9378c4247e42087990b7d0d4970d40b.map.json"
   },
   {
     "names": [
-      "goldstack-ci-test-server-side-rendering-1771460794737-robots_txt-bundle.js"
+      "goldstack-ci-test-server-side-rendering-1771966302983-posts-bundle.js"
     ],
-    "generatedName": "robots_txt-bundle.85cc72af179a7a29368aad138a6238a7.js"
+    "generatedName": "posts-bundle.e02096b7d22d3770e1b73a2f1343dfd4.js"
   }
 ]
