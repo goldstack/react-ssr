@@ -10,27 +10,27 @@
       "awsUser": "goldstack-dev",
       "awsRegion": "us-west-2",
       "configuration": {
-        "lambdaNamePrefix": "goldstack-ci-test-server-side-rendering-1775690942124",
-        "domain": "server-side-rendering-1775690942124.tests.dev.goldstack.party",
+        "lambdaNamePrefix": "goldstack-ci-test-server-side-rendering-1775698538484",
+        "domain": "server-side-rendering-1775698538484.tests.dev.goldstack.party",
         "hostedZoneDomain": "dev.goldstack.party",
         "cors": "",
         "lambdas": {
           "ANY /robots.txt": {
-            "function_name": "goldstack-ci-test-server-side-rendering-1775690942124-robots_txt",
+            "function_name": "goldstack-ci-test-server-side-rendering-1775698538484-robots_txt",
             "route": "ANY /robots.txt"
           },
           "ANY /posts": {
-            "function_name": "goldstack-ci-test-server-side-rendering-1775690942124-posts",
+            "function_name": "goldstack-ci-test-server-side-rendering-1775698538484-posts",
             "route": "ANY /posts"
           },
           "ANY /": {
-            "function_name": "goldstack-ci-test-server-side-rendering-1775690942124-__index",
+            "function_name": "goldstack-ci-test-server-side-rendering-1775698538484-__index",
             "route": "ANY /"
           }
         }
       },
       "tfVersion": "1.10",
-      "tfStateKey": "server-side-rendering-1-prod-8ce233c674d49b5cf31c.tfstate"
+      "tfStateKey": "server-side-rendering-1-prod-cc1a0145f307e9d67639.tfstate"
     }
   ]
 }
