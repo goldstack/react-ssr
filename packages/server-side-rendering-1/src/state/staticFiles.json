@@ -7,38 +7,38 @@
   },
   {
     "names": [
-      "goldstack-ci-test-server-side-rendering-1778569085695-robots_txt.map"
+      "goldstack-ci-test-server-side-rendering-1781454246117-robots_txt.map"
     ],
-    "generatedName": "robots_txt.ae899b4cf357818b8234b3a3b5e9c651.map.json"
+    "generatedName": "robots_txt.cc1ebbca990c50849433f76ed8a49326.map.json"
   },
   {
     "names": [
-      "goldstack-ci-test-server-side-rendering-1778569085695-robots_txt-bundle.js"
+      "goldstack-ci-test-server-side-rendering-1781454246117-robots_txt-bundle.js"
     ],
-    "generatedName": "robots_txt-bundle.f179c9f5702d1a4315a7d0830f3ffa0a.js"
+    "generatedName": "robots_txt-bundle.53c7ea339192f7e47c596c18a2df42b3.js"
   },
   {
     "names": [
-      "goldstack-ci-test-server-side-rendering-1778569085695-posts.map"
+      "goldstack-ci-test-server-side-rendering-1781454246117-__index.map"
     ],
-    "generatedName": "posts.89568a68270598e9a210b41770074127.map.json"
+    "generatedName": "__index.cd8eee2923b18c4cb6ea4819fb7cfa84.map.json"
   },
   {
     "names": [
-      "goldstack-ci-test-server-side-rendering-1778569085695-posts-bundle.js"
+      "goldstack-ci-test-server-side-rendering-1781454246117-__index-bundle.js"
     ],
-    "generatedName": "posts-bundle.3ace00a24b97ff91127852d896c5f9ee.js"
+    "generatedName": "__index-bundle.aaaaee072857c0889e3366938bef218c.js"
   },
   {
     "names": [
-      "goldstack-ci-test-server-side-rendering-1778569085695-__index.map"
+      "goldstack-ci-test-server-side-rendering-1781454246117-posts.map"
     ],
-    "generatedName": "__index.26b97e5d61e5dd5cffd172962f518579.map.json"
+    "generatedName": "posts.b0612a7c36f934f266e2e61853d45496.map.json"
   },
   {
     "names": [
-      "goldstack-ci-test-server-side-rendering-1778569085695-__index-bundle.js"
+      "goldstack-ci-test-server-side-rendering-1781454246117-posts-bundle.js"
     ],
-    "generatedName": "__index-bundle.a65b1a7303fab6d29651114cd2afb105.js"
+    "generatedName": "posts-bundle.5fbe4d13e79f9d44c003332a4233228f.js"
   }
 ]
