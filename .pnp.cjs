@@ -10941,7 +10941,7 @@ const RAW_RUNTIME_STATE =
           ["postcss-import", "virtual:403059edc194f8eee9f9b8f9ab634e67126b182288b0cf3b56c13ed0ebaeda2fb24025b868e17fbbf02f6cd6a0b5ab93ce2bfe51d215138ea74d0736d87896c8#npm:15.1.0"],\
           ["postcss-value-parser", "npm:4.2.0"],\
           ["read-cache", "npm:1.0.0"],\
-          ["resolve", "patch:resolve@npm%3A1.17.0#optional!builtin<compat/resolve>::version=1.17.0&hash=c3c19d"]\
+          ["resolve", "patch:resolve@npm%3A1.17.0#optional!builtin<compat/resolve>::version=1.17.0&hash=9bd1a5"]\
         ],\
         "packagePeers": [\
           "@types/postcss",\
@@ -11726,20 +11726,20 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["resolve", [\
-      ["patch:resolve@npm%3A1.17.0#optional!builtin<compat/resolve>::version=1.17.0&hash=c3c19d", {\
-        "packageLocation": "./.yarn/cache/resolve-patch-a9574b134c-02e87fe923.zip/node_modules/resolve/",\
+      ["patch:resolve@npm%3A1.17.0#optional!builtin<compat/resolve>::version=1.17.0&hash=9bd1a5", {\
+        "packageLocation": "./.yarn/cache/resolve-patch-a499252afc-c6fcb805f1.zip/node_modules/resolve/",\
         "packageDependencies": [\
           ["path-parse", "npm:1.0.7"],\
-          ["resolve", "patch:resolve@npm%3A1.17.0#optional!builtin<compat/resolve>::version=1.17.0&hash=c3c19d"]\
+          ["resolve", "patch:resolve@npm%3A1.17.0#optional!builtin<compat/resolve>::version=1.17.0&hash=9bd1a5"]\
         ],\
         "linkType": "HARD"\
       }],\
-      ["patch:resolve@npm%3A1.22.10#optional!builtin<compat/resolve>::version=1.22.10&hash=c3c19d", {\
-        "packageLocation": "./.yarn/cache/resolve-patch-b5982cfa8c-d4d878bfe3.zip/node_modules/resolve/",\
+      ["patch:resolve@npm%3A1.22.10#optional!builtin<compat/resolve>::version=1.22.10&hash=9bd1a5", {\
+        "packageLocation": "./.yarn/cache/resolve-patch-6205c49558-c202d86f0b.zip/node_modules/resolve/",\
         "packageDependencies": [\
           ["is-core-module", "npm:2.16.0"],\
           ["path-parse", "npm:1.0.7"],\
-          ["resolve", "patch:resolve@npm%3A1.22.10#optional!builtin<compat/resolve>::version=1.22.10&hash=c3c19d"],\
+          ["resolve", "patch:resolve@npm%3A1.22.10#optional!builtin<compat/resolve>::version=1.22.10&hash=9bd1a5"],\
           ["supports-preserve-symlinks-flag", "npm:1.0.0"]\
         ],\
         "linkType": "HARD"\
@@ -12623,7 +12623,7 @@ const RAW_RUNTIME_STATE =
           ["postcss-load-config", "virtual:403059edc194f8eee9f9b8f9ab634e67126b182288b0cf3b56c13ed0ebaeda2fb24025b868e17fbbf02f6cd6a0b5ab93ce2bfe51d215138ea74d0736d87896c8#npm:4.0.2"],\
           ["postcss-nested", "virtual:403059edc194f8eee9f9b8f9ab634e67126b182288b0cf3b56c13ed0ebaeda2fb24025b868e17fbbf02f6cd6a0b5ab93ce2bfe51d215138ea74d0736d87896c8#npm:6.2.0"],\
           ["postcss-selector-parser", "npm:6.1.2"],\
-          ["resolve", "patch:resolve@npm%3A1.22.10#optional!builtin<compat/resolve>::version=1.22.10&hash=c3c19d"],\
+          ["resolve", "patch:resolve@npm%3A1.22.10#optional!builtin<compat/resolve>::version=1.22.10&hash=9bd1a5"],\
           ["sucrase", "npm:3.35.0"],\
           ["tailwindcss", "npm:3.4.17"]\
         ],\
@@ -19173,7 +19173,7 @@ function getPathForDisplay(p) {
   return npath.normalize(npath.fromPortablePath(p));
 }
 
-const [major, minor] = process.versions.node.split(`.`).map((value) => parseInt(value, 10));
+const [major, minor, patch] = process.versions.node.split(`.`).map((value) => parseInt(value, 10));
 const WATCH_MODE_MESSAGE_USES_ARRAYS = major > 19 || major === 19 && minor >= 2 || major === 18 && minor >= 13;
 
 function readPackageScope(checkPath) {
@@ -19208,9 +19208,9 @@ Instead change the require of ${basename} in ${parentPath} to a dynamic import()
   err.code = `ERR_REQUIRE_ESM`;
   return err;
 }
-function reportRequiredFilesToWatchMode(files) {
+function reportRequiredFilesToWatchMode(paths) {
   if (process.env.WATCH_REPORT_DEPENDENCIES && process.send) {
-    files = files.map((filename) => npath.fromPortablePath(VirtualFS.resolveVirtual(npath.toPortablePath(filename))));
+    const files = paths.map((filename) => npath.fromPortablePath(VirtualFS.resolveVirtual(filename)));
     if (WATCH_MODE_MESSAGE_USES_ARRAYS) {
       process.send({ "watch:require": files });
     } else {
@@ -20853,9 +20853,10 @@ Required by: ${issuerLocator.name}@${issuerLocator.reference} (via ${issuerForDi
     const candidates = [];
     const qualifiedPath = applyNodeExtensionResolution(unqualifiedPath, candidates, { extensions });
     if (qualifiedPath) {
+      reportRequiredFilesToWatchMode([qualifiedPath]);
       return ppath.normalize(qualifiedPath);
     } else {
-      reportRequiredFilesToWatchMode(candidates.map((candidate) => npath.fromPortablePath(candidate)));
+      reportRequiredFilesToWatchMode(candidates);
       const unqualifiedPathForDisplay = getPathForDisplay(unqualifiedPath);
       const containingPackage = findPackageLocator(unqualifiedPath);
       if (containingPackage) {
