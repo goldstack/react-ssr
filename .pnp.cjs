@@ -34,8 +34,8 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["@biomejs/biome", "npm:2.3.5"],\
-          ["@goldstack/nodemonx", "npm:0.4.47"],\
-          ["@goldstack/utils-typescript-references", "npm:0.3.36"],\
+          ["@goldstack/nodemonx", "npm:0.4.48"],\
+          ["@goldstack/utils-typescript-references", "npm:0.3.37"],\
           ["@types/jest", "npm:30.0.0"],\
           ["@types/node", "npm:25.0.3"],\
           ["markdown-magic", "npm:4.11.0"],\
@@ -2018,30 +2018,30 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/infra", [\
-      ["npm:0.4.47", {\
-        "packageLocation": "./.yarn/cache/@goldstack-infra-npm-0.4.47-06aedfbba2-5886ced575.zip/node_modules/@goldstack/infra/",\
+      ["npm:0.4.48", {\
+        "packageLocation": "./.yarn/cache/@goldstack-infra-npm-0.4.48-f1f04f74b8-b2de240ce9.zip/node_modules/@goldstack/infra/",\
         "packageDependencies": [\
-          ["@goldstack/infra", "npm:0.4.47"],\
-          ["@goldstack/utils-config", "npm:0.4.47"],\
-          ["@goldstack/utils-log", "npm:0.3.40"],\
-          ["@goldstack/utils-sh", "npm:0.5.45"]\
+          ["@goldstack/infra", "npm:0.4.48"],\
+          ["@goldstack/utils-config", "npm:0.4.48"],\
+          ["@goldstack/utils-log", "npm:0.3.41"],\
+          ["@goldstack/utils-sh", "npm:0.5.46"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@goldstack/infra-aws", [\
-      ["npm:0.4.74", {\
-        "packageLocation": "./.yarn/cache/@goldstack-infra-aws-npm-0.4.74-e3069a9cca-1a4942b2c9.zip/node_modules/@goldstack/infra-aws/",\
+      ["npm:0.4.75", {\
+        "packageLocation": "./.yarn/cache/@goldstack-infra-aws-npm-0.4.75-ca9a7e5924-5309bcbcdb.zip/node_modules/@goldstack/infra-aws/",\
         "packageDependencies": [\
           ["@aws-sdk/client-sts", "npm:3.1101.0"],\
           ["@aws-sdk/credential-providers", "npm:3.1101.0"],\
           ["@aws-sdk/types", "npm:3.974.2"],\
-          ["@goldstack/infra", "npm:0.4.47"],\
-          ["@goldstack/infra-aws", "npm:0.4.74"],\
-          ["@goldstack/utils-config", "npm:0.4.47"],\
-          ["@goldstack/utils-log", "npm:0.3.40"],\
-          ["@goldstack/utils-package", "npm:0.4.49"],\
-          ["@goldstack/utils-sh", "npm:0.5.45"],\
+          ["@goldstack/infra", "npm:0.4.48"],\
+          ["@goldstack/infra-aws", "npm:0.4.75"],\
+          ["@goldstack/utils-config", "npm:0.4.48"],\
+          ["@goldstack/utils-log", "npm:0.3.41"],\
+          ["@goldstack/utils-package", "npm:0.4.50"],\
+          ["@goldstack/utils-sh", "npm:0.5.46"],\
           ["axios", "npm:1.20.0"],\
           ["handlebars", "npm:4.7.9"]\
         ],\
@@ -2049,12 +2049,12 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/nodemonx", [\
-      ["npm:0.4.47", {\
-        "packageLocation": "./.yarn/cache/@goldstack-nodemonx-npm-0.4.47-002aa52b28-eb678eba67.zip/node_modules/@goldstack/nodemonx/",\
+      ["npm:0.4.48", {\
+        "packageLocation": "./.yarn/cache/@goldstack-nodemonx-npm-0.4.48-e28f9e5555-0c4750389b.zip/node_modules/@goldstack/nodemonx/",\
         "packageDependencies": [\
-          ["@goldstack/nodemonx", "npm:0.4.47"],\
-          ["@goldstack/utils-log", "npm:0.3.40"],\
-          ["@goldstack/utils-sh", "npm:0.5.45"],\
+          ["@goldstack/nodemonx", "npm:0.4.48"],\
+          ["@goldstack/utils-log", "npm:0.3.41"],\
+          ["@goldstack/utils-sh", "npm:0.5.46"],\
           ["minimatch", "npm:10.2.5"],\
           ["node-watch", "npm:0.6.4"]\
         ],\
@@ -2062,19 +2062,19 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/template-ssr", [\
-      ["npm:0.3.122", {\
-        "packageLocation": "./.yarn/cache/@goldstack-template-ssr-npm-0.3.122-440b4df3b9-7f341ecdc6.zip/node_modules/@goldstack/template-ssr/",\
+      ["npm:0.3.123", {\
+        "packageLocation": "./.yarn/cache/@goldstack-template-ssr-npm-0.3.123-58cc21b613-2c1c88ffd7.zip/node_modules/@goldstack/template-ssr/",\
         "packageDependencies": [\
-          ["@goldstack/infra", "npm:0.4.47"],\
-          ["@goldstack/infra-aws", "npm:0.4.74"],\
-          ["@goldstack/template-ssr", "npm:0.3.122"],\
-          ["@goldstack/template-ssr-server", "npm:0.3.120"],\
-          ["@goldstack/utils-aws-lambda", "npm:0.3.88"],\
-          ["@goldstack/utils-esbuild", "npm:0.5.30"],\
-          ["@goldstack/utils-package", "npm:0.4.49"],\
-          ["@goldstack/utils-package-config-embedded", "npm:0.5.50"],\
-          ["@goldstack/utils-template", "npm:0.4.48"],\
-          ["@goldstack/utils-terraform", "npm:0.4.94"],\
+          ["@goldstack/infra", "npm:0.4.48"],\
+          ["@goldstack/infra-aws", "npm:0.4.75"],\
+          ["@goldstack/template-ssr", "npm:0.3.123"],\
+          ["@goldstack/template-ssr-server", "npm:0.3.121"],\
+          ["@goldstack/utils-aws-lambda", "npm:0.3.89"],\
+          ["@goldstack/utils-esbuild", "npm:0.5.31"],\
+          ["@goldstack/utils-package", "npm:0.4.50"],\
+          ["@goldstack/utils-package-config-embedded", "npm:0.5.51"],\
+          ["@goldstack/utils-template", "npm:0.4.49"],\
+          ["@goldstack/utils-terraform", "npm:0.4.95"],\
           ["@types/aws-lambda", "npm:8.10.159"],\
           ["react", "npm:19.2.8"],\
           ["react-dom", "virtual:ea1d9e7049b95ed362294c9df397aab9c8003d7203ea20a644a1562064d0f435c693872484b439325fdea8e2b85d16d249f14b9d624705186342a0eb450de825#npm:19.2.8"],\
@@ -2084,26 +2084,26 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/template-ssr-cli", [\
-      ["npm:0.3.130", {\
-        "packageLocation": "./.yarn/cache/@goldstack-template-ssr-cli-npm-0.3.130-5da17b479f-462097cdb9.zip/node_modules/@goldstack/template-ssr-cli/",\
+      ["npm:0.3.131", {\
+        "packageLocation": "./.yarn/cache/@goldstack-template-ssr-cli-npm-0.3.131-e226d2c786-7e295f9ea6.zip/node_modules/@goldstack/template-ssr-cli/",\
         "packageDependencies": [\
-          ["@goldstack/infra", "npm:0.4.47"],\
-          ["@goldstack/infra-aws", "npm:0.4.74"],\
-          ["@goldstack/template-ssr", "npm:0.3.122"],\
-          ["@goldstack/template-ssr-cli", "npm:0.3.130"],\
-          ["@goldstack/template-ssr-server", "npm:0.3.120"],\
-          ["@goldstack/template-ssr-server-compile-bundle", "npm:0.3.117"],\
-          ["@goldstack/utils-aws-lambda", "npm:0.3.88"],\
-          ["@goldstack/utils-cli", "npm:0.3.37"],\
-          ["@goldstack/utils-docker", "npm:0.4.47"],\
-          ["@goldstack/utils-log", "npm:0.3.40"],\
-          ["@goldstack/utils-package", "npm:0.4.49"],\
-          ["@goldstack/utils-package-config", "npm:0.4.49"],\
-          ["@goldstack/utils-s3-deployment", "npm:0.5.79"],\
-          ["@goldstack/utils-sh", "npm:0.5.45"],\
-          ["@goldstack/utils-template", "npm:0.4.48"],\
-          ["@goldstack/utils-terraform", "npm:0.4.94"],\
-          ["@goldstack/utils-terraform-aws", "npm:0.4.99"],\
+          ["@goldstack/infra", "npm:0.4.48"],\
+          ["@goldstack/infra-aws", "npm:0.4.75"],\
+          ["@goldstack/template-ssr", "npm:0.3.123"],\
+          ["@goldstack/template-ssr-cli", "npm:0.3.131"],\
+          ["@goldstack/template-ssr-server", "npm:0.3.121"],\
+          ["@goldstack/template-ssr-server-compile-bundle", "npm:0.3.118"],\
+          ["@goldstack/utils-aws-lambda", "npm:0.3.89"],\
+          ["@goldstack/utils-cli", "npm:0.3.38"],\
+          ["@goldstack/utils-docker", "npm:0.4.48"],\
+          ["@goldstack/utils-log", "npm:0.3.41"],\
+          ["@goldstack/utils-package", "npm:0.4.50"],\
+          ["@goldstack/utils-package-config", "npm:0.4.50"],\
+          ["@goldstack/utils-s3-deployment", "npm:0.5.80"],\
+          ["@goldstack/utils-sh", "npm:0.5.46"],\
+          ["@goldstack/utils-template", "npm:0.4.49"],\
+          ["@goldstack/utils-terraform", "npm:0.4.95"],\
+          ["@goldstack/utils-terraform-aws", "npm:0.4.100"],\
           ["outmatch", "npm:1.0.0"],\
           ["source-map-support", "npm:0.5.21"],\
           ["yargs", "npm:17.7.2"]\
@@ -2112,76 +2112,76 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/template-ssr-server", [\
-      ["npm:0.3.120", {\
-        "packageLocation": "./.yarn/cache/@goldstack-template-ssr-server-npm-0.3.120-90eda092d3-1123d365ec.zip/node_modules/@goldstack/template-ssr-server/",\
+      ["npm:0.3.121", {\
+        "packageLocation": "./.yarn/cache/@goldstack-template-ssr-server-npm-0.3.121-93e4496d8f-6e05c69bea.zip/node_modules/@goldstack/template-ssr-server/",\
         "packageDependencies": [\
-          ["@goldstack/infra", "npm:0.4.47"],\
-          ["@goldstack/infra-aws", "npm:0.4.74"],\
-          ["@goldstack/template-ssr-server", "npm:0.3.120"],\
-          ["@goldstack/template-ssr-server-compile-bundle", "npm:0.3.117"],\
-          ["@goldstack/utils-aws-lambda", "npm:0.3.88"],\
-          ["@goldstack/utils-esbuild", "npm:0.5.30"],\
-          ["@goldstack/utils-package", "npm:0.4.49"],\
-          ["@goldstack/utils-package-config-embedded", "npm:0.5.50"],\
-          ["@goldstack/utils-sh", "npm:0.5.45"],\
-          ["@goldstack/utils-template", "npm:0.4.48"],\
-          ["@goldstack/utils-terraform", "npm:0.4.94"],\
+          ["@goldstack/infra", "npm:0.4.48"],\
+          ["@goldstack/infra-aws", "npm:0.4.75"],\
+          ["@goldstack/template-ssr-server", "npm:0.3.121"],\
+          ["@goldstack/template-ssr-server-compile-bundle", "npm:0.3.118"],\
+          ["@goldstack/utils-aws-lambda", "npm:0.3.89"],\
+          ["@goldstack/utils-esbuild", "npm:0.5.31"],\
+          ["@goldstack/utils-package", "npm:0.4.50"],\
+          ["@goldstack/utils-package-config-embedded", "npm:0.5.51"],\
+          ["@goldstack/utils-sh", "npm:0.5.46"],\
+          ["@goldstack/utils-template", "npm:0.4.49"],\
+          ["@goldstack/utils-terraform", "npm:0.4.95"],\
           ["@types/aws-lambda", "npm:8.10.159"],\
-          ["lambda-compression", "npm:0.2.32"],\
+          ["lambda-compression", "npm:0.2.33"],\
           ["react", "npm:19.2.8"],\
           ["react-dom", "virtual:ea1d9e7049b95ed362294c9df397aab9c8003d7203ea20a644a1562064d0f435c693872484b439325fdea8e2b85d16d249f14b9d624705186342a0eb450de825#npm:19.2.8"],\
           ["source-map-support", "npm:0.5.21"],\
-          ["static-file-mapper", "npm:0.3.32"]\
+          ["static-file-mapper", "npm:0.3.33"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@goldstack/template-ssr-server-compile-bundle", [\
-      ["npm:0.3.117", {\
-        "packageLocation": "./.yarn/cache/@goldstack-template-ssr-server-compile-bundle-npm-0.3.117-48765d7cf5-dff7d38d91.zip/node_modules/@goldstack/template-ssr-server-compile-bundle/",\
+      ["npm:0.3.118", {\
+        "packageLocation": "./.yarn/cache/@goldstack-template-ssr-server-compile-bundle-npm-0.3.118-937800dfc2-15f46de149.zip/node_modules/@goldstack/template-ssr-server-compile-bundle/",\
         "packageDependencies": [\
-          ["@goldstack/infra", "npm:0.4.47"],\
-          ["@goldstack/infra-aws", "npm:0.4.74"],\
-          ["@goldstack/template-ssr-server-compile-bundle", "npm:0.3.117"],\
-          ["@goldstack/utils-aws-lambda", "npm:0.3.88"],\
-          ["@goldstack/utils-esbuild", "npm:0.5.30"],\
-          ["@goldstack/utils-log", "npm:0.3.40"],\
-          ["@goldstack/utils-package", "npm:0.4.49"],\
-          ["@goldstack/utils-package-config-embedded", "npm:0.5.50"],\
-          ["@goldstack/utils-sh", "npm:0.5.45"],\
-          ["@goldstack/utils-template", "npm:0.4.48"],\
-          ["@goldstack/utils-terraform", "npm:0.4.94"],\
+          ["@goldstack/infra", "npm:0.4.48"],\
+          ["@goldstack/infra-aws", "npm:0.4.75"],\
+          ["@goldstack/template-ssr-server-compile-bundle", "npm:0.3.118"],\
+          ["@goldstack/utils-aws-lambda", "npm:0.3.89"],\
+          ["@goldstack/utils-esbuild", "npm:0.5.31"],\
+          ["@goldstack/utils-log", "npm:0.3.41"],\
+          ["@goldstack/utils-package", "npm:0.4.50"],\
+          ["@goldstack/utils-package-config-embedded", "npm:0.5.51"],\
+          ["@goldstack/utils-sh", "npm:0.5.46"],\
+          ["@goldstack/utils-template", "npm:0.4.49"],\
+          ["@goldstack/utils-terraform", "npm:0.4.95"],\
           ["@types/aws-lambda", "npm:8.10.159"],\
           ["esbuild", "npm:0.25.6"],\
-          ["lambda-compression", "npm:0.2.32"],\
+          ["lambda-compression", "npm:0.2.33"],\
           ["react", "npm:19.2.8"],\
           ["react-dom", "virtual:ea1d9e7049b95ed362294c9df397aab9c8003d7203ea20a644a1562064d0f435c693872484b439325fdea8e2b85d16d249f14b9d624705186342a0eb450de825#npm:19.2.8"],\
           ["source-map-support", "npm:0.5.21"],\
-          ["static-file-mapper-build", "npm:0.3.48"]\
+          ["static-file-mapper-build", "npm:0.3.49"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@goldstack/utils-aws-cli", [\
-      ["npm:0.4.76", {\
-        "packageLocation": "./.yarn/cache/@goldstack-utils-aws-cli-npm-0.4.76-d3435b3771-202ffff63f.zip/node_modules/@goldstack/utils-aws-cli/",\
+      ["npm:0.4.77", {\
+        "packageLocation": "./.yarn/cache/@goldstack-utils-aws-cli-npm-0.4.77-f750e5fe79-20f3380317.zip/node_modules/@goldstack/utils-aws-cli/",\
         "packageDependencies": [\
           ["@aws-sdk/types", "npm:3.974.2"],\
-          ["@goldstack/infra-aws", "npm:0.4.74"],\
-          ["@goldstack/utils-aws-cli", "npm:0.4.76"],\
-          ["@goldstack/utils-docker", "npm:0.4.47"],\
-          ["@goldstack/utils-log", "npm:0.3.40"],\
-          ["@goldstack/utils-sh", "npm:0.5.45"]\
+          ["@goldstack/infra-aws", "npm:0.4.75"],\
+          ["@goldstack/utils-aws-cli", "npm:0.4.77"],\
+          ["@goldstack/utils-docker", "npm:0.4.48"],\
+          ["@goldstack/utils-log", "npm:0.3.41"],\
+          ["@goldstack/utils-sh", "npm:0.5.46"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@goldstack/utils-aws-http-api-local", [\
-      ["npm:0.3.97", {\
-        "packageLocation": "./.yarn/cache/@goldstack-utils-aws-http-api-local-npm-0.3.97-ece01f570f-ea53295c07.zip/node_modules/@goldstack/utils-aws-http-api-local/",\
+      ["npm:0.3.98", {\
+        "packageLocation": "./.yarn/cache/@goldstack-utils-aws-http-api-local-npm-0.3.98-914de55541-53b9dcfa7e.zip/node_modules/@goldstack/utils-aws-http-api-local/",\
         "packageDependencies": [\
-          ["@goldstack/utils-aws-http-api-local", "npm:0.3.97"],\
-          ["@goldstack/utils-aws-lambda", "npm:0.3.88"],\
+          ["@goldstack/utils-aws-http-api-local", "npm:0.3.98"],\
+          ["@goldstack/utils-aws-lambda", "npm:0.3.89"],\
           ["@types/aws-lambda", "npm:8.10.159"],\
           ["cookie", "npm:1.0.2"],\
           ["cors", "npm:2.8.5"],\
@@ -2191,28 +2191,28 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/utils-aws-lambda", [\
-      ["npm:0.3.88", {\
-        "packageLocation": "./.yarn/cache/@goldstack-utils-aws-lambda-npm-0.3.88-cf380f9c92-742d38706c.zip/node_modules/@goldstack/utils-aws-lambda/",\
+      ["npm:0.3.89", {\
+        "packageLocation": "./.yarn/cache/@goldstack-utils-aws-lambda-npm-0.3.89-18ddb4c922-92485ea4f8.zip/node_modules/@goldstack/utils-aws-lambda/",\
         "packageDependencies": [\
           ["@aws-sdk/types", "npm:3.974.2"],\
-          ["@goldstack/infra-aws", "npm:0.4.74"],\
-          ["@goldstack/utils-aws-cli", "npm:0.4.76"],\
-          ["@goldstack/utils-aws-lambda", "npm:0.3.88"],\
-          ["@goldstack/utils-log", "npm:0.3.40"],\
-          ["@goldstack/utils-sh", "npm:0.5.45"],\
-          ["@yarnpkg/esbuild-plugin-pnp", "virtual:cf380f9c92e1a91f83c5da5c21adf3f33885cfda70f966ae55f44d9772b6c434338d8b85128e7cdf3cfda2e62ea3ea91f23f1e5a52c57c491c96825c5aef0a7e#npm:3.0.0-rc.15"],\
+          ["@goldstack/infra-aws", "npm:0.4.75"],\
+          ["@goldstack/utils-aws-cli", "npm:0.4.77"],\
+          ["@goldstack/utils-aws-lambda", "npm:0.3.89"],\
+          ["@goldstack/utils-log", "npm:0.3.41"],\
+          ["@goldstack/utils-sh", "npm:0.5.46"],\
+          ["@yarnpkg/esbuild-plugin-pnp", "virtual:18ddb4c922e2edea637ecde2060e67ae8b0eea37bcde95434a5c0f837dcf898a912c9ae31fc550b51c37df3510326449ae676fa87a8c8fdb8f21fd178fda6f25#npm:3.0.0-rc.15"],\
           ["archiver", "npm:5.3.1"],\
           ["esbuild", "npm:0.25.6"],\
-          ["esbuild-ssr-css-modules-plugin", "virtual:cf380f9c92e1a91f83c5da5c21adf3f33885cfda70f966ae55f44d9772b6c434338d8b85128e7cdf3cfda2e62ea3ea91f23f1e5a52c57c491c96825c5aef0a7e#npm:0.1.34"]\
+          ["esbuild-ssr-css-modules-plugin", "virtual:18ddb4c922e2edea637ecde2060e67ae8b0eea37bcde95434a5c0f837dcf898a912c9ae31fc550b51c37df3510326449ae676fa87a8c8fdb8f21fd178fda6f25#npm:0.1.35"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@goldstack/utils-cli", [\
-      ["npm:0.3.37", {\
-        "packageLocation": "./.yarn/cache/@goldstack-utils-cli-npm-0.3.37-0c68c43358-68275f5dbc.zip/node_modules/@goldstack/utils-cli/",\
+      ["npm:0.3.38", {\
+        "packageLocation": "./.yarn/cache/@goldstack-utils-cli-npm-0.3.38-6b3e009f7d-a01e329505.zip/node_modules/@goldstack/utils-cli/",\
         "packageDependencies": [\
-          ["@goldstack/utils-cli", "npm:0.3.37"],\
+          ["@goldstack/utils-cli", "npm:0.3.38"],\
           ["pino", "npm:9.4.0"],\
           ["pino-pretty", "npm:11.2.2"]\
         ],\
@@ -2220,12 +2220,12 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/utils-config", [\
-      ["npm:0.4.47", {\
-        "packageLocation": "./.yarn/cache/@goldstack-utils-config-npm-0.4.47-3e590e8a21-683d6844d6.zip/node_modules/@goldstack/utils-config/",\
+      ["npm:0.4.48", {\
+        "packageLocation": "./.yarn/cache/@goldstack-utils-config-npm-0.4.48-e06ca92069-7529698593.zip/node_modules/@goldstack/utils-config/",\
         "packageDependencies": [\
-          ["@goldstack/utils-config", "npm:0.4.47"],\
-          ["@goldstack/utils-log", "npm:0.3.40"],\
-          ["@goldstack/utils-sh", "npm:0.5.45"],\
+          ["@goldstack/utils-config", "npm:0.4.48"],\
+          ["@goldstack/utils-log", "npm:0.3.41"],\
+          ["@goldstack/utils-sh", "npm:0.5.46"],\
           ["ajv", "npm:6.15.0"],\
           ["handlebars", "npm:4.7.9"]\
         ],\
@@ -2233,93 +2233,93 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/utils-docker", [\
-      ["npm:0.4.47", {\
-        "packageLocation": "./.yarn/cache/@goldstack-utils-docker-npm-0.4.47-496cf52df9-a8780a34d1.zip/node_modules/@goldstack/utils-docker/",\
+      ["npm:0.4.48", {\
+        "packageLocation": "./.yarn/cache/@goldstack-utils-docker-npm-0.4.48-82a720508f-39813c272e.zip/node_modules/@goldstack/utils-docker/",\
         "packageDependencies": [\
-          ["@goldstack/utils-docker", "npm:0.4.47"],\
-          ["@goldstack/utils-log", "npm:0.3.40"],\
-          ["@goldstack/utils-sh", "npm:0.5.45"]\
+          ["@goldstack/utils-docker", "npm:0.4.48"],\
+          ["@goldstack/utils-log", "npm:0.3.41"],\
+          ["@goldstack/utils-sh", "npm:0.5.46"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@goldstack/utils-esbuild", [\
-      ["npm:0.5.30", {\
-        "packageLocation": "./.yarn/cache/@goldstack-utils-esbuild-npm-0.5.30-cc4826635d-dcf4cb0194.zip/node_modules/@goldstack/utils-esbuild/",\
+      ["npm:0.5.31", {\
+        "packageLocation": "./.yarn/cache/@goldstack-utils-esbuild-npm-0.5.31-26c2fedabd-7cf5759093.zip/node_modules/@goldstack/utils-esbuild/",\
         "packageDependencies": [\
-          ["@goldstack/utils-esbuild", "npm:0.5.30"]\
+          ["@goldstack/utils-esbuild", "npm:0.5.31"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@goldstack/utils-log", [\
-      ["npm:0.3.40", {\
-        "packageLocation": "./.yarn/cache/@goldstack-utils-log-npm-0.3.40-0e24e627d4-effe8feaa0.zip/node_modules/@goldstack/utils-log/",\
+      ["npm:0.3.41", {\
+        "packageLocation": "./.yarn/cache/@goldstack-utils-log-npm-0.3.41-db7994c0c7-8c789766f5.zip/node_modules/@goldstack/utils-log/",\
         "packageDependencies": [\
-          ["@goldstack/utils-cli", "npm:0.3.37"],\
-          ["@goldstack/utils-log", "npm:0.3.40"]\
+          ["@goldstack/utils-cli", "npm:0.3.38"],\
+          ["@goldstack/utils-log", "npm:0.3.41"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@goldstack/utils-package", [\
-      ["npm:0.4.49", {\
-        "packageLocation": "./.yarn/cache/@goldstack-utils-package-npm-0.4.49-9dd46d5c6a-412302e76e.zip/node_modules/@goldstack/utils-package/",\
+      ["npm:0.4.50", {\
+        "packageLocation": "./.yarn/cache/@goldstack-utils-package-npm-0.4.50-02744619d0-7b2752ae28.zip/node_modules/@goldstack/utils-package/",\
         "packageDependencies": [\
-          ["@goldstack/infra", "npm:0.4.47"],\
-          ["@goldstack/utils-config", "npm:0.4.47"],\
-          ["@goldstack/utils-package", "npm:0.4.49"],\
-          ["@goldstack/utils-sh", "npm:0.5.45"],\
+          ["@goldstack/infra", "npm:0.4.48"],\
+          ["@goldstack/utils-config", "npm:0.4.48"],\
+          ["@goldstack/utils-package", "npm:0.4.50"],\
+          ["@goldstack/utils-sh", "npm:0.5.46"],\
           ["yargs", "npm:17.7.2"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@goldstack/utils-package-config", [\
-      ["npm:0.4.49", {\
-        "packageLocation": "./.yarn/cache/@goldstack-utils-package-config-npm-0.4.49-0ad4af0c49-7b2ee0c691.zip/node_modules/@goldstack/utils-package-config/",\
+      ["npm:0.4.50", {\
+        "packageLocation": "./.yarn/cache/@goldstack-utils-package-config-npm-0.4.50-f9ca5fb0cf-76d851d5f1.zip/node_modules/@goldstack/utils-package-config/",\
         "packageDependencies": [\
-          ["@goldstack/infra", "npm:0.4.47"],\
-          ["@goldstack/utils-config", "npm:0.4.47"],\
-          ["@goldstack/utils-package", "npm:0.4.49"],\
-          ["@goldstack/utils-package-config", "npm:0.4.49"],\
-          ["@goldstack/utils-sh", "npm:0.5.45"]\
+          ["@goldstack/infra", "npm:0.4.48"],\
+          ["@goldstack/utils-config", "npm:0.4.48"],\
+          ["@goldstack/utils-package", "npm:0.4.50"],\
+          ["@goldstack/utils-package-config", "npm:0.4.50"],\
+          ["@goldstack/utils-sh", "npm:0.5.46"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@goldstack/utils-package-config-embedded", [\
-      ["npm:0.5.50", {\
-        "packageLocation": "./.yarn/cache/@goldstack-utils-package-config-embedded-npm-0.5.50-151fb7aebb-51f755fe50.zip/node_modules/@goldstack/utils-package-config-embedded/",\
+      ["npm:0.5.51", {\
+        "packageLocation": "./.yarn/cache/@goldstack-utils-package-config-embedded-npm-0.5.51-181f130419-51c1b19e91.zip/node_modules/@goldstack/utils-package-config-embedded/",\
         "packageDependencies": [\
-          ["@goldstack/infra", "npm:0.4.47"],\
-          ["@goldstack/utils-config", "npm:0.4.47"],\
-          ["@goldstack/utils-package", "npm:0.4.49"],\
-          ["@goldstack/utils-package-config-embedded", "npm:0.5.50"]\
+          ["@goldstack/infra", "npm:0.4.48"],\
+          ["@goldstack/utils-config", "npm:0.4.48"],\
+          ["@goldstack/utils-package", "npm:0.4.50"],\
+          ["@goldstack/utils-package-config-embedded", "npm:0.5.51"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@goldstack/utils-s3-deployment", [\
-      ["npm:0.5.79", {\
-        "packageLocation": "./.yarn/cache/@goldstack-utils-s3-deployment-npm-0.5.79-2a21734507-a8e536f0c3.zip/node_modules/@goldstack/utils-s3-deployment/",\
+      ["npm:0.5.80", {\
+        "packageLocation": "./.yarn/cache/@goldstack-utils-s3-deployment-npm-0.5.80-d80b1baa2f-948da0c5ea.zip/node_modules/@goldstack/utils-s3-deployment/",\
         "packageDependencies": [\
-          ["@goldstack/infra-aws", "npm:0.4.74"],\
-          ["@goldstack/utils-aws-cli", "npm:0.4.76"],\
-          ["@goldstack/utils-cli", "npm:0.3.37"],\
-          ["@goldstack/utils-docker", "npm:0.4.47"],\
-          ["@goldstack/utils-s3-deployment", "npm:0.5.79"],\
-          ["@goldstack/utils-sh", "npm:0.5.45"]\
+          ["@goldstack/infra-aws", "npm:0.4.75"],\
+          ["@goldstack/utils-aws-cli", "npm:0.4.77"],\
+          ["@goldstack/utils-cli", "npm:0.3.38"],\
+          ["@goldstack/utils-docker", "npm:0.4.48"],\
+          ["@goldstack/utils-s3-deployment", "npm:0.5.80"],\
+          ["@goldstack/utils-sh", "npm:0.5.46"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@goldstack/utils-sh", [\
-      ["npm:0.5.45", {\
-        "packageLocation": "./.yarn/cache/@goldstack-utils-sh-npm-0.5.45-11f53cab5f-3b5fb8ee68.zip/node_modules/@goldstack/utils-sh/",\
+      ["npm:0.5.46", {\
+        "packageLocation": "./.yarn/cache/@goldstack-utils-sh-npm-0.5.46-869bc93951-9e8d4e14ce.zip/node_modules/@goldstack/utils-sh/",\
         "packageDependencies": [\
-          ["@goldstack/utils-log", "npm:0.3.40"],\
-          ["@goldstack/utils-sh", "npm:0.5.45"],\
+          ["@goldstack/utils-log", "npm:0.3.41"],\
+          ["@goldstack/utils-sh", "npm:0.5.46"],\
           ["archiver", "npm:5.3.1"],\
           ["fs-extra", "npm:11.2.0"],\
           ["glob", "npm:11.1.0"],\
@@ -2331,28 +2331,28 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/utils-template", [\
-      ["npm:0.4.48", {\
-        "packageLocation": "./.yarn/cache/@goldstack-utils-template-npm-0.4.48-ac0120080c-4b7136a8ad.zip/node_modules/@goldstack/utils-template/",\
+      ["npm:0.4.49", {\
+        "packageLocation": "./.yarn/cache/@goldstack-utils-template-npm-0.4.49-4e75f17b80-1839390c68.zip/node_modules/@goldstack/utils-template/",\
         "packageDependencies": [\
-          ["@goldstack/utils-config", "npm:0.4.47"],\
-          ["@goldstack/utils-sh", "npm:0.5.45"],\
-          ["@goldstack/utils-template", "npm:0.4.48"]\
+          ["@goldstack/utils-config", "npm:0.4.48"],\
+          ["@goldstack/utils-sh", "npm:0.5.46"],\
+          ["@goldstack/utils-template", "npm:0.4.49"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@goldstack/utils-terraform", [\
-      ["npm:0.4.94", {\
-        "packageLocation": "./.yarn/cache/@goldstack-utils-terraform-npm-0.4.94-acacd60e20-34c43d22eb.zip/node_modules/@goldstack/utils-terraform/",\
+      ["npm:0.4.95", {\
+        "packageLocation": "./.yarn/cache/@goldstack-utils-terraform-npm-0.4.95-a7ec65d3ca-a07b8b0ff7.zip/node_modules/@goldstack/utils-terraform/",\
         "packageDependencies": [\
-          ["@goldstack/infra", "npm:0.4.47"],\
-          ["@goldstack/infra-aws", "npm:0.4.74"],\
-          ["@goldstack/utils-config", "npm:0.4.47"],\
-          ["@goldstack/utils-docker", "npm:0.4.47"],\
-          ["@goldstack/utils-log", "npm:0.3.40"],\
-          ["@goldstack/utils-package", "npm:0.4.49"],\
-          ["@goldstack/utils-sh", "npm:0.5.45"],\
-          ["@goldstack/utils-terraform", "npm:0.4.94"],\
+          ["@goldstack/infra", "npm:0.4.48"],\
+          ["@goldstack/infra-aws", "npm:0.4.75"],\
+          ["@goldstack/utils-config", "npm:0.4.48"],\
+          ["@goldstack/utils-docker", "npm:0.4.48"],\
+          ["@goldstack/utils-log", "npm:0.3.41"],\
+          ["@goldstack/utils-package", "npm:0.4.50"],\
+          ["@goldstack/utils-sh", "npm:0.5.46"],\
+          ["@goldstack/utils-terraform", "npm:0.4.95"],\
           ["dotenv", "npm:17.3.1"],\
           ["json-stable-stringify", "npm:1.0.1"],\
           ["yargs", "npm:17.7.2"]\
@@ -2361,30 +2361,30 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/utils-terraform-aws", [\
-      ["npm:0.4.99", {\
-        "packageLocation": "./.yarn/cache/@goldstack-utils-terraform-aws-npm-0.4.99-5d9c497b33-cbde8fd100.zip/node_modules/@goldstack/utils-terraform-aws/",\
+      ["npm:0.4.100", {\
+        "packageLocation": "./.yarn/cache/@goldstack-utils-terraform-aws-npm-0.4.100-3f62cc5d01-93a9421564.zip/node_modules/@goldstack/utils-terraform-aws/",\
         "packageDependencies": [\
           ["@aws-sdk/client-dynamodb", "npm:3.1101.0"],\
           ["@aws-sdk/client-s3", "npm:3.1101.0"],\
           ["@aws-sdk/types", "npm:3.974.2"],\
-          ["@goldstack/infra-aws", "npm:0.4.74"],\
-          ["@goldstack/utils-cli", "npm:0.3.37"],\
-          ["@goldstack/utils-config", "npm:0.4.47"],\
-          ["@goldstack/utils-log", "npm:0.3.40"],\
-          ["@goldstack/utils-package", "npm:0.4.49"],\
-          ["@goldstack/utils-sh", "npm:0.5.45"],\
-          ["@goldstack/utils-terraform", "npm:0.4.94"],\
-          ["@goldstack/utils-terraform-aws", "npm:0.4.99"]\
+          ["@goldstack/infra-aws", "npm:0.4.75"],\
+          ["@goldstack/utils-cli", "npm:0.3.38"],\
+          ["@goldstack/utils-config", "npm:0.4.48"],\
+          ["@goldstack/utils-log", "npm:0.3.41"],\
+          ["@goldstack/utils-package", "npm:0.4.50"],\
+          ["@goldstack/utils-sh", "npm:0.5.46"],\
+          ["@goldstack/utils-terraform", "npm:0.4.95"],\
+          ["@goldstack/utils-terraform-aws", "npm:0.4.100"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@goldstack/utils-typescript-references", [\
-      ["npm:0.3.36", {\
-        "packageLocation": "./.yarn/cache/@goldstack-utils-typescript-references-npm-0.3.36-0ab51c6294-a931931aad.zip/node_modules/@goldstack/utils-typescript-references/",\
+      ["npm:0.3.37", {\
+        "packageLocation": "./.yarn/cache/@goldstack-utils-typescript-references-npm-0.3.37-cdcb94f299-2cc3983ee6.zip/node_modules/@goldstack/utils-typescript-references/",\
         "packageDependencies": [\
-          ["@goldstack/utils-log", "npm:0.3.40"],\
-          ["@goldstack/utils-typescript-references", "npm:0.3.36"],\
+          ["@goldstack/utils-log", "npm:0.3.41"],\
+          ["@goldstack/utils-typescript-references", "npm:0.3.37"],\
           ["source-map-support", "npm:0.5.21"],\
           ["yargs", "npm:17.7.2"]\
         ],\
@@ -3658,7 +3658,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/__virtual__/@swc-node-core-virtual-f3461a0180/0/cache/@swc-node-core-npm-1.13.3-ada3185b96-4fcc180f04.zip/node_modules/@swc-node/core/",\
         "packageDependencies": [\
           ["@swc-node/core", "virtual:3bcbd9324a051cc69fdca880f5b2698a6ae4f1dbc28f29a2047f7636b9bafadc6aa59b3a707776b6b7f3656d8c5409e6ed48418d1a7bdf1417b34a82d7089934#npm:1.13.3"],\
-          ["@swc/core", "virtual:256f558e48944514ad002b603b13bda667df5cb1c096573b931a10e4a80a982e5a7c25725fccd5eb78814dc69f0902e5ce34f3797bb81ab6b46fcaea24771376#npm:1.15.46"],\
+          ["@swc/core", "virtual:256f558e48944514ad002b603b13bda667df5cb1c096573b931a10e4a80a982e5a7c25725fccd5eb78814dc69f0902e5ce34f3797bb81ab6b46fcaea24771376#npm:1.16.13"],\
           ["@swc/types", null],\
           ["@types/swc__core", null],\
           ["@types/swc__types", null]\
@@ -3686,7 +3686,7 @@ const RAW_RUNTIME_STATE =
           ["@swc-node/core", "virtual:3bcbd9324a051cc69fdca880f5b2698a6ae4f1dbc28f29a2047f7636b9bafadc6aa59b3a707776b6b7f3656d8c5409e6ed48418d1a7bdf1417b34a82d7089934#npm:1.13.3"],\
           ["@swc-node/register", "virtual:256f558e48944514ad002b603b13bda667df5cb1c096573b931a10e4a80a982e5a7c25725fccd5eb78814dc69f0902e5ce34f3797bb81ab6b46fcaea24771376#npm:1.10.9"],\
           ["@swc-node/sourcemap-support", "npm:0.5.1"],\
-          ["@swc/core", "virtual:256f558e48944514ad002b603b13bda667df5cb1c096573b931a10e4a80a982e5a7c25725fccd5eb78814dc69f0902e5ce34f3797bb81ab6b46fcaea24771376#npm:1.15.46"],\
+          ["@swc/core", "virtual:256f558e48944514ad002b603b13bda667df5cb1c096573b931a10e4a80a982e5a7c25725fccd5eb78814dc69f0902e5ce34f3797bb81ab6b46fcaea24771376#npm:1.16.13"],\
           ["@types/swc__core", null],\
           ["@types/typescript", null],\
           ["colorette", "npm:2.0.20"],\
@@ -3717,32 +3717,32 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@swc/core", [\
-      ["npm:1.15.46", {\
-        "packageLocation": "./.yarn/unplugged/@swc-core-virtual-686e605db3/node_modules/@swc/core/",\
+      ["npm:1.16.13", {\
+        "packageLocation": "./.yarn/unplugged/@swc-core-virtual-2034e2724e/node_modules/@swc/core/",\
         "packageDependencies": [\
-          ["@swc/core", "npm:1.15.46"]\
+          ["@swc/core", "npm:1.16.13"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:256f558e48944514ad002b603b13bda667df5cb1c096573b931a10e4a80a982e5a7c25725fccd5eb78814dc69f0902e5ce34f3797bb81ab6b46fcaea24771376#npm:1.15.46", {\
-        "packageLocation": "./.yarn/unplugged/@swc-core-virtual-686e605db3/node_modules/@swc/core/",\
+      ["virtual:256f558e48944514ad002b603b13bda667df5cb1c096573b931a10e4a80a982e5a7c25725fccd5eb78814dc69f0902e5ce34f3797bb81ab6b46fcaea24771376#npm:1.16.13", {\
+        "packageLocation": "./.yarn/unplugged/@swc-core-virtual-2034e2724e/node_modules/@swc/core/",\
         "packageDependencies": [\
-          ["@swc/core", "virtual:256f558e48944514ad002b603b13bda667df5cb1c096573b931a10e4a80a982e5a7c25725fccd5eb78814dc69f0902e5ce34f3797bb81ab6b46fcaea24771376#npm:1.15.46"],\
-          ["@swc/core-darwin-arm64", "npm:1.15.46"],\
-          ["@swc/core-darwin-x64", "npm:1.15.46"],\
-          ["@swc/core-linux-arm-gnueabihf", "npm:1.15.46"],\
-          ["@swc/core-linux-arm64-gnu", "npm:1.15.46"],\
-          ["@swc/core-linux-arm64-musl", "npm:1.15.46"],\
-          ["@swc/core-linux-ppc64-gnu", "npm:1.15.46"],\
-          ["@swc/core-linux-s390x-gnu", "npm:1.15.46"],\
-          ["@swc/core-linux-x64-gnu", "npm:1.15.46"],\
-          ["@swc/core-linux-x64-musl", "npm:1.15.46"],\
-          ["@swc/core-win32-arm64-msvc", "npm:1.15.46"],\
-          ["@swc/core-win32-ia32-msvc", "npm:1.15.46"],\
-          ["@swc/core-win32-x64-msvc", "npm:1.15.46"],\
+          ["@swc/core", "virtual:256f558e48944514ad002b603b13bda667df5cb1c096573b931a10e4a80a982e5a7c25725fccd5eb78814dc69f0902e5ce34f3797bb81ab6b46fcaea24771376#npm:1.16.13"],\
+          ["@swc/core-darwin-arm64", "npm:1.16.13"],\
+          ["@swc/core-darwin-x64", "npm:1.16.13"],\
+          ["@swc/core-linux-arm-gnueabihf", "npm:1.16.13"],\
+          ["@swc/core-linux-arm64-gnu", "npm:1.16.13"],\
+          ["@swc/core-linux-arm64-musl", "npm:1.16.13"],\
+          ["@swc/core-linux-ppc64-gnu", "npm:1.16.13"],\
+          ["@swc/core-linux-s390x-gnu", "npm:1.16.13"],\
+          ["@swc/core-linux-x64-gnu", "npm:1.16.13"],\
+          ["@swc/core-linux-x64-musl", "npm:1.16.13"],\
+          ["@swc/core-win32-arm64-msvc", "npm:1.16.13"],\
+          ["@swc/core-win32-ia32-msvc", "npm:1.16.13"],\
+          ["@swc/core-win32-x64-msvc", "npm:1.16.13"],\
           ["@swc/counter", "npm:0.1.3"],\
           ["@swc/helpers", null],\
-          ["@swc/types", "npm:0.1.27"],\
+          ["@swc/types", "npm:0.1.28"],\
           ["@types/swc__helpers", null]\
         ],\
         "packagePeers": [\
@@ -3753,109 +3753,109 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@swc/core-darwin-arm64", [\
-      ["npm:1.15.46", {\
-        "packageLocation": "./.yarn/unplugged/@swc-core-darwin-arm64-npm-1.15.46-769614274a/node_modules/@swc/core-darwin-arm64/",\
+      ["npm:1.16.13", {\
+        "packageLocation": "./.yarn/unplugged/@swc-core-darwin-arm64-npm-1.16.13-56969419a4/node_modules/@swc/core-darwin-arm64/",\
         "packageDependencies": [\
-          ["@swc/core-darwin-arm64", "npm:1.15.46"]\
+          ["@swc/core-darwin-arm64", "npm:1.16.13"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@swc/core-darwin-x64", [\
-      ["npm:1.15.46", {\
-        "packageLocation": "./.yarn/unplugged/@swc-core-darwin-x64-npm-1.15.46-d954dab324/node_modules/@swc/core-darwin-x64/",\
+      ["npm:1.16.13", {\
+        "packageLocation": "./.yarn/unplugged/@swc-core-darwin-x64-npm-1.16.13-077ca59138/node_modules/@swc/core-darwin-x64/",\
         "packageDependencies": [\
-          ["@swc/core-darwin-x64", "npm:1.15.46"]\
+          ["@swc/core-darwin-x64", "npm:1.16.13"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@swc/core-linux-arm-gnueabihf", [\
-      ["npm:1.15.46", {\
-        "packageLocation": "./.yarn/unplugged/@swc-core-linux-arm-gnueabihf-npm-1.15.46-bf5097b118/node_modules/@swc/core-linux-arm-gnueabihf/",\
+      ["npm:1.16.13", {\
+        "packageLocation": "./.yarn/unplugged/@swc-core-linux-arm-gnueabihf-npm-1.16.13-a3158c0304/node_modules/@swc/core-linux-arm-gnueabihf/",\
         "packageDependencies": [\
-          ["@swc/core-linux-arm-gnueabihf", "npm:1.15.46"]\
+          ["@swc/core-linux-arm-gnueabihf", "npm:1.16.13"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@swc/core-linux-arm64-gnu", [\
-      ["npm:1.15.46", {\
-        "packageLocation": "./.yarn/unplugged/@swc-core-linux-arm64-gnu-npm-1.15.46-7ad8623973/node_modules/@swc/core-linux-arm64-gnu/",\
+      ["npm:1.16.13", {\
+        "packageLocation": "./.yarn/unplugged/@swc-core-linux-arm64-gnu-npm-1.16.13-3ba7c44174/node_modules/@swc/core-linux-arm64-gnu/",\
         "packageDependencies": [\
-          ["@swc/core-linux-arm64-gnu", "npm:1.15.46"]\
+          ["@swc/core-linux-arm64-gnu", "npm:1.16.13"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@swc/core-linux-arm64-musl", [\
-      ["npm:1.15.46", {\
-        "packageLocation": "./.yarn/unplugged/@swc-core-linux-arm64-musl-npm-1.15.46-c087331aa0/node_modules/@swc/core-linux-arm64-musl/",\
+      ["npm:1.16.13", {\
+        "packageLocation": "./.yarn/unplugged/@swc-core-linux-arm64-musl-npm-1.16.13-76c1100ce6/node_modules/@swc/core-linux-arm64-musl/",\
         "packageDependencies": [\
-          ["@swc/core-linux-arm64-musl", "npm:1.15.46"]\
+          ["@swc/core-linux-arm64-musl", "npm:1.16.13"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@swc/core-linux-ppc64-gnu", [\
-      ["npm:1.15.46", {\
-        "packageLocation": "./.yarn/unplugged/@swc-core-linux-ppc64-gnu-npm-1.15.46-2e3298b81d/node_modules/@swc/core-linux-ppc64-gnu/",\
+      ["npm:1.16.13", {\
+        "packageLocation": "./.yarn/unplugged/@swc-core-linux-ppc64-gnu-npm-1.16.13-45a7b6863b/node_modules/@swc/core-linux-ppc64-gnu/",\
         "packageDependencies": [\
-          ["@swc/core-linux-ppc64-gnu", "npm:1.15.46"]\
+          ["@swc/core-linux-ppc64-gnu", "npm:1.16.13"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@swc/core-linux-s390x-gnu", [\
-      ["npm:1.15.46", {\
-        "packageLocation": "./.yarn/unplugged/@swc-core-linux-s390x-gnu-npm-1.15.46-91fe04eb5a/node_modules/@swc/core-linux-s390x-gnu/",\
+      ["npm:1.16.13", {\
+        "packageLocation": "./.yarn/unplugged/@swc-core-linux-s390x-gnu-npm-1.16.13-3c203c3c54/node_modules/@swc/core-linux-s390x-gnu/",\
         "packageDependencies": [\
-          ["@swc/core-linux-s390x-gnu", "npm:1.15.46"]\
+          ["@swc/core-linux-s390x-gnu", "npm:1.16.13"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@swc/core-linux-x64-gnu", [\
-      ["npm:1.15.46", {\
-        "packageLocation": "./.yarn/unplugged/@swc-core-linux-x64-gnu-npm-1.15.46-47b3817d94/node_modules/@swc/core-linux-x64-gnu/",\
+      ["npm:1.16.13", {\
+        "packageLocation": "./.yarn/unplugged/@swc-core-linux-x64-gnu-npm-1.16.13-c1fce31cc9/node_modules/@swc/core-linux-x64-gnu/",\
         "packageDependencies": [\
-          ["@swc/core-linux-x64-gnu", "npm:1.15.46"]\
+          ["@swc/core-linux-x64-gnu", "npm:1.16.13"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@swc/core-linux-x64-musl", [\
-      ["npm:1.15.46", {\
-        "packageLocation": "./.yarn/unplugged/@swc-core-linux-x64-musl-npm-1.15.46-ebb9d3d967/node_modules/@swc/core-linux-x64-musl/",\
+      ["npm:1.16.13", {\
+        "packageLocation": "./.yarn/unplugged/@swc-core-linux-x64-musl-npm-1.16.13-a91df61390/node_modules/@swc/core-linux-x64-musl/",\
         "packageDependencies": [\
-          ["@swc/core-linux-x64-musl", "npm:1.15.46"]\
+          ["@swc/core-linux-x64-musl", "npm:1.16.13"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@swc/core-win32-arm64-msvc", [\
-      ["npm:1.15.46", {\
-        "packageLocation": "./.yarn/unplugged/@swc-core-win32-arm64-msvc-npm-1.15.46-f3e1508fa6/node_modules/@swc/core-win32-arm64-msvc/",\
+      ["npm:1.16.13", {\
+        "packageLocation": "./.yarn/unplugged/@swc-core-win32-arm64-msvc-npm-1.16.13-9c1f7a5ac9/node_modules/@swc/core-win32-arm64-msvc/",\
         "packageDependencies": [\
-          ["@swc/core-win32-arm64-msvc", "npm:1.15.46"]\
+          ["@swc/core-win32-arm64-msvc", "npm:1.16.13"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@swc/core-win32-ia32-msvc", [\
-      ["npm:1.15.46", {\
-        "packageLocation": "./.yarn/unplugged/@swc-core-win32-ia32-msvc-npm-1.15.46-394dd2dc35/node_modules/@swc/core-win32-ia32-msvc/",\
+      ["npm:1.16.13", {\
+        "packageLocation": "./.yarn/unplugged/@swc-core-win32-ia32-msvc-npm-1.16.13-4ae6618f6b/node_modules/@swc/core-win32-ia32-msvc/",\
         "packageDependencies": [\
-          ["@swc/core-win32-ia32-msvc", "npm:1.15.46"]\
+          ["@swc/core-win32-ia32-msvc", "npm:1.16.13"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@swc/core-win32-x64-msvc", [\
-      ["npm:1.15.46", {\
-        "packageLocation": "./.yarn/unplugged/@swc-core-win32-x64-msvc-npm-1.15.46-01c4ec1e35/node_modules/@swc/core-win32-x64-msvc/",\
+      ["npm:1.16.13", {\
+        "packageLocation": "./.yarn/unplugged/@swc-core-win32-x64-msvc-npm-1.16.13-cf37d2e60f/node_modules/@swc/core-win32-x64-msvc/",\
         "packageDependencies": [\
-          ["@swc/core-win32-x64-msvc", "npm:1.15.46"]\
+          ["@swc/core-win32-x64-msvc", "npm:1.16.13"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3881,7 +3881,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/__virtual__/@swc-jest-virtual-aa1796e6c2/0/cache/@swc-jest-npm-0.2.39-698584c3a7-a2b7ed6fbb.zip/node_modules/@swc/jest/",\
         "packageDependencies": [\
           ["@jest/create-cache-key-function", "npm:30.0.2"],\
-          ["@swc/core", "virtual:256f558e48944514ad002b603b13bda667df5cb1c096573b931a10e4a80a982e5a7c25725fccd5eb78814dc69f0902e5ce34f3797bb81ab6b46fcaea24771376#npm:1.15.46"],\
+          ["@swc/core", "virtual:256f558e48944514ad002b603b13bda667df5cb1c096573b931a10e4a80a982e5a7c25725fccd5eb78814dc69f0902e5ce34f3797bb81ab6b46fcaea24771376#npm:1.16.13"],\
           ["@swc/counter", "npm:0.1.3"],\
           ["@swc/jest", "virtual:256f558e48944514ad002b603b13bda667df5cb1c096573b931a10e4a80a982e5a7c25725fccd5eb78814dc69f0902e5ce34f3797bb81ab6b46fcaea24771376#npm:0.2.39"],\
           ["@types/swc__core", null],\
@@ -3895,11 +3895,11 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@swc/types", [\
-      ["npm:0.1.27", {\
-        "packageLocation": "./.yarn/cache/@swc-types-npm-0.1.27-974714341f-96b8161fbb.zip/node_modules/@swc/types/",\
+      ["npm:0.1.28", {\
+        "packageLocation": "./.yarn/cache/@swc-types-npm-0.1.28-cadf2d4eea-9cd2b13a64.zip/node_modules/@swc/types/",\
         "packageDependencies": [\
           ["@swc/counter", "npm:0.1.3"],\
-          ["@swc/types", "npm:0.1.27"]\
+          ["@swc/types", "npm:0.1.28"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -4618,11 +4618,11 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:cf380f9c92e1a91f83c5da5c21adf3f33885cfda70f966ae55f44d9772b6c434338d8b85128e7cdf3cfda2e62ea3ea91f23f1e5a52c57c491c96825c5aef0a7e#npm:3.0.0-rc.15", {\
-        "packageLocation": "./.yarn/__virtual__/@yarnpkg-esbuild-plugin-pnp-virtual-e01440c160/0/cache/@yarnpkg-esbuild-plugin-pnp-npm-3.0.0-rc.15-b916c218b3-454f521088.zip/node_modules/@yarnpkg/esbuild-plugin-pnp/",\
+      ["virtual:18ddb4c922e2edea637ecde2060e67ae8b0eea37bcde95434a5c0f837dcf898a912c9ae31fc550b51c37df3510326449ae676fa87a8c8fdb8f21fd178fda6f25#npm:3.0.0-rc.15", {\
+        "packageLocation": "./.yarn/__virtual__/@yarnpkg-esbuild-plugin-pnp-virtual-e4b85a5e63/0/cache/@yarnpkg-esbuild-plugin-pnp-npm-3.0.0-rc.15-b916c218b3-454f521088.zip/node_modules/@yarnpkg/esbuild-plugin-pnp/",\
         "packageDependencies": [\
           ["@types/esbuild", null],\
-          ["@yarnpkg/esbuild-plugin-pnp", "virtual:cf380f9c92e1a91f83c5da5c21adf3f33885cfda70f966ae55f44d9772b6c434338d8b85128e7cdf3cfda2e62ea3ea91f23f1e5a52c57c491c96825c5aef0a7e#npm:3.0.0-rc.15"],\
+          ["@yarnpkg/esbuild-plugin-pnp", "virtual:18ddb4c922e2edea637ecde2060e67ae8b0eea37bcde95434a5c0f837dcf898a912c9ae31fc550b51c37df3510326449ae676fa87a8c8fdb8f21fd178fda6f25#npm:3.0.0-rc.15"],\
           ["esbuild", "npm:0.25.6"],\
           ["tslib", "npm:2.4.0"]\
         ],\
@@ -4967,11 +4967,11 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:18de0bef531dc7e199cdc0557bf0dbbe3fe2bfc81a1ad9296007e2acad523628a674ae010274b7e8bff0b8feba34db8ad07522a216645504df90e1e153368aa5#npm:10.4.20", {\
-        "packageLocation": "./.yarn/__virtual__/autoprefixer-virtual-ced56d18ab/0/cache/autoprefixer-npm-10.4.20-dd5fd05d27-d3c4b562fc.zip/node_modules/autoprefixer/",\
+      ["virtual:ae6142fd099f5f6bd366724d93683f7854b3fa0726de10b53d928c900747d40b91e0b660fc4d374126f5003e91a4ec8894667884593dd0f4c6948c97e7cf4174#npm:10.4.20", {\
+        "packageLocation": "./.yarn/__virtual__/autoprefixer-virtual-97fce84d3c/0/cache/autoprefixer-npm-10.4.20-dd5fd05d27-d3c4b562fc.zip/node_modules/autoprefixer/",\
         "packageDependencies": [\
           ["@types/postcss", null],\
-          ["autoprefixer", "virtual:18de0bef531dc7e199cdc0557bf0dbbe3fe2bfc81a1ad9296007e2acad523628a674ae010274b7e8bff0b8feba34db8ad07522a216645504df90e1e153368aa5#npm:10.4.20"],\
+          ["autoprefixer", "virtual:ae6142fd099f5f6bd366724d93683f7854b3fa0726de10b53d928c900747d40b91e0b660fc4d374126f5003e91a4ec8894667884593dd0f4c6948c97e7cf4174#npm:10.4.20"],\
           ["browserslist", "npm:4.29.3"],\
           ["caniuse-lite", "npm:1.0.30001689"],\
           ["fraction.js", "npm:4.3.7"],\
@@ -6555,19 +6555,19 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["esbuild-ignore-with-comments-plugin", [\
-      ["npm:0.3.31", {\
-        "packageLocation": "./.yarn/cache/esbuild-ignore-with-comments-plugin-npm-0.3.31-bd24dc2436-f7815cf504.zip/node_modules/esbuild-ignore-with-comments-plugin/",\
+      ["npm:0.3.32", {\
+        "packageLocation": "./.yarn/cache/esbuild-ignore-with-comments-plugin-npm-0.3.32-99a21d8e55-7e25b21169.zip/node_modules/esbuild-ignore-with-comments-plugin/",\
         "packageDependencies": [\
-          ["esbuild-ignore-with-comments-plugin", "npm:0.3.31"]\
+          ["esbuild-ignore-with-comments-plugin", "npm:0.3.32"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:256f558e48944514ad002b603b13bda667df5cb1c096573b931a10e4a80a982e5a7c25725fccd5eb78814dc69f0902e5ce34f3797bb81ab6b46fcaea24771376#npm:0.3.31", {\
-        "packageLocation": "./.yarn/__virtual__/esbuild-ignore-with-comments-plugin-virtual-24e5ddfcea/0/cache/esbuild-ignore-with-comments-plugin-npm-0.3.31-bd24dc2436-f7815cf504.zip/node_modules/esbuild-ignore-with-comments-plugin/",\
+      ["virtual:256f558e48944514ad002b603b13bda667df5cb1c096573b931a10e4a80a982e5a7c25725fccd5eb78814dc69f0902e5ce34f3797bb81ab6b46fcaea24771376#npm:0.3.32", {\
+        "packageLocation": "./.yarn/__virtual__/esbuild-ignore-with-comments-plugin-virtual-889927df5b/0/cache/esbuild-ignore-with-comments-plugin-npm-0.3.32-99a21d8e55-7e25b21169.zip/node_modules/esbuild-ignore-with-comments-plugin/",\
         "packageDependencies": [\
           ["@types/esbuild", null],\
           ["esbuild", "npm:0.25.6"],\
-          ["esbuild-ignore-with-comments-plugin", "virtual:256f558e48944514ad002b603b13bda667df5cb1c096573b931a10e4a80a982e5a7c25725fccd5eb78814dc69f0902e5ce34f3797bb81ab6b46fcaea24771376#npm:0.3.31"]\
+          ["esbuild-ignore-with-comments-plugin", "virtual:256f558e48944514ad002b603b13bda667df5cb1c096573b931a10e4a80a982e5a7c25725fccd5eb78814dc69f0902e5ce34f3797bb81ab6b46fcaea24771376#npm:0.3.32"]\
         ],\
         "packagePeers": [\
           "@types/esbuild",\
@@ -6577,20 +6577,20 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["esbuild-ssr-css-modules-plugin", [\
-      ["npm:0.1.34", {\
-        "packageLocation": "./.yarn/cache/esbuild-ssr-css-modules-plugin-npm-0.1.34-b545616cee-abc96282f8.zip/node_modules/esbuild-ssr-css-modules-plugin/",\
+      ["npm:0.1.35", {\
+        "packageLocation": "./.yarn/cache/esbuild-ssr-css-modules-plugin-npm-0.1.35-e40c7fb8aa-b0991682f3.zip/node_modules/esbuild-ssr-css-modules-plugin/",\
         "packageDependencies": [\
-          ["esbuild-ssr-css-modules-plugin", "npm:0.1.34"]\
+          ["esbuild-ssr-css-modules-plugin", "npm:0.1.35"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:cf380f9c92e1a91f83c5da5c21adf3f33885cfda70f966ae55f44d9772b6c434338d8b85128e7cdf3cfda2e62ea3ea91f23f1e5a52c57c491c96825c5aef0a7e#npm:0.1.34", {\
-        "packageLocation": "./.yarn/__virtual__/esbuild-ssr-css-modules-plugin-virtual-4eafa389a7/0/cache/esbuild-ssr-css-modules-plugin-npm-0.1.34-b545616cee-abc96282f8.zip/node_modules/esbuild-ssr-css-modules-plugin/",\
+      ["virtual:18ddb4c922e2edea637ecde2060e67ae8b0eea37bcde95434a5c0f837dcf898a912c9ae31fc550b51c37df3510326449ae676fa87a8c8fdb8f21fd178fda6f25#npm:0.1.35", {\
+        "packageLocation": "./.yarn/__virtual__/esbuild-ssr-css-modules-plugin-virtual-f550ceb7b6/0/cache/esbuild-ssr-css-modules-plugin-npm-0.1.35-e40c7fb8aa-b0991682f3.zip/node_modules/esbuild-ssr-css-modules-plugin/",\
         "packageDependencies": [\
           ["@types/esbuild", null],\
           ["esbuild", "npm:0.25.6"],\
-          ["esbuild-ssr-css-modules-plugin", "virtual:cf380f9c92e1a91f83c5da5c21adf3f33885cfda70f966ae55f44d9772b6c434338d8b85128e7cdf3cfda2e62ea3ea91f23f1e5a52c57c491c96825c5aef0a7e#npm:0.1.34"],\
-          ["node-css-require", "npm:0.4.32"],\
+          ["esbuild-ssr-css-modules-plugin", "virtual:18ddb4c922e2edea637ecde2060e67ae8b0eea37bcde95434a5c0f837dcf898a912c9ae31fc550b51c37df3510326449ae676fa87a8c8fdb8f21fd178fda6f25#npm:0.1.35"],\
+          ["node-css-require", "npm:0.4.33"],\
           ["postcss-modules-sync", "npm:1.0.0"],\
           ["sha256", "npm:0.2.0"]\
         ],\
@@ -6602,14 +6602,14 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["esbuild-tailwind-ssr-plugin", [\
-      ["npm:0.1.30", {\
-        "packageLocation": "./.yarn/cache/esbuild-tailwind-ssr-plugin-npm-0.1.30-18de0bef53-4e83ba2dd3.zip/node_modules/esbuild-tailwind-ssr-plugin/",\
+      ["npm:0.1.31", {\
+        "packageLocation": "./.yarn/cache/esbuild-tailwind-ssr-plugin-npm-0.1.31-ae6142fd09-99520b2afc.zip/node_modules/esbuild-tailwind-ssr-plugin/",\
         "packageDependencies": [\
-          ["autoprefixer", "virtual:18de0bef531dc7e199cdc0557bf0dbbe3fe2bfc81a1ad9296007e2acad523628a674ae010274b7e8bff0b8feba34db8ad07522a216645504df90e1e153368aa5#npm:10.4.20"],\
+          ["autoprefixer", "virtual:ae6142fd099f5f6bd366724d93683f7854b3fa0726de10b53d928c900747d40b91e0b660fc4d374126f5003e91a4ec8894667884593dd0f4c6948c97e7cf4174#npm:10.4.20"],\
           ["esbuild", "npm:0.25.6"],\
-          ["esbuild-tailwind-ssr-plugin", "npm:0.1.30"],\
+          ["esbuild-tailwind-ssr-plugin", "npm:0.1.31"],\
           ["postcss", "npm:8.5.28"],\
-          ["static-file-mapper-build", "npm:0.3.48"],\
+          ["static-file-mapper-build", "npm:0.3.49"],\
           ["tailwindcss", "npm:3.4.17"]\
         ],\
         "linkType": "HARD"\
@@ -7662,11 +7662,11 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:d50a33586316fcb39d9a30a25d8f57ec56a13992a47de84678733d815e30746c5cf053c84fe3058a5b51db15f52af9fb36eb22feeb8e23239197571cd8c5192e#npm:5.1.0", {\
-        "packageLocation": "./.yarn/__virtual__/icss-utils-virtual-41093db362/0/cache/icss-utils-npm-5.1.0-8d8c062d07-5c324d2835.zip/node_modules/icss-utils/",\
+      ["virtual:1d2c11794ffff3e448935b09231e4418cbeae2e9a245409f7a80fad2e6c3f4fc487f5b7c2bd694cd7e96fedaf12250941d8147d63f8022ee2cd1fc58d1e829cc#npm:5.1.0", {\
+        "packageLocation": "./.yarn/__virtual__/icss-utils-virtual-0d496def81/0/cache/icss-utils-npm-5.1.0-8d8c062d07-5c324d2835.zip/node_modules/icss-utils/",\
         "packageDependencies": [\
           ["@types/postcss", null],\
-          ["icss-utils", "virtual:d50a33586316fcb39d9a30a25d8f57ec56a13992a47de84678733d815e30746c5cf053c84fe3058a5b51db15f52af9fb36eb22feeb8e23239197571cd8c5192e#npm:5.1.0"],\
+          ["icss-utils", "virtual:1d2c11794ffff3e448935b09231e4418cbeae2e9a245409f7a80fad2e6c3f4fc487f5b7c2bd694cd7e96fedaf12250941d8147d63f8022ee2cd1fc58d1e829cc#npm:5.1.0"],\
           ["postcss", "npm:8.5.28"]\
         ],\
         "packagePeers": [\
@@ -8931,11 +8931,11 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["lambda-compression", [\
-      ["npm:0.2.32", {\
-        "packageLocation": "./.yarn/cache/lambda-compression-npm-0.2.32-50c536e817-68fcd739bb.zip/node_modules/lambda-compression/",\
+      ["npm:0.2.33", {\
+        "packageLocation": "./.yarn/cache/lambda-compression-npm-0.2.33-1e28639a70-ef3d069e99.zip/node_modules/lambda-compression/",\
         "packageDependencies": [\
           ["@types/aws-lambda", "npm:8.10.159"],\
-          ["lambda-compression", "npm:0.2.32"]\
+          ["lambda-compression", "npm:0.2.33"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -9577,13 +9577,13 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["node-css-require", [\
-      ["npm:0.4.32", {\
-        "packageLocation": "./.yarn/cache/node-css-require-npm-0.4.32-5b2445129e-6be2d1f51b.zip/node_modules/node-css-require/",\
+      ["npm:0.4.33", {\
+        "packageLocation": "./.yarn/cache/node-css-require-npm-0.4.33-de83e7ba0e-74b098f24d.zip/node_modules/node-css-require/",\
         "packageDependencies": [\
-          ["node-css-require", "npm:0.4.32"],\
+          ["node-css-require", "npm:0.4.33"],\
           ["pirates", "npm:4.0.5"],\
           ["postcss", "npm:8.5.28"],\
-          ["postcss-modules", "virtual:5b2445129e085ef3a3be2cb451c811840308ae94b619c962ca31f9bb5562232b0796284588a1bd2a17ee827909da86edd9ac6c2fbb184d152fe59f2e156d12f7#npm:5.0.0"],\
+          ["postcss-modules", "virtual:de83e7ba0eca84986162f2123565159983cee36f5e5da7f505ba5ab313d243bddba286f5dd75b598c35702d43b30b2227bca9cf64ca69619d19585923925d0c0#npm:5.0.0"],\
           ["postcss-modules-sync", "npm:1.0.0"]\
         ],\
         "linkType": "HARD"\
@@ -10318,19 +10318,19 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:5b2445129e085ef3a3be2cb451c811840308ae94b619c962ca31f9bb5562232b0796284588a1bd2a17ee827909da86edd9ac6c2fbb184d152fe59f2e156d12f7#npm:5.0.0", {\
-        "packageLocation": "./.yarn/__virtual__/postcss-modules-virtual-71343d70e4/0/cache/postcss-modules-npm-5.0.0-eee2fcb829-29040b441c.zip/node_modules/postcss-modules/",\
+      ["virtual:de83e7ba0eca84986162f2123565159983cee36f5e5da7f505ba5ab313d243bddba286f5dd75b598c35702d43b30b2227bca9cf64ca69619d19585923925d0c0#npm:5.0.0", {\
+        "packageLocation": "./.yarn/__virtual__/postcss-modules-virtual-ed86e518f4/0/cache/postcss-modules-npm-5.0.0-eee2fcb829-29040b441c.zip/node_modules/postcss-modules/",\
         "packageDependencies": [\
           ["@types/postcss", null],\
           ["generic-names", "npm:4.0.0"],\
           ["icss-replace-symbols", "npm:1.1.0"],\
           ["lodash.camelcase", "npm:4.3.0"],\
           ["postcss", "npm:8.5.28"],\
-          ["postcss-modules", "virtual:5b2445129e085ef3a3be2cb451c811840308ae94b619c962ca31f9bb5562232b0796284588a1bd2a17ee827909da86edd9ac6c2fbb184d152fe59f2e156d12f7#npm:5.0.0"],\
-          ["postcss-modules-extract-imports", "virtual:71343d70e44e147af0299776a01f13e4f6f14af639d3edf6f6af2089855b3dc000038289ff8e26e5f5e0a948ba1f174c5821a910d167a3331f60d9739b8a463f#npm:3.0.0"],\
-          ["postcss-modules-local-by-default", "virtual:71343d70e44e147af0299776a01f13e4f6f14af639d3edf6f6af2089855b3dc000038289ff8e26e5f5e0a948ba1f174c5821a910d167a3331f60d9739b8a463f#npm:4.0.0"],\
-          ["postcss-modules-scope", "virtual:71343d70e44e147af0299776a01f13e4f6f14af639d3edf6f6af2089855b3dc000038289ff8e26e5f5e0a948ba1f174c5821a910d167a3331f60d9739b8a463f#npm:3.0.0"],\
-          ["postcss-modules-values", "virtual:71343d70e44e147af0299776a01f13e4f6f14af639d3edf6f6af2089855b3dc000038289ff8e26e5f5e0a948ba1f174c5821a910d167a3331f60d9739b8a463f#npm:4.0.0"],\
+          ["postcss-modules", "virtual:de83e7ba0eca84986162f2123565159983cee36f5e5da7f505ba5ab313d243bddba286f5dd75b598c35702d43b30b2227bca9cf64ca69619d19585923925d0c0#npm:5.0.0"],\
+          ["postcss-modules-extract-imports", "virtual:ed86e518f4ee46adb2d1f54c30d48ea3b8630755042318e5d94f9128aa255d79913ec2bb7a184a774fcb9841976fde941b560cc621e3449733427822458842fd#npm:3.0.0"],\
+          ["postcss-modules-local-by-default", "virtual:ed86e518f4ee46adb2d1f54c30d48ea3b8630755042318e5d94f9128aa255d79913ec2bb7a184a774fcb9841976fde941b560cc621e3449733427822458842fd#npm:4.0.0"],\
+          ["postcss-modules-scope", "virtual:ed86e518f4ee46adb2d1f54c30d48ea3b8630755042318e5d94f9128aa255d79913ec2bb7a184a774fcb9841976fde941b560cc621e3449733427822458842fd#npm:3.0.0"],\
+          ["postcss-modules-values", "virtual:ed86e518f4ee46adb2d1f54c30d48ea3b8630755042318e5d94f9128aa255d79913ec2bb7a184a774fcb9841976fde941b560cc621e3449733427822458842fd#npm:4.0.0"],\
           ["string-hash", "npm:1.1.3"]\
         ],\
         "packagePeers": [\
@@ -10348,12 +10348,12 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:71343d70e44e147af0299776a01f13e4f6f14af639d3edf6f6af2089855b3dc000038289ff8e26e5f5e0a948ba1f174c5821a910d167a3331f60d9739b8a463f#npm:3.0.0", {\
-        "packageLocation": "./.yarn/__virtual__/postcss-modules-extract-imports-virtual-43595eff1d/0/cache/postcss-modules-extract-imports-npm-3.0.0-619311282d-8d68bb735c.zip/node_modules/postcss-modules-extract-imports/",\
+      ["virtual:ed86e518f4ee46adb2d1f54c30d48ea3b8630755042318e5d94f9128aa255d79913ec2bb7a184a774fcb9841976fde941b560cc621e3449733427822458842fd#npm:3.0.0", {\
+        "packageLocation": "./.yarn/__virtual__/postcss-modules-extract-imports-virtual-f81e4dfc17/0/cache/postcss-modules-extract-imports-npm-3.0.0-619311282d-8d68bb735c.zip/node_modules/postcss-modules-extract-imports/",\
         "packageDependencies": [\
           ["@types/postcss", null],\
           ["postcss", "npm:8.5.28"],\
-          ["postcss-modules-extract-imports", "virtual:71343d70e44e147af0299776a01f13e4f6f14af639d3edf6f6af2089855b3dc000038289ff8e26e5f5e0a948ba1f174c5821a910d167a3331f60d9739b8a463f#npm:3.0.0"]\
+          ["postcss-modules-extract-imports", "virtual:ed86e518f4ee46adb2d1f54c30d48ea3b8630755042318e5d94f9128aa255d79913ec2bb7a184a774fcb9841976fde941b560cc621e3449733427822458842fd#npm:3.0.0"]\
         ],\
         "packagePeers": [\
           "@types/postcss",\
@@ -10390,7 +10390,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/__virtual__/postcss-modules-local-by-default-virtual-95eb0999e1/0/cache/postcss-modules-local-by-default-npm-4.2.0-3f37e3939f-552329aa39.zip/node_modules/postcss-modules-local-by-default/",\
         "packageDependencies": [\
           ["@types/postcss", null],\
-          ["icss-utils", "virtual:d50a33586316fcb39d9a30a25d8f57ec56a13992a47de84678733d815e30746c5cf053c84fe3058a5b51db15f52af9fb36eb22feeb8e23239197571cd8c5192e#npm:5.1.0"],\
+          ["icss-utils", "virtual:1d2c11794ffff3e448935b09231e4418cbeae2e9a245409f7a80fad2e6c3f4fc487f5b7c2bd694cd7e96fedaf12250941d8147d63f8022ee2cd1fc58d1e829cc#npm:5.1.0"],\
           ["postcss", "npm:8.5.28"],\
           ["postcss-modules-local-by-default", "virtual:3879ec6f33c52b7699f211d90a0eb78cb8fbf152f0cd2f6f4be1ba042705dd9ef54f8af48159380cd1fc28025ff7cc4616bbd40f941430b7314687e615cee1f4#npm:4.2.0"],\
           ["postcss-selector-parser", "npm:7.0.0"],\
@@ -10402,13 +10402,13 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["virtual:71343d70e44e147af0299776a01f13e4f6f14af639d3edf6f6af2089855b3dc000038289ff8e26e5f5e0a948ba1f174c5821a910d167a3331f60d9739b8a463f#npm:4.0.0", {\
-        "packageLocation": "./.yarn/__virtual__/postcss-modules-local-by-default-virtual-d50a335863/0/cache/postcss-modules-local-by-default-npm-4.0.0-794014f0a5-94670d17bd.zip/node_modules/postcss-modules-local-by-default/",\
+      ["virtual:ed86e518f4ee46adb2d1f54c30d48ea3b8630755042318e5d94f9128aa255d79913ec2bb7a184a774fcb9841976fde941b560cc621e3449733427822458842fd#npm:4.0.0", {\
+        "packageLocation": "./.yarn/__virtual__/postcss-modules-local-by-default-virtual-1d2c11794f/0/cache/postcss-modules-local-by-default-npm-4.0.0-794014f0a5-94670d17bd.zip/node_modules/postcss-modules-local-by-default/",\
         "packageDependencies": [\
           ["@types/postcss", null],\
-          ["icss-utils", "virtual:d50a33586316fcb39d9a30a25d8f57ec56a13992a47de84678733d815e30746c5cf053c84fe3058a5b51db15f52af9fb36eb22feeb8e23239197571cd8c5192e#npm:5.1.0"],\
+          ["icss-utils", "virtual:1d2c11794ffff3e448935b09231e4418cbeae2e9a245409f7a80fad2e6c3f4fc487f5b7c2bd694cd7e96fedaf12250941d8147d63f8022ee2cd1fc58d1e829cc#npm:5.1.0"],\
           ["postcss", "npm:8.5.28"],\
-          ["postcss-modules-local-by-default", "virtual:71343d70e44e147af0299776a01f13e4f6f14af639d3edf6f6af2089855b3dc000038289ff8e26e5f5e0a948ba1f174c5821a910d167a3331f60d9739b8a463f#npm:4.0.0"],\
+          ["postcss-modules-local-by-default", "virtual:ed86e518f4ee46adb2d1f54c30d48ea3b8630755042318e5d94f9128aa255d79913ec2bb7a184a774fcb9841976fde941b560cc621e3449733427822458842fd#npm:4.0.0"],\
           ["postcss-selector-parser", "npm:6.1.4"],\
           ["postcss-value-parser", "npm:4.2.0"]\
         ],\
@@ -10457,12 +10457,12 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["virtual:71343d70e44e147af0299776a01f13e4f6f14af639d3edf6f6af2089855b3dc000038289ff8e26e5f5e0a948ba1f174c5821a910d167a3331f60d9739b8a463f#npm:3.0.0", {\
-        "packageLocation": "./.yarn/__virtual__/postcss-modules-scope-virtual-a8668ad7e2/0/cache/postcss-modules-scope-npm-3.0.0-0678040a26-cc36b8111c.zip/node_modules/postcss-modules-scope/",\
+      ["virtual:ed86e518f4ee46adb2d1f54c30d48ea3b8630755042318e5d94f9128aa255d79913ec2bb7a184a774fcb9841976fde941b560cc621e3449733427822458842fd#npm:3.0.0", {\
+        "packageLocation": "./.yarn/__virtual__/postcss-modules-scope-virtual-0bc54ee1f7/0/cache/postcss-modules-scope-npm-3.0.0-0678040a26-cc36b8111c.zip/node_modules/postcss-modules-scope/",\
         "packageDependencies": [\
           ["@types/postcss", null],\
           ["postcss", "npm:8.5.28"],\
-          ["postcss-modules-scope", "virtual:71343d70e44e147af0299776a01f13e4f6f14af639d3edf6f6af2089855b3dc000038289ff8e26e5f5e0a948ba1f174c5821a910d167a3331f60d9739b8a463f#npm:3.0.0"],\
+          ["postcss-modules-scope", "virtual:ed86e518f4ee46adb2d1f54c30d48ea3b8630755042318e5d94f9128aa255d79913ec2bb7a184a774fcb9841976fde941b560cc621e3449733427822458842fd#npm:3.0.0"],\
           ["postcss-selector-parser", "npm:6.1.4"]\
         ],\
         "packagePeers": [\
@@ -10495,13 +10495,13 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:71343d70e44e147af0299776a01f13e4f6f14af639d3edf6f6af2089855b3dc000038289ff8e26e5f5e0a948ba1f174c5821a910d167a3331f60d9739b8a463f#npm:4.0.0", {\
-        "packageLocation": "./.yarn/__virtual__/postcss-modules-values-virtual-dc2b5efb1d/0/cache/postcss-modules-values-npm-4.0.0-63d7ec543a-18021961a4.zip/node_modules/postcss-modules-values/",\
+      ["virtual:ed86e518f4ee46adb2d1f54c30d48ea3b8630755042318e5d94f9128aa255d79913ec2bb7a184a774fcb9841976fde941b560cc621e3449733427822458842fd#npm:4.0.0", {\
+        "packageLocation": "./.yarn/__virtual__/postcss-modules-values-virtual-0c80d7028a/0/cache/postcss-modules-values-npm-4.0.0-63d7ec543a-18021961a4.zip/node_modules/postcss-modules-values/",\
         "packageDependencies": [\
           ["@types/postcss", null],\
-          ["icss-utils", "virtual:d50a33586316fcb39d9a30a25d8f57ec56a13992a47de84678733d815e30746c5cf053c84fe3058a5b51db15f52af9fb36eb22feeb8e23239197571cd8c5192e#npm:5.1.0"],\
+          ["icss-utils", "virtual:1d2c11794ffff3e448935b09231e4418cbeae2e9a245409f7a80fad2e6c3f4fc487f5b7c2bd694cd7e96fedaf12250941d8147d63f8022ee2cd1fc58d1e829cc#npm:5.1.0"],\
           ["postcss", "npm:8.5.28"],\
-          ["postcss-modules-values", "virtual:71343d70e44e147af0299776a01f13e4f6f14af639d3edf6f6af2089855b3dc000038289ff8e26e5f5e0a948ba1f174c5821a910d167a3331f60d9739b8a463f#npm:4.0.0"]\
+          ["postcss-modules-values", "virtual:ed86e518f4ee46adb2d1f54c30d48ea3b8630755042318e5d94f9128aa255d79913ec2bb7a184a774fcb9841976fde941b560cc621e3449733427822458842fd#npm:4.0.0"]\
         ],\
         "packagePeers": [\
           "@types/postcss",\
@@ -10642,8 +10642,8 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["@biomejs/biome", "npm:2.3.5"],\
-          ["@goldstack/nodemonx", "npm:0.4.47"],\
-          ["@goldstack/utils-typescript-references", "npm:0.3.36"],\
+          ["@goldstack/nodemonx", "npm:0.4.48"],\
+          ["@goldstack/utils-typescript-references", "npm:0.3.37"],\
           ["@types/jest", "npm:30.0.0"],\
           ["@types/node", "npm:25.0.3"],\
           ["markdown-magic", "npm:4.11.0"],\
@@ -11250,14 +11250,14 @@ const RAW_RUNTIME_STATE =
       ["workspace:packages/server-side-rendering-1", {\
         "packageLocation": "./packages/server-side-rendering-1/",\
         "packageDependencies": [\
-          ["@goldstack/template-ssr", "npm:0.3.122"],\
-          ["@goldstack/template-ssr-cli", "npm:0.3.130"],\
-          ["@goldstack/utils-aws-http-api-local", "npm:0.3.97"],\
-          ["@goldstack/utils-esbuild", "npm:0.5.30"],\
+          ["@goldstack/template-ssr", "npm:0.3.123"],\
+          ["@goldstack/template-ssr-cli", "npm:0.3.131"],\
+          ["@goldstack/utils-aws-http-api-local", "npm:0.3.98"],\
+          ["@goldstack/utils-esbuild", "npm:0.5.31"],\
           ["@jest-mock/express", "npm:1.4.5"],\
           ["@jest/transform", "npm:29.3.1"],\
           ["@swc-node/register", "virtual:256f558e48944514ad002b603b13bda667df5cb1c096573b931a10e4a80a982e5a7c25725fccd5eb78814dc69f0902e5ce34f3797bb81ab6b46fcaea24771376#npm:1.10.9"],\
-          ["@swc/core", "virtual:256f558e48944514ad002b603b13bda667df5cb1c096573b931a10e4a80a982e5a7c25725fccd5eb78814dc69f0902e5ce34f3797bb81ab6b46fcaea24771376#npm:1.15.46"],\
+          ["@swc/core", "virtual:256f558e48944514ad002b603b13bda667df5cb1c096573b931a10e4a80a982e5a7c25725fccd5eb78814dc69f0902e5ce34f3797bb81ab6b46fcaea24771376#npm:1.16.13"],\
           ["@swc/jest", "virtual:256f558e48944514ad002b603b13bda667df5cb1c096573b931a10e4a80a982e5a7c25725fccd5eb78814dc69f0902e5ce34f3797bb81ab6b46fcaea24771376#npm:0.2.39"],\
           ["@testing-library/dom", "npm:10.4.2"],\
           ["@testing-library/jest-dom", "virtual:256f558e48944514ad002b603b13bda667df5cb1c096573b931a10e4a80a982e5a7c25725fccd5eb78814dc69f0902e5ce34f3797bb81ab6b46fcaea24771376#npm:6.10.0"],\
@@ -11267,25 +11267,25 @@ const RAW_RUNTIME_STATE =
           ["@types/jest", "npm:30.0.0"],\
           ["@types/node", "npm:25.0.3"],\
           ["@types/react", "npm:19.2.17"],\
-          ["@yarnpkg/esbuild-plugin-pnp", "virtual:cf380f9c92e1a91f83c5da5c21adf3f33885cfda70f966ae55f44d9772b6c434338d8b85128e7cdf3cfda2e62ea3ea91f23f1e5a52c57c491c96825c5aef0a7e#npm:3.0.0-rc.15"],\
+          ["@yarnpkg/esbuild-plugin-pnp", "virtual:18ddb4c922e2edea637ecde2060e67ae8b0eea37bcde95434a5c0f837dcf898a912c9ae31fc550b51c37df3510326449ae676fa87a8c8fdb8f21fd178fda6f25#npm:3.0.0-rc.15"],\
           ["chokidar", "npm:4.0.3"],\
           ["concurrently", "npm:10.0.4"],\
           ["date-fns", "npm:2.28.0"],\
           ["esbuild", "npm:0.25.6"],\
-          ["esbuild-ignore-with-comments-plugin", "virtual:256f558e48944514ad002b603b13bda667df5cb1c096573b931a10e4a80a982e5a7c25725fccd5eb78814dc69f0902e5ce34f3797bb81ab6b46fcaea24771376#npm:0.3.31"],\
-          ["esbuild-ssr-css-modules-plugin", "virtual:cf380f9c92e1a91f83c5da5c21adf3f33885cfda70f966ae55f44d9772b6c434338d8b85128e7cdf3cfda2e62ea3ea91f23f1e5a52c57c491c96825c5aef0a7e#npm:0.1.34"],\
-          ["esbuild-tailwind-ssr-plugin", "npm:0.1.30"],\
+          ["esbuild-ignore-with-comments-plugin", "virtual:256f558e48944514ad002b603b13bda667df5cb1c096573b931a10e4a80a982e5a7c25725fccd5eb78814dc69f0902e5ce34f3797bb81ab6b46fcaea24771376#npm:0.3.32"],\
+          ["esbuild-ssr-css-modules-plugin", "virtual:18ddb4c922e2edea637ecde2060e67ae8b0eea37bcde95434a5c0f837dcf898a912c9ae31fc550b51c37df3510326449ae676fa87a8c8fdb8f21fd178fda6f25#npm:0.1.35"],\
+          ["esbuild-tailwind-ssr-plugin", "npm:0.1.31"],\
           ["get-port", "npm:5.1.1"],\
           ["jest", "virtual:256f558e48944514ad002b603b13bda667df5cb1c096573b931a10e4a80a982e5a7c25725fccd5eb78814dc69f0902e5ce34f3797bb81ab6b46fcaea24771376#npm:30.5.2"],\
           ["jest-environment-jsdom", "virtual:256f558e48944514ad002b603b13bda667df5cb1c096573b931a10e4a80a982e5a7c25725fccd5eb78814dc69f0902e5ce34f3797bb81ab6b46fcaea24771376#npm:30.5.2"],\
           ["jest-transform-stub", "npm:2.0.0"],\
-          ["node-css-require", "npm:0.4.32"],\
+          ["node-css-require", "npm:0.4.33"],\
           ["react", "npm:19.2.8"],\
           ["react-dom", "virtual:256f558e48944514ad002b603b13bda667df5cb1c096573b931a10e4a80a982e5a7c25725fccd5eb78814dc69f0902e5ce34f3797bb81ab6b46fcaea24771376#npm:19.2.8"],\
           ["rimraf", "npm:6.1.2"],\
           ["server-side-rendering-1", "workspace:packages/server-side-rendering-1"],\
           ["source-map-support", "npm:0.5.21"],\
-          ["static-file-mapper-build", "npm:0.3.48"],\
+          ["static-file-mapper-build", "npm:0.3.49"],\
           ["supertest", "npm:7.1.4"],\
           ["tailwindcss", "npm:3.4.17"],\
           ["tree-kill", "npm:1.2.2"],\
@@ -11547,21 +11547,21 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["static-file-mapper", [\
-      ["npm:0.3.32", {\
-        "packageLocation": "./.yarn/cache/static-file-mapper-npm-0.3.32-ecd186662c-3e4624866e.zip/node_modules/static-file-mapper/",\
+      ["npm:0.3.33", {\
+        "packageLocation": "./.yarn/cache/static-file-mapper-npm-0.3.33-387a61c14d-2efcba7a03.zip/node_modules/static-file-mapper/",\
         "packageDependencies": [\
-          ["static-file-mapper", "npm:0.3.32"]\
+          ["static-file-mapper", "npm:0.3.33"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["static-file-mapper-build", [\
-      ["npm:0.3.48", {\
-        "packageLocation": "./.yarn/cache/static-file-mapper-build-npm-0.3.48-ca52f0e296-f90a98899f.zip/node_modules/static-file-mapper-build/",\
+      ["npm:0.3.49", {\
+        "packageLocation": "./.yarn/cache/static-file-mapper-build-npm-0.3.49-dd0af6c30e-03ac459ee8.zip/node_modules/static-file-mapper-build/",\
         "packageDependencies": [\
-          ["@goldstack/utils-sh", "npm:0.5.45"],\
-          ["static-file-mapper", "npm:0.3.32"],\
-          ["static-file-mapper-build", "npm:0.3.48"]\
+          ["@goldstack/utils-sh", "npm:0.5.46"],\
+          ["static-file-mapper", "npm:0.3.33"],\
+          ["static-file-mapper-build", "npm:0.3.49"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -12135,7 +12135,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/__virtual__/ts-node-virtual-fe6a90df18/0/cache/ts-node-npm-10.9.2-3f3890b9ac-a91a15b3c9.zip/node_modules/ts-node/",\
         "packageDependencies": [\
           ["@cspotcode/source-map-support", "npm:0.8.1"],\
-          ["@swc/core", "virtual:256f558e48944514ad002b603b13bda667df5cb1c096573b931a10e4a80a982e5a7c25725fccd5eb78814dc69f0902e5ce34f3797bb81ab6b46fcaea24771376#npm:1.15.46"],\
+          ["@swc/core", "virtual:256f558e48944514ad002b603b13bda667df5cb1c096573b931a10e4a80a982e5a7c25725fccd5eb78814dc69f0902e5ce34f3797bb81ab6b46fcaea24771376#npm:1.16.13"],\
           ["@swc/wasm", null],\
           ["@tsconfig/node10", "npm:1.0.8"],\
           ["@tsconfig/node12", "npm:1.0.9"],\
@@ -12315,12 +12315,12 @@ const RAW_RUNTIME_STATE =
           ["@types/postcss-modules-scope", "npm:3.0.4"],\
           ["@types/typescript", null],\
           ["dotenv", "npm:16.4.7"],\
-          ["icss-utils", "virtual:d50a33586316fcb39d9a30a25d8f57ec56a13992a47de84678733d815e30746c5cf053c84fe3058a5b51db15f52af9fb36eb22feeb8e23239197571cd8c5192e#npm:5.1.0"],\
+          ["icss-utils", "virtual:1d2c11794ffff3e448935b09231e4418cbeae2e9a245409f7a80fad2e6c3f4fc487f5b7c2bd694cd7e96fedaf12250941d8147d63f8022ee2cd1fc58d1e829cc#npm:5.1.0"],\
           ["less", "npm:4.2.1"],\
           ["lodash.camelcase", "npm:4.3.0"],\
           ["postcss", "npm:8.5.28"],\
           ["postcss-load-config", "virtual:3879ec6f33c52b7699f211d90a0eb78cb8fbf152f0cd2f6f4be1ba042705dd9ef54f8af48159380cd1fc28025ff7cc4616bbd40f941430b7314687e615cee1f4#npm:3.1.4"],\
-          ["postcss-modules-extract-imports", "virtual:71343d70e44e147af0299776a01f13e4f6f14af639d3edf6f6af2089855b3dc000038289ff8e26e5f5e0a948ba1f174c5821a910d167a3331f60d9739b8a463f#npm:3.0.0"],\
+          ["postcss-modules-extract-imports", "virtual:ed86e518f4ee46adb2d1f54c30d48ea3b8630755042318e5d94f9128aa255d79913ec2bb7a184a774fcb9841976fde941b560cc621e3449733427822458842fd#npm:3.0.0"],\
           ["postcss-modules-local-by-default", "virtual:3879ec6f33c52b7699f211d90a0eb78cb8fbf152f0cd2f6f4be1ba042705dd9ef54f8af48159380cd1fc28025ff7cc4616bbd40f941430b7314687e615cee1f4#npm:4.2.0"],\
           ["postcss-modules-scope", "virtual:3879ec6f33c52b7699f211d90a0eb78cb8fbf152f0cd2f6f4be1ba042705dd9ef54f8af48159380cd1fc28025ff7cc4616bbd40f941430b7314687e615cee1f4#npm:3.2.1"],\
           ["reserved-words", "npm:0.1.2"],\
