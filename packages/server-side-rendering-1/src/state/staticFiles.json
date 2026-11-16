@@ -7,38 +7,38 @@
   },
   {
     "names": [
-      "goldstack-ci-test-server-side-rendering-1794703101986-__index.map"
+      "goldstack-ci-test-server-side-rendering-1794789727316-robots_txt.map"
     ],
-    "generatedName": "__index.d999b40f95194cda956c96accd2a57ba.map.json"
+    "generatedName": "robots_txt.e4df5b34ece693dc312fde4cd0b29c90.map.json"
   },
   {
     "names": [
-      "goldstack-ci-test-server-side-rendering-1794703101986-__index-bundle.js"
+      "goldstack-ci-test-server-side-rendering-1794789727316-robots_txt-bundle.js"
     ],
-    "generatedName": "__index-bundle.4134f8d3e35375c5bde9a0f783ca0bfd.js"
+    "generatedName": "robots_txt-bundle.57c1e1e4652977d1259e1e740c3a4220.js"
   },
   {
     "names": [
-      "goldstack-ci-test-server-side-rendering-1794703101986-robots_txt.map"
+      "goldstack-ci-test-server-side-rendering-1794789727316-posts.map"
     ],
-    "generatedName": "robots_txt.485944c343c8f450b5effe0021165d90.map.json"
+    "generatedName": "posts.9bf63be53abf55b1be8806b5a714da34.map.json"
   },
   {
     "names": [
-      "goldstack-ci-test-server-side-rendering-1794703101986-robots_txt-bundle.js"
+      "goldstack-ci-test-server-side-rendering-1794789727316-posts-bundle.js"
     ],
-    "generatedName": "robots_txt-bundle.83d8034743919f74beb8d631263d91fc.js"
+    "generatedName": "posts-bundle.7f24df894c95b6d0db198f344573d914.js"
   },
   {
     "names": [
-      "goldstack-ci-test-server-side-rendering-1794703101986-posts.map"
+      "goldstack-ci-test-server-side-rendering-1794789727316-__index.map"
     ],
-    "generatedName": "posts.bffa06938fb64c98f4b5f010612dc6bc.map.json"
+    "generatedName": "__index.d95efc7c02ba13061c7cfd4e59363e1f.map.json"
   },
   {
     "names": [
-      "goldstack-ci-test-server-side-rendering-1794703101986-posts-bundle.js"
+      "goldstack-ci-test-server-side-rendering-1794789727316-__index-bundle.js"
     ],
-    "generatedName": "posts-bundle.d3ca773c30b5ec9d4313db26316a4efd.js"
+    "generatedName": "__index-bundle.d96edb893ca5d955c8c83dfc0028045a.js"
   }
 ]
